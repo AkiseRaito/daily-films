@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>10 部片单 · 恐怖 / 科幻 / 惊悚 / 悬疑 / 剧情（2026-10-18 · 第 48 期）</title>
+<style>
+:root{
+  --bg:#0b0d12; --card:#14171f; --card2:#191d27; --line:#252b3a;
+  --tx:#e7e9f0; --mut:#98a1b5; --acc:#f27a9d; --acc2:#7cc4ff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);
+  font:15px/1.78 "PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,sans-serif;}
+.wrap{max-width:1040px;margin:0 auto;padding:48px 20px 80px}
+header h1{margin:0 0 8px;font-size:30px;letter-spacing:.5px}
+header .sub{color:var(--mut);font-size:13.5px;margin-bottom:6px;line-height:1.7}
+header .meta{color:#6f7891;font-size:12.5px;margin-top:12px;line-height:1.8}
+.pill{display:inline-block;padding:2px 10px;border:1px solid var(--line);border-radius:99px;
+  color:var(--mut);font-size:12px;margin:0 6px 6px 0}
+table{width:100%;border-collapse:collapse;margin:26px 0 8px;font-size:13.5px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line)}
+th{color:var(--mut);font-weight:500;font-size:12.5px}
+.qn{color:var(--acc);width:38px}
+.qg{color:var(--mut)}
+.qr{color:var(--acc2);white-space:nowrap}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;
+  padding:26px 26px 22px;margin:34px 0;position:relative;overflow:hidden}
+.card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;
+  background:linear-gradient(180deg,var(--acc),transparent)}
+.no{position:absolute;right:18px;top:10px;font-size:44px;font-weight:700;color:#1e2432;letter-spacing:-1px}
+.head{display:flex;gap:20px}
+.poster{flex:0 0 170px}
+.poster-img{width:170px;border-radius:10px;display:block;background:var(--card2)}
+.head-r{flex:1;min-width:0}
+.tagrow{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.tag{background:rgba(242,122,157,.14);color:var(--acc);border:1px solid rgba(242,122,157,.3);
+  padding:2px 10px;border-radius:99px;font-size:12px}
+.year{color:var(--mut);font-size:12.5px}
+h2{margin:0 0 10px;font-size:22px;line-height:1.35}
+h2 .en{font-size:13px;color:var(--mut);font-weight:400;display:block;margin-top:3px}
+.rates{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.rate{background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:3px 9px;font-size:12px;color:var(--mut)}
+.rate b{color:var(--acc2);margin-right:5px;font-size:13px}
+.oneline{margin:6px 0 0;color:#cdd3e2;font-size:15px}
+.block{margin-top:20px}
+.block h3{margin:0 0 8px;font-size:14px;color:var(--acc);letter-spacing:.5px;font-weight:600}
+.block p{margin:0;color:#c8cee0}
+ul.hi{margin:0;padding-left:18px;color:#c8cee0}
+ul.hi li{margin:5px 0}
+.stills{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}
+.stills figure{margin:0;border-radius:10px;overflow:hidden;background:var(--card2)}
+.stills img{width:100%;display:block;aspect-ratio:16/9;object-fit:cover}
+blockquote{margin:0;padding:12px 16px;background:var(--card2);border-left:3px solid var(--acc);
+  border-radius:0 8px 8px 0;color:#d3d9ea;font-size:14.5px}
+.why p{color:#b9c0d3}
+.crew{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.person{background:var(--card2);border:1px solid var(--line);border-radius:10px;padding:12px}
+.p-top{display:flex;align-items:center;gap:10px}
+.p-ava{width:48px;height:48px;border-radius:50%;object-fit:cover;flex:0 0 48px;display:block;background:#212734}
+.p-name{font-size:14px;font-weight:600;line-height:1.3}
+.p-role{color:var(--mut);font-size:11px;font-weight:400;margin-left:4px}
+.p-note{color:#7e879e;font-size:11.5px;line-height:1.6;margin:8px 0 0}
+.p-kn{color:var(--mut);font-size:10.5px;margin:8px 0 4px;letter-spacing:.3px}
+.p-works{display:grid;grid-template-columns:repeat(4,1fr);gap:5px}
+.wk{text-align:center}
+.wk img{width:100%;display:block;border-radius:4px;background:#212734;aspect-ratio:2/3;object-fit:cover}
+.wk span{display:block;font-size:9.5px;color:#b9c0d3;line-height:1.25;margin-top:3px}
+footer{margin-top:44px;color:#6f7891;font-size:12.5px;border-top:1px solid var(--line);padding-top:18px;line-height:1.8}
+.byline{display:inline-block;padding:2px 10px;margin:0 4px;border-radius:99px;
+  background:rgba(242,122,157,.14);color:var(--acc);border:1px solid rgba(242,122,157,.38);
+  font-size:12px;letter-spacing:.4px}
+@media(max-width:860px){
+  .head{flex-direction:column} .poster-img{width:150px}
+  .stills{grid-template-columns:1fr} .p-works{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>10 部片单 · 恐怖 / 科幻 / 惊悚 / 悬疑 / 剧情</h1>
+  <div class="sub">2026 年 10 月 18 日 · 第 48 期 · 已避开往期推荐过的全部 470 部</div>
+  <div>
+    <span class="pill">主题：天亮之前 · 十部把故事摁进同一个夜晚的电影（1994–2018）</span>
+    <span class="pill">全部 1990 年后：最早 1994，最晚 2018，按上映年份排列</span>
+    <span class="pill">类型覆盖：惊悚 9 / 剧情 5 / 犯罪 8 / 动作 3 / 恐怖 1 / 悬疑 2 / 喜剧 2</span>
+    <span class="pill">海报 + 3 张镜头 + 主创头像 + 历史作品海报</span>
+    <span class="pill">轻微剧透短评</span>
+  </div>
+  <div class="meta">评分来源：豆瓣 / 烂番茄 / Metacritic / IMDb，采集于 2026-10-18，会随时间变动，仅供参考。《突袭》与《维多利亚》暂缺 Metacritic 条目，只列可查项。<br>
+  这一期的筛选条件只有一条：<b>故事的主时钟是一个夜晚</b>——从天黑到天亮，主人公的处境发生了不可逆的改变。不是「白天讲故事、晚上有场戏」，是<b>把整部片摁进一夜</b>：有靠结构玩的（第 1 部《低俗小说》一个圆环只跨几个小时）、有靠时钟的（第 3 部《训练日》是一个新人的入职第一天、第 9 部《好时光》是从入夜到天亮的逃亡）、有靠空间的（第 5 部《突袭》一栋楼、第 6 部《你是下一个》一栋宅子），也有靠「这一夜不过完不行」的（第 2 部《盗火线》从抢劫到机场决战、第 10 部《嗜人之夜》从放人到偿命）。十部落在 1994–2018，按上映年份排列，大致可以分成<b>三种夜</b>：<b>一个圆环的夜</b>（第 1 部）、<b>一个时钟的夜</b>（第 3、5、6、9、10 部）、<b>一个战场的夜</b>（第 2、4、7、8 部）。从 1994 到 2018，「一夜」从昆汀的结构魔术，慢慢变成了动作片与作者电影共同的计时器。<br>
+  需要说明的一处取舍：这个切口下最常被点名的几部——《活埋》《1408幻影凶间》《狙击电话亭》《彗星来的那一夜》《八恶人》《落水狗》《借刀杀人》——都在往期用过了，所以这一期是避开它们之后的名单，整体更靠近「警匪犯罪 + 极端动作」两端。<br>
+  跨期重合如实写出，按 10-02 定的口径<b>只按片名去重</b>：本期 10 个片名全部首次出现（比对去重表通过）。主创方面，往期主创卡片上出现过的有 16 位：<b>约翰·特拉沃尔塔</b>（第 1 部）就是第 47 期《变脸》的主创；<b>塞缪尔·杰克逊</b>（第 1 部）上过第 21 期《1408幻影凶间》与第 45 期《八恶人》的卡片；<b>昆汀·塔伦蒂诺</b>（第 1 部导演）执导过第 16 期《落水狗》与第 45 期《八恶人》；<b>迈克尔·曼</b>（第 2 部导演）是第 26 期《借刀杀人》的导演；<b>阿尔·帕西诺</b>（第 2 部）是第 23 期《魔鬼代言人》的主创；<b>罗伯特·德尼罗</b>（第 2 部）是第 16 期《妙想天开》的主创；<b>丹泽尔·华盛顿</b>（第 3 部）上过第 19 期《局内人》、第 40 期《艾利之书》、第 44 期《红潮风暴》的卡片；<b>伊桑·霍克</b>（第 3 部）上过第 38 期《黑色电话》的卡片（另在第 8、17、45 期出现过）；<b>布鲁斯·威利斯</b>（第 4 部）上过第 12 期《灵异第六感》与第 16 期《第五元素》的卡片；<b>罗伯特·罗德里格兹</b>（第 4 部）执导过第 39 期《阿丽塔：战斗天使》；<b>亚当·温加德</b>（第 6 部）执导过第 5 期《猛攻》与第 42 期《致命录像带》；<b>莱娅·科斯塔</b>（第 7 部）是第 4 期《木乃伊》的主创；<b>查理兹·塞隆</b>（第 8 部）是第 33 期《疯狂的麦克斯4：狂暴之路》的主创；<b>詹姆斯·麦卡沃伊</b>（第 8 部）是第 9 期《非礼勿言》的主创；<b>本杰明·萨夫迪</b>（第 9 部）是第 32 期《原钻》的导演；<b>罗伯特·帕丁森</b>（第 9 部）是第 35 期《灯塔》的主创。本期内部有一处重合：<b>伊科·乌艾斯</b>同时出现在第 5 部《突袭》与第 10 部《嗜人之夜》的卡片上，页头与卡片里都如实标注了。其余 13 位主创第一次出现在片单卡片上。<br>
+  口碑落差如实标注、不做修饰：<b>《低俗小说》四项评分全部居前</b>（豆瓣 8.8 / 烂番茄 92% / Metacritic 94 / IMDb 8.9），是本期口碑最齐的一部；<b>《好时光》烂番茄 91% / Metacritic 80，为本期专业评价最高</b>；《盗火线》豆瓣 8.5、IMDb 8.3，长线稳定；《你是下一个》烂番茄 79% 而豆瓣 6.9，cult 片属性明显；《维多利亚》只有豆瓣一项可查（7.1）。<br>
+  内地引进情况：<b>十部均未在内地院线公映</b>。《好时光》在上海电影节放映过，《维多利亚》曾在北京、成都等地的德国电影节展映，其余流媒体或蓝光可看。<br>
+  10 部片名全部为首次出现，无一与往期 470 部重复（比对去重表通过）。<br>
+  图片素材抓取自 TMDB，仅作观影参考，版权归各片方所有。</div>
+</header>
+
+<table>
+<thead><tr><th>#</th><th>片名</th><th>类型</th><th>评分 / 状态</th></tr></thead>
+<tbody>
+<tr><td class="qn">01</td><td>低俗小说</td><td class="qg">剧情 / 犯罪 / 黑色喜剧（美国 · 洛杉矶，一夜到天亮的三段插曲）</td><td class="qr">8.8 / 92% / 94</td></tr><tr><td class="qn">02</td><td>盗火线</td><td class="qg">犯罪 / 惊悚 / 剧情（美国 · 洛杉矶，从一场运钞车劫案到机场决战的一天一夜）</td><td class="qr">8.5 / 84% / 76</td></tr><tr><td class="qn">03</td><td>训练日</td><td class="qg">犯罪 / 惊悚 / 剧情（美国 · 洛杉矶，一个菜鸟警探的入职第一天）</td><td class="qr">8.1 / 74% / 71</td></tr><tr><td class="qn">04</td><td>罪恶之城</td><td class="qg">惊悚 / 犯罪 / 悬疑 · 新黑色（美国 · 盆地城，警察与暴徒已无分别的一夜）</td><td class="qr">8.4 / 77% / 74</td></tr><tr><td class="qn">05</td><td>突袭</td><td class="qg">动作 / 惊悚 / 犯罪（印度尼西亚 · 雅加达，一栋旧楼里的一夜）</td><td class="qr">7.9 / 86% / 7.6</td></tr><tr><td class="qn">06</td><td>你是下一个</td><td class="qg">惊悚 / 恐怖 / 黑色喜剧（美国 · 一栋乡间大宅的团圆夜）</td><td class="qr">6.9 / 79% / 66</td></tr><tr><td class="qn">07</td><td>维多利亚</td><td class="qg">惊悚 / 犯罪 / 剧情（德国 · 柏林，从夜店到天亮的一镜到底）</td><td class="qr">7.1</td></tr><tr><td class="qn">08</td><td>极寒之城</td><td class="qg">动作 / 惊悚 / 悬疑（美国 / 德国 · 1989 年柏林墙倒塌前的一周）</td><td class="qr">7.2 / 79% / 63</td></tr><tr><td class="qn">09</td><td>好时光</td><td class="qg">惊悚 / 犯罪 / 剧情（美国 · 纽约，从入夜到天亮的十几个小时）</td><td class="qr">7.4 / 91% / 80</td></tr><tr><td class="qn">10</td><td>嗜人之夜</td><td class="qg">动作 / 惊悚 / 犯罪（印度尼西亚 · 雅加达，三合会内部的一个晚上）</td><td class="qr">6.9 / 91% / 6.9</td></tr>
+</tbody>
+</table>
+
+
+  <section class="card" id="m1">
+    <div class="no">01</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/pulp_680_poster.jpg" alt="低俗小说 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">剧情 / 犯罪 / 黑色喜剧（美国 · 洛杉矶，一夜到天亮的三段插曲）</span><span class="year">1994 · 美国 · 154 分钟 · 内地未映（R 级）</span></div>
+        <h2>低俗小说 <span class="en">Pulp Fiction</span></h2>
+        <div class="rates"><span class="rate"><b>8.8</b>豆瓣</span><span class="rate"><b>92%</b>烂番茄</span><span class="rate"><b>94</b>Metacritic</span><span class="rate"><b>8.9</b>IMDb</span></div>
+        <p class="oneline">「三段插曲拼成的一个夜晚，拼完你会发现开头就是结尾。」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>洛杉矶。杀手文森特受老大的命陪他的女人米娅出门吃饭，一晚上只需守住一条规矩：不许碰她。另一条街上，杀手朱尔斯在动手前照例背一段《以西结书》，却在一次清场之后决定金盆洗手。地下室里，过气拳击手布奇拿了黑社会的钱不办事，只想带着一块祖传金表远走高飞。三个故事的时间线是乱的——等你看到结尾那家小餐馆，会发现整个圆环从头到尾只走了几个小时。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>昆汀·塔伦蒂诺导演，与罗杰·阿夫瑞联合编剧（两人同拿奥斯卡最佳原创剧本）；本片在 1994 年拿下戛纳金棕榈奖。</li><li>成本约 850 万美元，全球票房约 1.2 亿美元——以一己之力把「邪典」抬进了颁奖季的正厅。</li><li>全片的时间线故意打乱：三个故事加首尾的餐馆段落，实际跨度只有几个小时——<b>这是本片成为教科书的第一原因</b>。</li><li>乌玛·瑟曼与特拉沃尔塔在「杰克兔斯林」餐厅那场扭扭舞比赛与五美元奶昔，是九十年代被模仿最多的电影场面之一。</li><li>约翰·特拉沃尔塔此前被认为已经过气（《油脂》已是十六年前），本片让他直接重回一线；塞缪尔·杰克逊那段圣经独白，让他第一次拿到奥斯卡提名（最佳男配角）。</li><li>第 67 届奥斯卡七项提名、只拿下一座最佳原创剧本——败给它的包括《阿甘正传》与《肖申克的救赎》那一届的诸多强手。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/pulp_680_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/pulp_680_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/pulp_680_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_138.jpg" alt="" loading="lazy">
+                <div class="p-name">昆汀·塔伦蒂诺 <span class="p-role">导演 / 编剧</span></div>
+              </div>
+              <div class="p-note">美国导演、编剧、演员，录像带租赁店出身，影史最著名的「影迷导演」。《落水狗》《低俗小说》《杀死比尔》《无耻混蛋》《好莱坞往事》。本片让他拿到戛纳金棕榈与奥斯卡最佳原创剧本。<b>往期第 16 期《落水狗》与第 45 期《八恶人》的导演都是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_68718.jpg" alt="" loading="lazy"><span>被解救的姜戈</span></div><div class="wk"><img src="assets/movies/w_16869.jpg" alt="" loading="lazy"><span>无耻混蛋</span></div><div class="wk"><img src="assets/movies/w_24.jpg" alt="" loading="lazy"><span>杀死比尔</span></div><div class="wk"><img src="assets/movies/w_500.jpg" alt="" loading="lazy"><span>落水狗</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_8891.jpg" alt="" loading="lazy">
+                <div class="p-name">约翰·特拉沃尔塔 <span class="p-role">主演（文森特·维加）</span></div>
+              </div>
+              <div class="p-note">美国演员、歌手，1970 年代以《周末夜狂热》《油脂》成为迪斯科时代的偶像，1994 年靠本部重回一线。《油脂》《低俗小说》《变脸》《剑鱼行动》。本片他演文森特——马沙手下的杀手，一整晚只需守住一条规矩。<b>往期第 47 期《变脸》的主创卡片上就是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_13053.jpg" alt="" loading="lazy"><span>闪电狗</span></div><div class="wk"><img src="assets/movies/w_754.jpg" alt="" loading="lazy"><span>变脸</span></div><div class="wk"><img src="assets/movies/w_621.jpg" alt="" loading="lazy"><span>油脂</span></div><div class="wk"><img src="assets/movies/w_9705.jpg" alt="" loading="lazy"><span>剑鱼行动</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_2231.jpg" alt="" loading="lazy">
+                <div class="p-name">塞缪尔·杰克逊 <span class="p-role">主演（朱尔斯·温菲尔德）</span></div>
+              </div>
+              <div class="p-note">美国演员、制片，影史票房最高的演员之一。《丛林热》《低俗小说》《王牌特工：特工学院》《漫威》系列。本片他演朱尔斯——每次动手前都要背一段《以西结书》、最后一次决定不背了。<b>往期第 21 期《1408幻影凶间》与第 45 期《八恶人》的主创卡片上都是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_273248.jpg" alt="" loading="lazy"><span>八恶人</span></div><div class="wk"><img src="assets/movies/w_100402.jpg" alt="" loading="lazy"><span>美国队长2</span></div><div class="wk"><img src="assets/movies/w_299537.jpg" alt="" loading="lazy"><span>惊奇队长</span></div><div class="wk"><img src="assets/movies/w_207703.jpg" alt="" loading="lazy"><span>王牌特工：特工学院</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最著名的反转不在任何一场戏里，而在结构——文森特在地下室被一枪放倒之后，观众才意识到自己早就见过他：布奇那段里，厕所门口那具「尸体」就是他。轻微剧透：塔伦蒂诺最狠的一笔，是让朱尔斯在片中小餐馆里把同一段《以西结书》又背了一遍——第一次念完，是人死了；第二次念完，是他决定不杀了。一个晚上能被拍成圆环，靠的不是剪辑技巧，是他相信「废话」本身就是叙事：两个杀手能就汉堡包的昵称聊上半分钟，而就在这一分钟里，观众已经站到了他们那边。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「叙事能被玩到什么程度还不显得油滑」的人；能接受大量粗口、暴力直接、结构刻意绕人的观众。R 级，建议成年观看。内地未映，流媒体可看。看完想继续：《落水狗》（导演处女作）、《无耻混蛋》（导演）、《四个房间》（塔伦蒂诺执导其中一段）。</p>
+    </div>
+  </section>
+  <section class="card" id="m2">
+    <div class="no">02</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/heat_949_poster.jpg" alt="盗火线 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">犯罪 / 惊悚 / 剧情（美国 · 洛杉矶，从一场运钞车劫案到机场决战的一天一夜）</span><span class="year">1995 · 美国 · 170 分钟 · 内地未映（R 级）</span></div>
+        <h2>盗火线 <span class="en">Heat</span></h2>
+        <div class="rates"><span class="rate"><b>8.5</b>豆瓣</span><span class="rate"><b>84%</b>烂番茄</span><span class="rate"><b>76</b>Metacritic</span><span class="rate"><b>8.3</b>IMDb</span></div>
+        <p class="oneline">「“别让你自己依附任何你三十秒内丢不掉的东西。”」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>洛杉矶重案组探长文森特·汉纳抓贼不要命，三段婚姻全赔在了这台机器上。职业匪徒尼尔·麦考利干完最后一票就打算收山，手下的兄弟、新交的女友都劝他别回头。两个人隔着一条街互相读了半辈子，终于在一场运钞车劫案后短兵相接——汉纳越追越近，尼尔的团队却开始散架。等他们在咖啡馆面对面坐下，警与匪的分界已经薄得像一张桌布；而机场跑道上的最后一场枪战，两个人都没有退路。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>迈克尔·曼导演、编剧、制片——剧本的前身是他 1979 年没拍成的电视剧本《洛杉矶追击令》，十五年后他把同一个故事重搬上大银幕。</li><li>成本约 6000 万美元，北美约 6740 万、全球约 1.2 亿美元。</li><li>阿尔·帕西诺与罗伯特·德尼罗此前在《教父2》里同片不同场，本片是两人第一次真正同框对戏；咖啡馆那场戏只有几分钟，却成了整个警匪类型的缩影。</li><li>市区那场枪战的动静是「真的」：演员提前数周接受实弹与战术训练，成片里的枪声、换弹与玻璃碎裂几乎全部实录，没有用拟音替代。</li><li>全片 170 分钟几乎没有传统意义的「反派交代」：汉纳的偏执与尼尔的纪律被放在同一盏灯下照明——<b>这是它和所有警匪片不一样的地方</b>。</li><li>一个有趣的注脚：这部片当年一项奥斯卡提名都没拿到，二十多年后它却稳居各类「史上最佳警匪片」榜单的前排。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/heat_949_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/heat_949_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/heat_949_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_638.jpg" alt="" loading="lazy">
+                <div class="p-name">迈克尔·曼 <span class="p-role">导演 / 编剧 / 制片</span></div>
+              </div>
+              <div class="p-note">美国导演、编剧、制片，以写实枪械与都市夜景著称。《最后的莫希干人》《借刀杀人》《盗火线》《迈阿密风云》《公众之敌》。本片的剧本他 1979 年就写成电视剧本，十五年后才搬上大银幕。<b>往期第 26 期《借刀杀人》的导演正是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_1538.jpg" alt="" loading="lazy"><span>借刀杀人</span></div><div class="wk"><img src="assets/movies/w_11322.jpg" alt="" loading="lazy"><span>公众之敌</span></div><div class="wk"><img src="assets/movies/w_9361.jpg" alt="" loading="lazy"><span>最后的莫希干人</span></div><div class="wk"><img src="assets/movies/w_201088.jpg" alt="" loading="lazy"><span>骇客交锋</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_1158.jpg" alt="" loading="lazy">
+                <div class="p-name">阿尔·帕西诺 <span class="p-role">主演（文森特·汉纳）</span></div>
+              </div>
+              <div class="p-note">美国演员、制片，奥斯卡影帝（《闻香识女人》）。《教父》系列、《疤面煞星》《盗火线》《天使在美国》。本片他演汉纳——把工作当信仰、把家庭当欠账的探长。<b>往期第 23 期《魔鬼代言人》的主创卡片上就是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_240.jpg" alt="" loading="lazy"><span>教父2</span></div><div class="wk"><img src="assets/movies/w_111.jpg" alt="" loading="lazy"><span>疤面煞星</span></div><div class="wk"><img src="assets/movies/w_238.jpg" alt="" loading="lazy"><span>教父</span></div><div class="wk"><img src="assets/movies/w_242.jpg" alt="" loading="lazy"><span>教父3</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_380.jpg" alt="" loading="lazy">
+                <div class="p-name">罗伯特·德尼罗 <span class="p-role">主演（尼尔·麦考利）</span></div>
+              </div>
+              <div class="p-note">美国演员、导演，两届奥斯卡得主（《教父2》《愤怒的公牛》）。《出租车司机》《好家伙》《盗火线》《爱尔兰人》。本片他演尼尔——规矩是「三十秒内能丢下的就不算牵挂」。<b>往期第 16 期《妙想天开》的主创卡片上就是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_769.jpg" alt="" loading="lazy"><span>好家伙</span></div><div class="wk"><img src="assets/movies/w_475557.jpg" alt="" loading="lazy"><span>小丑</span></div><div class="wk"><img src="assets/movies/w_103.jpg" alt="" loading="lazy"><span>出租车司机</span></div><div class="wk"><img src="assets/movies/w_398978.jpg" alt="" loading="lazy"><span>爱尔兰人</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最疼的一场戏是尼尔在机场听见叛徒名字之后的那几秒——他本来已经准备登机，却在廊桥口转身。轻微剧透：迈克尔·曼把「孤独」拍成了两个人的共同点：汉纳下班回家面对的是空房子和前任的妻子，尼尔金盆洗手后连一顿安稳饭都吃不上。结尾尼尔死在跑道尽头，汉纳握住他的手，两个人第一次也是唯一一次平视——整部片追了两个半小时，追的就是这一眼。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「警匪片能被拍得多像一部关于成年人的悲剧」的人；能接受 170 分钟慢热、对白密、枪战音效极其响的观众。R 级，建议成年观看。内地未映，流媒体与蓝光可看。看完想继续：《借刀杀人》（同一导演，往期推荐过）、《公众之敌》（同一导演）、《局内人》（往期推荐过的同类）。</p>
+    </div>
+  </section>
+  <section class="card" id="m3">
+    <div class="no">03</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/train_2034_poster.jpg" alt="训练日 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">犯罪 / 惊悚 / 剧情（美国 · 洛杉矶，一个菜鸟警探的入职第一天）</span><span class="year">2001 · 美国 · 122 分钟 · 内地未映（R 级）</span></div>
+        <h2>训练日 <span class="en">Training Day</span></h2>
+        <div class="rates"><span class="rate"><b>8.1</b>豆瓣</span><span class="rate"><b>74%</b>烂番茄</span><span class="rate"><b>71</b>Metacritic</span><span class="rate"><b>7.8</b>IMDb</span></div>
+        <p class="oneline">「“金刚都没我横。”」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>杰克·霍伊特入职洛杉矶缉毒部的第一天，被派给「魔幻之眼」阿洛佐·哈里斯带一天。阿洛佐不按手册来：先是抢学生的钱，再逼线口服毒，然后拿搜查令当擦脚布，最后向俄国黑手党借了一笔越滚越大的债。一整天里，杰克每一次说「这不对」，阿洛佐都能用一套更大的道理把它压回去——狼群、地盘、规矩。等天亮了，这个新人带回警局的不是心得，是一整晚的证据。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>安东尼·福奎阿导演，大卫·阿耶编剧——剧本来自后者对洛杉矶警匪生态的长期观察。</li><li>丹泽尔·华盛顿凭阿洛佐拿下第 74 届奥斯卡最佳男主角（他的第二座小金人）；伊桑·霍克提名最佳男配角。</li><li>成本约 4500 万美元，全球约 1.05 亿美元。</li><li>阿洛佐在小酒馆里那段「要做狼」的独白，是近二十年被短视频剪得最多的台词之一——<b>它把腐败讲成了一套成功学</b>。</li><li>全片的时钟叙事：入职、抢钱、夜店、赌场、追杀，最后一天结束在清晨——<b>本片把「一天」拍成了一个人全部的信仰崩塌</b>。</li><li>本片后来被 CBS 开发成剧集（《训练日》2017，短命），证明了它的世界观比电影本身更耐用。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/train_2034_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/train_2034_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/train_2034_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_20907.jpg" alt="" loading="lazy">
+                <div class="p-name">安东尼·福奎阿 <span class="p-role">导演</span></div>
+              </div>
+              <div class="p-note">美国导演、制片，从 MV 与广告起步。《训练日》《奥林匹斯的陷落》《豪勇七蛟龙》《伸冤人》系列。本片让丹泽尔·华盛顿拿到奥斯卡影帝，也是他自己职业生涯的转折点。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_156022.jpg" alt="" loading="lazy"><span>伸冤人</span></div><div class="wk"><img src="assets/movies/w_117263.jpg" alt="" loading="lazy"><span>奥林匹斯的陷落</span></div><div class="wk"><img src="assets/movies/w_333484.jpg" alt="" loading="lazy"><span>豪勇七蛟龙</span></div><div class="wk"><img src="assets/movies/w_345887.jpg" alt="" loading="lazy"><span>伸冤人2</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_5292.jpg" alt="" loading="lazy">
+                <div class="p-name">丹泽尔·华盛顿 <span class="p-role">主演（阿洛·哈里斯）</span></div>
+              </div>
+              <div class="p-note">美国演员、导演、制片，两届奥斯卡得主（《光荣之路》《训练日》）。《费城故事》《马尔科姆·X》《训练日》《艾利之书》《伸冤人》。本片他演阿洛佐——全片最危险的不是他犯法，是他坚信自己在替天行道。<b>往期第 19 期《局内人》、第 40 期《艾利之书》、第 44 期《红潮风暴》的主创卡片上都是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_156022.jpg" alt="" loading="lazy"><span>伸冤人</span></div><div class="wk"><img src="assets/movies/w_20504.jpg" alt="" loading="lazy"><span>艾利之书</span></div><div class="wk"><img src="assets/movies/w_87502.jpg" alt="" loading="lazy"><span>迫降航班</span></div><div class="wk"><img src="assets/movies/w_388.jpg" alt="" loading="lazy"><span>局内人</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_569.jpg" alt="" loading="lazy">
+                <div class="p-name">伊桑·霍克 <span class="p-role">主演（杰克·霍伊特）</span></div>
+              </div>
+              <div class="p-note">美国演员、编剧、制片。《死亡诗社》《训练日》《爱在》三部曲、《前目的地》。本片他演霍伊特——全片唯一一个还在问「这合规吗」的人。<b>往期第 38 期《黑色电话》的主创卡片上就是他（另在第 8、17、45 期出现过）。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_158015.jpg" alt="" loading="lazy"><span>人类清除计划</span></div><div class="wk"><img src="assets/movies/w_206487.jpg" alt="" loading="lazy"><span>前目的地</span></div><div class="wk"><img src="assets/movies/w_782.jpg" alt="" loading="lazy"><span>千钧一发</span></div><div class="wk"><img src="assets/movies/w_82507.jpg" alt="" loading="lazy"><span>险恶</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最狠的一场戏不是结尾的围剿，是阿洛佐把钱摊在桌上让杰克选——收下，就是同伙；不收，就是下一个被「处理」的人。轻微剧透：福奎阿把「腐败」拍成了一门语言：阿洛佐说的每一句话单看都对，加起来却全是错的。结尾他倒在自己家门口，杰克开车从他身边过去——没有配乐，没有台词，这一镜比任何一场枪战都更像判决。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「一个演员能把『迷人的坏人』演到多精确」的人；能接受暴力与胁迫场面直接、价值观极度不适的观众。R 级，建议成年观看。内地未映，流媒体可看。看完想继续：《伸冤人》（同导演 + 同主演的组合）、《洛城机密》（往期推荐过的洛杉矶警匪另一面）。</p>
+    </div>
+  </section>
+  <section class="card" id="m4">
+    <div class="no">04</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/sin_187_poster.jpg" alt="罪恶之城 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">惊悚 / 犯罪 / 悬疑 · 新黑色（美国 · 盆地城，警察与暴徒已无分别的一夜）</span><span class="year">2005 · 美国 · 124 分钟 · 内地未映（R 级）</span></div>
+        <h2>罪恶之城 <span class="en">Sin City</span></h2>
+        <div class="rates"><span class="rate"><b>8.4</b>豆瓣</span><span class="rate"><b>77%</b>烂番茄</span><span class="rate"><b>74</b>Metacritic</span><span class="rate"><b>8.0</b>IMDb</span></div>
+        <p class="oneline">「“欢迎来到罪恶之城——这里的夜晚比白天长。”」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>盆地城，一座警察和暴徒已经无从区分的城市。三个故事在这里交叠：快退休的壮汉马弗为了一个妓女的一句话，一个人去拆整座城市的黑帮；老城区的姑娘们为了守住地盘，把一群男人引进了屠宰场；还有最后一年任期的好警察哈特根，为了从议员手里救出一个十一岁的女孩，把自己送进了牢里。三个故事都发生在同一个晚上——罪恶之城的一夜，比任何城市的十年都长。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>罗伯特·罗德里格兹与漫画原作者弗兰克·米勒联合执导；昆汀·塔伦蒂诺以「一美元片酬」客串执导了一场戏，成了本片最著名的幕后轶事。</li><li>成本约 4000 万美元，全球约 1.59 亿美元；2005 年戛纳电影节技术大奖。</li><li>影像上它几乎是一部「会动的漫画」：全片以高清数字摄影机拍摄后做逐帧处理，黑白为底，只保留唇色、血与霓虹。</li><li>米基·洛克凭马弗拿下土星奖最佳男配角——这个角色几乎就是为他写的，连皱纹都是道具。</li><li>三个故事共享同一座城、同一个夜晚：<b>暴力在这里不是情节，是这座城市的天气</b>。</li><li>本片之后，《斯巴达300勇士》这类「绿幕 + 高对比调色」的影像语言才真正流行起来——它的影响比评分显示的更远。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/sin_187_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/sin_187_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/sin_187_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_2294.jpg" alt="" loading="lazy">
+                <div class="p-name">罗伯特·罗德里格兹 <span class="p-role">导演 / 编剧</span></div>
+              </div>
+              <div class="p-note">美国导演、编剧、制片、摄影，以「一人剧组」式的低成本高效率著称。《杀出个黎明》《罪恶之城》《恐怖星球》《阿丽塔：战斗天使》。本片他请来漫画原作者弗兰克·米勒共同执导。<b>往期第 39 期《阿丽塔：战斗天使》的导演正是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_399579.jpg" alt="" loading="lazy"><span>阿丽塔：战斗天使</span></div><div class="wk"><img src="assets/movies/w_755.jpg" alt="" loading="lazy"><span>杀出个黎明</span></div><div class="wk"><img src="assets/movies/w_189.jpg" alt="" loading="lazy"><span>罪恶之城2：蛇蝎美人</span></div><div class="wk"><img src="assets/movies/w_1992.jpg" alt="" loading="lazy"><span>恐怖星球</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_62.jpg" alt="" loading="lazy">
+                <div class="p-name">布鲁斯·威利斯 <span class="p-role">主演（约翰·哈特根）</span></div>
+              </div>
+              <div class="p-note">美国演员、制片。《虎胆龙威》系列、《低俗小说》《第六感》《罪恶之城》。本片他演哈特根——全片唯一一个还想活着退休的警察，为了一个孩子把自己关进了牢里。<b>往期第 12 期《灵异第六感》与第 16 期《第五元素》的主创卡片上都是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_745.jpg" alt="" loading="lazy"><span>第六感</span></div><div class="wk"><img src="assets/movies/w_562.jpg" alt="" loading="lazy"><span>虎胆龙威</span></div><div class="wk"><img src="assets/movies/w_18.jpg" alt="" loading="lazy"><span>第五元素</span></div><div class="wk"><img src="assets/movies/w_9741.jpg" alt="" loading="lazy"><span>不死劫</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_2295.jpg" alt="" loading="lazy">
+                <div class="p-name">米基·洛克 <span class="p-role">主演（马弗）</span></div>
+              </div>
+              <div class="p-note">美国演员、编剧，前职业拳击手。《天使之心》《摔角王》《钢铁侠2》《罪恶之城》。本片他演马弗——为替一个女人报仇，敢一个人拆掉整座城市的黑帮。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_12163.jpg" alt="" loading="lazy"><span>摔角王</span></div><div class="wk"><img src="assets/movies/w_10138.jpg" alt="" loading="lazy"><span>钢铁侠2</span></div><div class="wk"><img src="assets/movies/w_635.jpg" alt="" loading="lazy"><span>天使之心</span></div><div class="wk"><img src="assets/movies/w_37958.jpg" alt="" loading="lazy"><span>惊天战神</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最动人的一幕发生在第二个故事里——老城区的妓女们端着枪从阴影里走出来，把一群男人打成了筛子。轻微剧透：罗德里格兹与米勒最狠的一笔，是让三个故事里的「好人」全都没有好报：马弗为一句承诺死、哈特根为一次善举把自己关进牢里、德怀特活下来却永远欠着一条命。这座城奖励的从来不是正义，是姿态。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「风格能被推到多极端还不出戏」的人；能接受极端风格化暴力、对白刻意粗粝、以及它本质上是一部黑白漫画的观众。R 级，建议成年观看。内地未映。看完想继续：《罪恶之城2：蛇蝎美人》（口碑断层，慎重点开）、罗伯特·罗德里格兹的《杀出个黎明》、弗兰克·米勒的原著漫画。</p>
+    </div>
+  </section>
+  <section class="card" id="m5">
+    <div class="no">05</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/raid_94329_poster.jpg" alt="突袭 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">动作 / 惊悚 / 犯罪（印度尼西亚 · 雅加达，一栋旧楼里的一夜）</span><span class="year">2011 · 印度尼西亚 · 101 分钟 · 内地未映（R 级）</span></div>
+        <h2>突袭 <span class="en">The Raid</span></h2>
+        <div class="rates"><span class="rate"><b>7.9</b>豆瓣</span><span class="rate"><b>86%</b>烂番茄</span><span class="rate"><b>7.6</b>IMDb</span></div>
+        <p class="oneline">「“一栋楼，三十层，从一楼打到楼顶。”」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>雅加达。一支特警队在清晨开进一栋破旧的公寓楼，目标是盘踞在里面的黑帮头目塔玛。计划是快速突入、快速撤离；实际上他们刚进楼就被困住，整栋楼变成了一座垂直的迷宫。新手警察拉玛在楼梯间、走廊与房间里一层层往上打——楼上的每一个房间都住着人，每一个人都拿着武器。等天亮了，这座楼里活着的警察已经不多了。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>加雷斯·埃文斯导演、编剧，2011 年多伦多电影节首映大获好评，2012 年起在全球公映（TMDB 按公映年份标为 2012）。</li><li>成本约 110 万美元——<b>这个数字甚至不够好莱坞一部动作片的预告片预算</b>，成片却几乎全部发生在这栋楼里。</li><li>主演伊科·乌艾斯自幼习练印尼传统武术班卡西拉，片中所有近身格斗由他设计并亲身上阵——没有威亚，没有快剪糊弄。</li><li>乔·塔斯利姆演的贾卡与雅彦·鲁伊安演的「疯狗」是两座路标：<b>后者那场终局对决被动作片影迷反复慢放</b>，两个班卡西拉高手在玻璃与钢筋之间打了足足几分钟。</li><li>剧情是公认的薄——它的全部野心都在「怎么打」上，而这一点它做到了同类的天花板。</li><li>本片之后好莱坞买下翻拍版权谈了多年未成，倒是「一栋楼里的动作片」成了此后十年的流行配方。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/raid_94329_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/raid_94329_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/raid_94329_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_142013.jpg" alt="" loading="lazy">
+                <div class="p-name">加雷斯·埃文斯 <span class="p-role">导演 / 编剧</span></div>
+              </div>
+              <div class="p-note">威尔士导演、编剧、动作指导，因在印尼拍片而广为人知。《Merantau》《突袭》系列、《使徒》《毒劫》。本片成本约 110 万美元，几乎全部发生在一栋旧楼里。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_180299.jpg" alt="" loading="lazy"><span>突袭2：暴徒</span></div><div class="wk"><img src="assets/movies/w_424121.jpg" alt="" loading="lazy"><span>使徒</span></div><div class="wk"><img src="assets/movies/w_668489.jpg" alt="" loading="lazy"><span>毒劫</span></div><div class="wk"><img src="assets/movies/w_159117.jpg" alt="" loading="lazy"><span>致命录像带2</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_113732.jpg" alt="" loading="lazy">
+                <div class="p-name">伊科·乌艾斯 <span class="p-role">主演（拉玛）</span></div>
+              </div>
+              <div class="p-note">印度尼西亚演员、动作明星，自幼习练印尼传统武术班卡西拉。《突袭》系列、《22英里》《星球大战7：原力觉醒》《嗜人之夜》。本片他演拉玛——全片几乎是他一个人从一楼打到顶楼。他本期第一次出现在片单卡片上（本期第 10 部《嗜人之夜》的卡片上还有他）。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_180299.jpg" alt="" loading="lazy"><span>突袭2：暴徒</span></div><div class="wk"><img src="assets/movies/w_347375.jpg" alt="" loading="lazy"><span>22英里</span></div><div class="wk"><img src="assets/movies/w_140607.jpg" alt="" loading="lazy"><span>星球大战7：原力觉醒</span></div><div class="wk"><img src="assets/movies/w_403605.jpg" alt="" loading="lazy"><span>爆头</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_592496.jpg" alt="" loading="lazy">
+                <div class="p-name">乔·塔斯利姆 <span class="p-role">主演（贾卡）</span></div>
+              </div>
+              <div class="p-note">印度尼西亚演员，柔道运动员出身。《突袭》《速度与激情6》《星际迷航3：超越星辰》《真人快打》《嗜人之夜》。本片他演贾卡——突击队里唯一一个不像主角的人，却死得最像主角。他本期第一次出现在片单卡片上（本期第 10 部《嗜人之夜》里他演男一号）。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_449992.jpg" alt="" loading="lazy"><span>嗜人之夜</span></div><div class="wk"><img src="assets/movies/w_82992.jpg" alt="" loading="lazy"><span>速度与激情6</span></div><div class="wk"><img src="assets/movies/w_188927.jpg" alt="" loading="lazy"><span>星际迷航3：超越星辰</span></div><div class="wk"><img src="assets/movies/w_460465.jpg" alt="" loading="lazy"><span>真人快打</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最安静的一场戏在结尾——拉玛走出楼门，天亮了，雅加达的日常照旧运转，仿佛这一夜只是这栋楼自己咽了回去。轻微剧透：埃文斯把空间用到了极致：楼层是地图，走廊是闸门，房间是棺材。看完再回想，你会记得住每一次上楼梯，却记不住任何一个「剧情转折」——这就是本片的目的：让身体替观众记住一夜。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「近身格斗能被拍得多实」的人；能接受剧情极薄、暴力密度极高、血浆不要钱的观众。R 级，建议成年观看。内地未映。看完想继续：《突袭2：暴徒》（格局更大，评价更高）、《嗜人之夜》（本期第 10 部，原班人马的另一部）。</p>
+    </div>
+  </section>
+  <section class="card" id="m6">
+    <div class="no">06</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/next_83899_poster.jpg" alt="你是下一个 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">惊悚 / 恐怖 / 黑色喜剧（美国 · 一栋乡间大宅的团圆夜）</span><span class="year">2011 · 美国 · 95 分钟 · 内地未映（R 级）</span></div>
+        <h2>你是下一个 <span class="en">You&#x27;re Next</span></h2>
+        <div class="rates"><span class="rate"><b>6.9</b>豆瓣</span><span class="rate"><b>79%</b>烂番茄</span><span class="rate"><b>66</b>Metacritic</span><span class="rate"><b>6.6</b>IMDb</span></div>
+        <p class="oneline">「“下一个，就轮到你。”」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>戴维森家趁着结婚纪念日把四个子女和各自的另一半凑回乡间大宅，饭桌上的火药味比酒气还足。入夜，戴动物面具的杀手一个一个摸了进来——弩、斧头、钢琴线。这家人从互撕到抱团只用了半小时，而真正稳住局面的，是大儿子的女友艾琳：她在生存主义营地里长大，会设陷阱、会改装炸弹、能把钉子踩进脚底之后继续跑。等尸体摆了一地，面具后面的人终于意识到：他们挑错了房子，也挑错了人。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>亚当·温加德导演，西蒙·巴雷特编剧；2011 年多伦多电影节午夜疯狂单元口碑爆发，2013 年才在北美大规模公映（TMDB 标 2013）。</li><li>成本约 100 万美元，北美约 1850 万、全球约 2400 万美元——<b>以小博大的教科书案例</b>。</li><li>沙妮·文森演的艾琳是近十年砍杀片里最著名的「最后一人」：她不逃、不蠢、不等救——<b>观众喊了二十年的「她怎么不反抗」，这部片一次还清</b>。</li><li>面具杀手团的设定被后来者反复借鉴；它的黑色幽默（一家人到死还在互相揭短）让它从同类里脱颖而出。</li><li>场面调度带着温加德一贯的「剧场感」：几乎全部的死亡都发生在观众能看清方位的空间里——<b>它尊重你的智商</b>。</li><li>烂番茄 79% / Metacritic 66 / IMDb 6.6 / 豆瓣 6.9：一部影迷口碑远大于大众口碑的 cult 片。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/next_83899_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/next_83899_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/next_83899_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_98631.jpg" alt="" loading="lazy">
+                <div class="p-name">亚当·温加德 <span class="p-role">导演</span></div>
+              </div>
+              <div class="p-note">美国导演、剪辑，从低成本恐怖片与《致命录像带》系列起步。《你是下一个》《不速之客》《死亡笔记》《哥斯拉大战金刚》系列。<b>往期第 5 期《猛攻》与第 42 期《致命录像带》的导演都是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_399566.jpg" alt="" loading="lazy"><span>哥斯拉大战金刚</span></div><div class="wk"><img src="assets/movies/w_823464.jpg" alt="" loading="lazy"><span>哥斯拉大战金刚2：帝国崛起</span></div><div class="wk"><img src="assets/movies/w_351460.jpg" alt="" loading="lazy"><span>死亡笔记</span></div><div class="wk"><img src="assets/movies/w_241848.jpg" alt="" loading="lazy"><span>不速之客</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_138010.jpg" alt="" loading="lazy">
+                <div class="p-name">沙妮·文森 <span class="p-role">主演（艾琳）</span></div>
+              </div>
+              <div class="p-note">澳大利亚演员、舞者。《舞出我人生3》《大海啸之鲨口逃生》《你是下一个》。本片她演艾琳——全片唯一一个会设陷阱、会做炸弹、会把钉子踩进脚底还继续跑的人。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_41233.jpg" alt="" loading="lazy"><span>舞出我人生3</span></div><div class="wk"><img src="assets/movies/w_118957.jpg" alt="" loading="lazy"><span>大海啸之鲨口逃生</span></div><div class="wk"><img src="assets/movies/w_404584.jpg" alt="" loading="lazy"><span>柳树街鬼屋</span></div><div class="wk"><img src="assets/movies/w_300168.jpg" alt="" loading="lazy"><span>天将雄师</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_74133.jpg" alt="" loading="lazy">
+                <div class="p-name">AJ·鲍恩 <span class="p-role">主演（克里斯平，艾琳的前男友）</span></div>
+              </div>
+              <div class="p-note">美国演员，独立恐怖片熟脸。《圣餐》《邪恶之屋》《同步》《信号》《你是下一个》。本片他演克里斯平——一顿团圆饭的发起人，也是这场屠杀的发起人。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_211067.jpg" alt="" loading="lazy"><span>圣餐</span></div><div class="wk"><img src="assets/movies/w_25983.jpg" alt="" loading="lazy"><span>邪恶之屋</span></div><div class="wk"><img src="assets/movies/w_347945.jpg" alt="" loading="lazy"><span>同步</span></div><div class="wk"><img src="assets/movies/w_13059.jpg" alt="" loading="lazy"><span>信号</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最大的反转不是「谁戴着面具」，是「谁雇了他们」——这顿团圆饭的发起人，正是把大家叫来送死的人。轻微剧透：温加德最妙的一笔，是让这个家庭在屠杀中第一次真正「团聚」：艾琳这个外人，反而成了戴维森家唯一像家人的成员。结尾她靠在新男友肩上听警笛渐近，是这部片唯一一次让她露出疲态——之前那两个小时，她不像活人，像一件武器。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「砍杀片能被写得多聪明」的人；能接受血浆夸张、黑色幽默、以及它本质上把全家人都写得很可恨的观众。R 级，建议成年观看。内地未映。看完想继续：《不速之客》（同导演）、《准备好了没》（往期推荐过的「猎杀新娘」版）、《林中小屋》（往期推荐过的「元砍杀」版）。</p>
+    </div>
+  </section>
+  <section class="card" id="m7">
+    <div class="no">07</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/victor_320007_poster.jpg" alt="维多利亚 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">惊悚 / 犯罪 / 剧情（德国 · 柏林，从夜店到天亮的一镜到底）</span><span class="year">2015 · 德国 · 138 分钟 · 内地未映（德国电影节展映过）</span></div>
+        <h2>维多利亚 <span class="en">Victoria</span></h2>
+        <div class="rates"><span class="rate"><b>7.1</b>豆瓣</span></div>
+        <p class="oneline">「“凌晨四点的柏林，一个女孩答应替一群人开四个小时车。”」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>西班牙女孩维多利亚刚到柏林不久，在夜店门口认识了索恩和三个游荡的年轻人。两个人看对了眼，从人群里溜出来，在午夜的街头乱逛——这是她这辈子最好的几个小时。可索恩的三个朋友在楼下车里等她：他们昨晚替黑帮老大办了件事，天亮前必须把人情还上，而四个人里有一个已经醉得不省人事。他们缺一个司机。于是这个夜晚从浪漫急转直下：一辆偷来的车、一家银行的柜台、一条回不去的路。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>全片 138 分钟，一个镜头拍完，没有藏匿剪辑点——第 65 届柏林电影节把「最佳艺术贡献奖（摄影）」的银熊颁给了它。</li><li>同一个凌晨连拍三条，每条都必须零失误跑完全程；最终成片用的其中一条完整素材——<b>这种拍法在长镜头电影里几乎前所未有</b>。</li><li>德国电影奖上拿下六个奖项，包括最佳剧情片、最佳导演与最佳摄影。</li><li>莱娅·科斯塔演的维多利亚几乎不在「表演」：她要在被追逐、尖叫、开车、崩溃之间连续切换——<b>失误一条，全组白干一晚</b>。</li><li>弗雷德里克·劳演的索恩是全片的心脏：一个在兄弟义气与良心之间反复横跳的年轻人——他每次说「就干这一票」，观众就知道要出事。</li><li>一镜到底在这里不是炫技：它取消了「切出去」的权利，观众只能和维多利亚一起，在这个夜里一分一秒地退不回从前。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/victor_320007_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/victor_320007_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/victor_320007_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_3702.jpg" alt="" loading="lazy">
+                <div class="p-name">塞巴斯蒂安·席佩尔 <span class="p-role">导演 / 编剧</span></div>
+              </div>
+              <div class="p-note">德国导演、编剧，入行时做了多年摄影师，参与过《罗拉快跑》《英国病人》的拍摄。《维多利亚》《三角恋》《我在这里》。本片是他最著名的一部——一部真正意义上没有剪辑点可言的长片。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_104.jpg" alt="" loading="lazy"><span>罗拉快跑</span></div><div class="wk"><img src="assets/movies/w_409.jpg" alt="" loading="lazy"><span>英国病人</span></div><div class="wk"><img src="assets/movies/w_53256.jpg" alt="" loading="lazy"><span>三角恋</span></div><div class="wk"><img src="assets/movies/w_289191.jpg" alt="" loading="lazy"><span>我在这里</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_1425019.jpg" alt="" loading="lazy">
+                <div class="p-name">莱娅·科斯塔 <span class="p-role">主演（维多利亚）</span></div>
+              </div>
+              <div class="p-note">西班牙演员，巴塞罗那人。《新奇》《木乃伊》《我需要你》《摇篮曲》。本片她演维多利亚——全片唯一一个在 138 分钟里不许眨眼的人。<b>往期第 4 期《木乃伊》的主创卡片上就是她。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_1304313.jpg" alt="" loading="lazy"><span>木乃伊</span></div><div class="wk"><img src="assets/movies/w_434203.jpg" alt="" loading="lazy"><span>新奇</span></div><div class="wk"><img src="assets/movies/w_109689.jpg" alt="" loading="lazy"><span>我需要你</span></div><div class="wk"><img src="assets/movies/w_835504.jpg" alt="" loading="lazy"><span>摇篮曲</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_49767.jpg" alt="" loading="lazy">
+                <div class="p-name">弗雷德里克·劳 <span class="p-role">主演（桑内）</span></div>
+              </div>
+              <div class="p-note">德国演员，柏林人，凭《浪潮》里的蒂姆一角成名，拿过德国电影奖最佳男配角。《浪潮》《冒牌上尉》《地产老千起落记》《砖墙谜攻》。本片他演索恩——全片的道德罗盘，也是把它一点点拨偏的人。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_7735.jpg" alt="" loading="lazy"><span>浪潮</span></div><div class="wk"><img src="assets/movies/w_1425045.jpg" alt="" loading="lazy"><span>砖墙谜攻</span></div><div class="wk"><img src="assets/movies/w_475094.jpg" alt="" loading="lazy"><span>冒牌上尉</span></div><div class="wk"><img src="assets/movies/w_658751.jpg" alt="" loading="lazy"><span>地产老千起落记</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最疼的一瞬不在抢劫，在抢劫之后——维多利亚坐在车里，忽然发现自己已经回不去几个小时前那个夜店门口的女孩。轻微剧透：席佩尔把「一夜」拍成了单行道：没有剪辑，就没有喘息；没有喘息，选择就再也撤销不了。结尾黎明里她独自走在街上，是全片第一次让人想起：这个城市天亮了，而她的一夜还没有结束。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「长镜头能被用来叙事而不是炫技」的人；能接受手持摄影带来的晕眩感、德语对白偏快、以及它本质上是一部「爱情片急转成犯罪片」的电影的观众。含暴力与胁迫场面，建议成年观看。内地未映（曾在北京、成都等地的德国电影节展映）。看完想继续：《罗拉快跑》（导演以摄影师身份参与过的经典，往期第 36 期推荐过）、《英国病人》（导演参与过的另一部）。</p>
+    </div>
+  </section>
+  <section class="card" id="m8">
+    <div class="no">08</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/atomic_341013_poster.jpg" alt="极寒之城 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">动作 / 惊悚 / 悬疑（美国 / 德国 · 1989 年柏林墙倒塌前的一周）</span><span class="year">2017 · 美国 / 德国 / 瑞典 / 匈牙利 · 115 分钟 · 内地未映（R 级）</span></div>
+        <h2>极寒之城 <span class="en">Atomic Blonde</span></h2>
+        <div class="rates"><span class="rate"><b>7.2</b>豆瓣</span><span class="rate"><b>79%</b>烂番茄</span><span class="rate"><b>63</b>Metacritic</span><span class="rate"><b>6.7</b>IMDb</span></div>
+        <p class="oneline">「“名单不在她身上——在她脑子里的那部分，谁也拿不走。”」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>1989 年 11 月的柏林，墙还在，但所有人都知道它快塌了。军情六处特工洛琳·布劳顿被派来找一份名单——上面写着所有为西方工作的双面间谍。她的上线刚被人杀死在浴缸里，整座城市里每一方都想要这份东西：MI6、Stasi、KGB，还有她自己的上司。洛琳的办法是比所有人都更狠：白天审人，夜里杀人，每见一个人先判断他能出卖自己几次。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>改编自安东尼·约翰斯顿的同名图像小说《最冷的城市》，背景是柏林墙倒塌前一周。</li><li>成本约 3000 万美元，全球约 1 亿美元——查理兹·塞隆主演并制片。</li><li>那段楼梯间打斗是全片签名：数分钟一镜到底的近身混战，塞隆亲身上阵，<b>被剪成短视频之后成了 2017 年传播最广的动作场面</b>。</li><li>索菲亚·波多拉演的神秘女孩、托比·琼斯与约翰·古德曼演的两位「管家」——<b>这部片的每个配角都在演三张脸</b>。</li><li>大卫·雷奇是《疾速追杀》系列的联合奠基者之一，本片是他第一部独立挂名的大制作导演长片。</li><li>全片的配色只有两种：血的红与柏林的蓝——<b>墙越靠近倒塌，画面越冷</b>。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/atomic_341013_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/atomic_341013_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/atomic_341013_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_40684.jpg" alt="" loading="lazy">
+                <div class="p-name">大卫·雷奇 <span class="p-role">导演</span></div>
+              </div>
+              <div class="p-note">美国导演、特技演员出身，《疾速追杀》系列的联合奠基者之一。《极寒之城》《死侍2》《速度与激情：特别行动》。本片是他第一部独立挂名的大制作导演长片。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_271110.jpg" alt="" loading="lazy"><span>美国队长3</span></div><div class="wk"><img src="assets/movies/w_135397.jpg" alt="" loading="lazy"><span>侏罗纪世界</span></div><div class="wk"><img src="assets/movies/w_383498.jpg" alt="" loading="lazy"><span>死侍2</span></div><div class="wk"><img src="assets/movies/w_49530.jpg" alt="" loading="lazy"><span>时间规划局</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_6885.jpg" alt="" loading="lazy">
+                <div class="p-name">查理兹·塞隆 <span class="p-role">主演（洛琳·布劳顿）</span></div>
+              </div>
+              <div class="p-note">南非 / 美国演员、制片，奥斯卡影后（《女魔头》）。《女魔头》《疯狂的麦克斯4：狂暴之路》《永生守卫》《极寒之城》。本片她演洛琳——全片的打斗几乎全部亲身上阵，包括那段著名的楼梯长镜头。<b>往期第 33 期《疯狂的麦克斯4：狂暴之路》的主创卡片上就是她。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_76341.jpg" alt="" loading="lazy"><span>疯狂的麦克斯4：狂暴之路</span></div><div class="wk"><img src="assets/movies/w_8960.jpg" alt="" loading="lazy"><span>全民超人汉考克</span></div><div class="wk"><img src="assets/movies/w_547016.jpg" alt="" loading="lazy"><span>永生守卫</span></div><div class="wk"><img src="assets/movies/w_70981.jpg" alt="" loading="lazy"><span>普罗米修斯</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_5530.jpg" alt="" loading="lazy">
+                <div class="p-name">詹姆斯·麦卡沃伊 <span class="p-role">主演（珀西瓦尔）</span></div>
+              </div>
+              <div class="p-note">苏格兰演员。《X战警》系列、《赎罪》《分裂》《玻璃先生》。本片他演珀西瓦尔——全片最没有面具的人，也是死得最难看的人。<b>往期第 9 期《非礼勿言》的主创卡片上就是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_381288.jpg" alt="" loading="lazy"><span>分裂</span></div><div class="wk"><img src="assets/movies/w_246655.jpg" alt="" loading="lazy"><span>X战警：天启</span></div><div class="wk"><img src="assets/movies/w_49538.jpg" alt="" loading="lazy"><span>X战警：第一战</span></div><div class="wk"><img src="assets/movies/w_450465.jpg" alt="" loading="lazy"><span>玻璃先生</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最大的反转是「名单从来不是一个东西，而是一个身份」——洛琳自己就是那份名单的最后一页。轻微剧透：雷奇最狠的一笔，是让所有阵营都以为在利用她，而观众直到最后一刻才发现她谁也没利用——她只是把每个人都用了一次。结尾她出现在巴黎，把整座城市的生死轻轻揭过——这是近十年最「凉」的间谍片结局之一。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「冷战间谍片能被拍得多风格化」的人；能接受剧情故意绕、动作场面极其疼痛、以及它本质上是一部「关于谁在利用谁」的密室电影的观众。R 级，建议成年观看。内地未映。看完想继续：《疾速追杀》系列（同导演奠基）、《谍影重重》（往期推荐过的冷战后特工故事）。</p>
+    </div>
+  </section>
+  <section class="card" id="m9">
+    <div class="no">09</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/good_429200_poster.jpg" alt="好时光 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">惊悚 / 犯罪 / 剧情（美国 · 纽约，从入夜到天亮的十几个小时）</span><span class="year">2017 · 美国 · 101 分钟 · 内地未映（R 级；上海电影节放映过）</span></div>
+        <h2>好时光 <span class="en">Good Time</span></h2>
+        <div class="rates"><span class="rate"><b>7.4</b>豆瓣</span><span class="rate"><b>91%</b>烂番茄</span><span class="rate"><b>80</b>Metacritic</span><span class="rate"><b>7.3</b>IMDb</span></div>
+        <p class="oneline">「“我只想把我弟弟弄出来——用谁的钱、谁的命，今晚都不挑。”」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>康尼·尼卡斯和弟弟尼克抢了一家银行，事情办砸了：尼克被捕，康尼跑掉。保释金一万美元——康尼身上只有一堆脏钱和一个更脏的计划。他先去找女朋友，再去抢诊所，最后干脆带着一个刚认识的黑人女孩与一车陌生人冲进了医院。整个晚上他都在救弟弟，可每救一次，就多一个人被他拖进这个夜；等天亮了，他甚至连自己要去哪儿都不知道。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>乔什与本杰明·萨夫迪兄弟联合执导，2017 年进戛纳主竞赛单元；丹尼尔·洛普坦的配乐是全片第二主角。</li><li>成本约 200 万美元，全球约 330 万美元——<b>典型的作者电影账本</b>，却换来了罗伯特·帕丁森职业生涯最好的一次表演。</li><li>帕丁森演的康尼几乎没有「帅」的瞬间：油头、汗衫、眼睛瞪得吓人——<b>他主动要求把脸拍得难看</b>。</li><li>全片大量启用非职业演员与实景夜拍：霓虹、监控探头、陌生的街道——<b>纽约在这部片里不是背景，是共犯</b>。</li><li>影片的时间压力全部来自「天亮之前」这个隐形 deadline：每一场戏都在往黎明推，而黎明对康尼来说不是希望，是结账。</li><li>烂番茄 91% / Metacritic 80 / IMDb 7.3 / 豆瓣 7.4——<b>本期海外口碑最好的一部</b>。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/good_429200_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/good_429200_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/good_429200_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_129561.jpg" alt="" loading="lazy">
+                <div class="p-name">乔什·萨夫迪 <span class="p-role">导演 / 剪辑</span></div>
+              </div>
+              <div class="p-note">美国导演、编剧、剪辑（TMDB 站内译「约书亚·萨弗迪」）。《天知道》《好时光》《原钻》《至尊马蒂》。本片是他与弟弟本杰明联合执导，2017 年进戛纳主竞赛。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_473033.jpg" alt="" loading="lazy"><span>原钻</span></div><div class="wk"><img src="assets/movies/w_1317288.jpg" alt="" loading="lazy"><span>至尊马蒂</span></div><div class="wk"><img src="assets/movies/w_285024.jpg" alt="" loading="lazy"><span>天知道</span></div><div class="wk"><img src="assets/movies/w_664394.jpg" alt="" loading="lazy"><span>Goldman v Silverman</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_227564.jpg" alt="" loading="lazy">
+                <div class="p-name">本杰明·萨夫迪 <span class="p-role">导演 / 主演（尼克）</span></div>
+              </div>
+              <div class="p-note">美国导演、演员（弟弟）。《天知道》《好时光》《原钻》《粉碎机》。本片他既是联合导演，也演了弟弟尼克。<b>往期第 32 期《原钻》的导演正是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_473033.jpg" alt="" loading="lazy"><span>原钻</span></div><div class="wk"><img src="assets/movies/w_760329.jpg" alt="" loading="lazy"><span>粉碎机</span></div><div class="wk"><img src="assets/movies/w_285024.jpg" alt="" loading="lazy"><span>天知道</span></div><div class="wk"><img src="assets/movies/w_664394.jpg" alt="" loading="lazy"><span>Goldman v Silverman</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_11288.jpg" alt="" loading="lazy">
+                <div class="p-name">罗伯特·帕丁森 <span class="p-role">主演（康尼·尼卡斯）</span></div>
+              </div>
+              <div class="p-note">英国演员。《暮光之城》系列、《信条》《新蝙蝠侠》《灯塔》《好时光》。本片他演康尼——一个用一整夜证明「我都是为你好」的哥哥。他本期第一次出现在片单卡片上（他主演的《灯塔》是往期第 35 期推荐过的影片）。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_414906.jpg" alt="" loading="lazy"><span>新蝙蝠侠</span></div><div class="wk"><img src="assets/movies/w_8966.jpg" alt="" loading="lazy"><span>暮光之城</span></div><div class="wk"><img src="assets/movies/w_503919.jpg" alt="" loading="lazy"><span>灯塔</span></div><div class="wk"><img src="assets/movies/w_577922.jpg" alt="" loading="lazy"><span>信条</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最狠的一笔是康尼从头到尾没做错一件「大事」——他做的每一步单看都合理，合起来却把一个晚上拆成了所有人的地狱。轻微剧透：萨夫迪兄弟把「照顾家人」拍成了一种暴力：康尼爱尼克的方式，是替他把所有选择权拿走。结尾天亮了，他坐在陌生人的客厅里看早间新闻——这一夜上过电视，而没有人知道他是谁。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「一个夜晚能把一个人逼到什么地步」的人；能接受手持跟拍带来的窒息感、人物全员不可爱、以及它拒绝给任何角色发安慰奖的观众。R 级，建议成年观看。内地未映（上海电影节放映过），流媒体可看。看完想继续：《原钻》（同导演组合，往期推荐过的「一天崩溃指南」）、《天知道》（导演前作）。</p>
+    </div>
+  </section>
+  <section class="card" id="m10">
+    <div class="no">10</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/night_449992_poster.jpg" alt="嗜人之夜 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">动作 / 惊悚 / 犯罪（印度尼西亚 · 雅加达，三合会内部的一个晚上）</span><span class="year">2018 · 印度尼西亚 / 美国 · 121 分钟 · 内地未映（NC-17）</span></div>
+        <h2>嗜人之夜 <span class="en">The Night Comes for Us</span></h2>
+        <div class="rates"><span class="rate"><b>6.9</b>豆瓣</span><span class="rate"><b>91%</b>烂番茄</span><span class="rate"><b>6.9</b>IMDb</span></div>
+        <p class="oneline">「“他放了一个女孩一条生路，于是全城的人都来要他死。”」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>伊托是三合会最利的刀，替组织杀过的人他自己都数不清。一次任务里他动了不该动的念头：放走了一个目击整个屠杀的小女孩。组织下令清理门户，他的发小阿里安——如今是另一派的头面——带着全城的人马来取他的命。于是一个普通的夜晚变成了猎杀：从公寓到停车场，从码头到仓库，伊托用一整晚证明了一件事：他最强的一次任务，是保护一个孩子。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>提莫·塔哈亚托导演、编剧，Netflix 在影片首映四天后就买下了全球版权——<b>这个速度至今被独立片市场当作传说</b>。</li><li>成本约 200 万美元；烂番茄 91% / IMDb 6.9 / 豆瓣 6.9——<b>专业口碑与大众口碑罕见的持平</b>。</li><li>伊科·乌艾斯（本期第 5 部《突袭》的主演）与乔·塔斯利姆再度同框，两个人的每一场对打都像在清算前作里的账。</li><li>朱莉·埃斯特尔演的「操控者」是全片唯一一个能让伊托停手的人——<b>她的那场对决是近十年亚洲动作片里最疼的几分钟</b>。</li><li>塔哈亚托的暴力是「卡通级」的：断骨、穿刺、血浆，密度高到需要观众自己调节呼吸；IndieWire 的评价很准：单场谋杀的巧思，胜过好莱坞整部电影的总和。</li><li>影片中段插入的大段闪回拖慢了节奏——这是它最大的短板，也是它没能更进一步的唯一原因。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/night_449992_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/night_449992_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/night_449992_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_235430.jpg" alt="" loading="lazy">
+                <div class="p-name">提莫·塔哈亚托 <span class="p-role">导演 / 编剧</span></div>
+              </div>
+              <div class="p-note">印度尼西亚导演、编剧，以极端暴力美学著称。《26种死法》《致命录像带2》《致命录像带 94》《小人物2》。本片被 Netflix 在首映四天后买下全球版权。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_1007734.jpg" alt="" loading="lazy"><span>小人物2</span></div><div class="wk"><img src="assets/movies/w_159117.jpg" alt="" loading="lazy"><span>致命录像带2</span></div><div class="wk"><img src="assets/movies/w_87436.jpg" alt="" loading="lazy"><span>26种死法</span></div><div class="wk"><img src="assets/movies/w_753453.jpg" alt="" loading="lazy"><span>致命录像带 94</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_113732.jpg" alt="" loading="lazy">
+                <div class="p-name">伊科·乌艾斯 <span class="p-role">主演（伊托）</span></div>
+              </div>
+              <div class="p-note">印度尼西亚演员、动作明星，班卡西拉出身。《突袭》系列、《22英里》《星球大战7：原力觉醒》《嗜人之夜》。本片他演阿里安——伊托的发小，如今奉令来取他的命。<b>本期第 5 部《突袭》的主创卡片上也是他</b>：同一个他，从拆楼拆到自家码头。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_94329.jpg" alt="" loading="lazy"><span>突袭</span></div><div class="wk"><img src="assets/movies/w_180299.jpg" alt="" loading="lazy"><span>突袭2：暴徒</span></div><div class="wk"><img src="assets/movies/w_347375.jpg" alt="" loading="lazy"><span>22英里</span></div><div class="wk"><img src="assets/movies/w_140607.jpg" alt="" loading="lazy"><span>星球大战7：原力觉醒</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_145882.jpg" alt="" loading="lazy">
+                <div class="p-name">朱莉·埃斯特尔 <span class="p-role">主演（「操控者」）</span></div>
+              </div>
+              <div class="p-note">印度尼西亚演员、模特。《突袭2：暴徒》《爆头》《嗜人之夜》。本片她演「操控者」——全片唯一一个能让伊托停手的人。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_180299.jpg" alt="" loading="lazy"><span>突袭2：暴徒</span></div><div class="wk"><img src="assets/movies/w_403605.jpg" alt="" loading="lazy"><span>爆头</span></div><div class="wk"><img src="assets/movies/w_39067.jpg" alt="" loading="lazy"><span>血肉盛宴</span></div><div class="wk"><img src="assets/movies/w_52372.jpg" alt="" loading="lazy"><span>The Chanting</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最重的一场戏在停车场——伊托与阿里安打了十几年交情，也打了半部电影的架，两个人到最后都没有下死手，直到「操控者」出现。轻微剧透：塔哈亚托把「赎罪」拍成了体力活：伊托每杀一个人，就离那个小女孩远一步；而当他终于把孩子送上去机场的车，观众才发现这一夜他不是在逃，是在还。结尾码头那场一对多的决战，是全片唯一一次让暴力显得安静。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「动作片能把『疼』做得多具体」的人；能接受血浆不要钱、人物弧光极简、以及它本质上是一部「还债片」的观众。NC-17，仅建议成年观看。内地未映，Netflix 可看。看完想继续：《突袭》（本期第 5 部）、《突袭2：暴徒》、《26种死法》（导演参与的恐怖选集）。</p>
+    </div>
+  </section>
+
+<footer>
+  片单由小月整理 · <span class="byline">by 浩</span><br>
+  图片素材来自 TMDB，仅作观影参考，版权归各片方所有。<br>
+  评分采集时间 2026-10-18；「轻微剧透」的短评会点到关键转折，但不泄露完整结局。
+</footer>
+</div>
+</body>
+</html>

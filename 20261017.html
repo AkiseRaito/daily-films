@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>10 部片单 · 恐怖 / 科幻 / 惊悚 / 悬疑 / 剧情（2026-10-17 · 第 47 期）</title>
+<style>
+:root{
+  --bg:#0b0d12; --card:#14171f; --card2:#191d27; --line:#252b3a;
+  --tx:#e7e9f0; --mut:#98a1b5; --acc:#f27a9d; --acc2:#7cc4ff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);
+  font:15px/1.78 "PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,sans-serif;}
+.wrap{max-width:1040px;margin:0 auto;padding:48px 20px 80px}
+header h1{margin:0 0 8px;font-size:30px;letter-spacing:.5px}
+header .sub{color:var(--mut);font-size:13.5px;margin-bottom:6px;line-height:1.7}
+header .meta{color:#6f7891;font-size:12.5px;margin-top:12px;line-height:1.8}
+.pill{display:inline-block;padding:2px 10px;border:1px solid var(--line);border-radius:99px;
+  color:var(--mut);font-size:12px;margin:0 6px 6px 0}
+table{width:100%;border-collapse:collapse;margin:26px 0 8px;font-size:13.5px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line)}
+th{color:var(--mut);font-weight:500;font-size:12.5px}
+.qn{color:var(--acc);width:38px}
+.qg{color:var(--mut)}
+.qr{color:var(--acc2);white-space:nowrap}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;
+  padding:26px 26px 22px;margin:34px 0;position:relative;overflow:hidden}
+.card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;
+  background:linear-gradient(180deg,var(--acc),transparent)}
+.no{position:absolute;right:18px;top:10px;font-size:44px;font-weight:700;color:#1e2432;letter-spacing:-1px}
+.head{display:flex;gap:20px}
+.poster{flex:0 0 170px}
+.poster-img{width:170px;border-radius:10px;display:block;background:var(--card2)}
+.head-r{flex:1;min-width:0}
+.tagrow{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.tag{background:rgba(242,122,157,.14);color:var(--acc);border:1px solid rgba(242,122,157,.3);
+  padding:2px 10px;border-radius:99px;font-size:12px}
+.year{color:var(--mut);font-size:12.5px}
+h2{margin:0 0 10px;font-size:22px;line-height:1.35}
+h2 .en{font-size:13px;color:var(--mut);font-weight:400;display:block;margin-top:3px}
+.rates{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.rate{background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:3px 9px;font-size:12px;color:var(--mut)}
+.rate b{color:var(--acc2);margin-right:5px;font-size:13px}
+.oneline{margin:6px 0 0;color:#cdd3e2;font-size:15px}
+.block{margin-top:20px}
+.block h3{margin:0 0 8px;font-size:14px;color:var(--acc);letter-spacing:.5px;font-weight:600}
+.block p{margin:0;color:#c8cee0}
+ul.hi{margin:0;padding-left:18px;color:#c8cee0}
+ul.hi li{margin:5px 0}
+.stills{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}
+.stills figure{margin:0;border-radius:10px;overflow:hidden;background:var(--card2)}
+.stills img{width:100%;display:block;aspect-ratio:16/9;object-fit:cover}
+blockquote{margin:0;padding:12px 16px;background:var(--card2);border-left:3px solid var(--acc);
+  border-radius:0 8px 8px 0;color:#d3d9ea;font-size:14.5px}
+.why p{color:#b9c0d3}
+.crew{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.person{background:var(--card2);border:1px solid var(--line);border-radius:10px;padding:12px}
+.p-top{display:flex;align-items:center;gap:10px}
+.p-ava{width:48px;height:48px;border-radius:50%;object-fit:cover;flex:0 0 48px;display:block;background:#212734}
+.p-name{font-size:14px;font-weight:600;line-height:1.3}
+.p-role{color:var(--mut);font-size:11px;font-weight:400;margin-left:4px}
+.p-note{color:#7e879e;font-size:11.5px;line-height:1.6;margin:8px 0 0}
+.p-kn{color:var(--mut);font-size:10.5px;margin:8px 0 4px;letter-spacing:.3px}
+.p-works{display:grid;grid-template-columns:repeat(4,1fr);gap:5px}
+.wk{text-align:center}
+.wk img{width:100%;display:block;border-radius:4px;background:#212734;aspect-ratio:2/3;object-fit:cover}
+.wk span{display:block;font-size:9.5px;color:#b9c0d3;line-height:1.25;margin-top:3px}
+footer{margin-top:44px;color:#6f7891;font-size:12.5px;border-top:1px solid var(--line);padding-top:18px;line-height:1.8}
+.byline{display:inline-block;padding:2px 10px;margin:0 4px;border-radius:99px;
+  background:rgba(242,122,157,.14);color:var(--acc);border:1px solid rgba(242,122,157,.38);
+  font-size:12px;letter-spacing:.4px}
+@media(max-width:860px){
+  .head{flex-direction:column} .poster-img{width:150px}
+  .stills{grid-template-columns:1fr} .p-works{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>10 部片单 · 恐怖 / 科幻 / 惊悚 / 悬疑 / 剧情</h1>
+  <div class="sub">2026 年 10 月 17 日 · 第 47 期 · 已避开往期推荐过的全部 460 部</div>
+  <div>
+    <span class="pill">主题：换个身份 · 十部关于冒名、伪装与第二重人生的电影（1997–2024）</span>
+    <span class="pill">全部 1990 年后：最早 1997，最晚 2024，按上映年份排列</span>
+    <span class="pill">类型覆盖：惊悚 8 / 剧情 6 / 悬疑 4 / 恐怖 2 / 动作 2 / 犯罪 2 / 科幻 1 / 传记 1 / 爱情 1 / 战争 1 / 历史 1</span>
+    <span class="pill">海报 + 3 张镜头 + 主创头像 + 历史作品海报</span>
+    <span class="pill">轻微剧透短评</span>
+  </div>
+  <div class="meta">评分来源：豆瓣 / 烂番茄 / Metacritic / IMDb，采集于 2026-10-17，会随时间变动，仅供参考。<br>
+  这一期的筛选条件只有一条：<b>这部电影的核心动作是「换成另一个人」</b>——不是「路上顺手伪装了一下」，是整部片都建立在脸、名字、身份或自我被替换之上：有物理层面的换脸（第 1 部）、有伪造身份的冒名（第 5 部）、有失忆后的身份重建（第 4 部）、有「身体里住着另一个自己」（第 2、3、9 部）、有一栋楼里找不出谁是谁（第 6、7、8 部），也有一个男孩用朋友的名字活下去（第 10 部）。<br>
+  十部落在 1997–2024，按上映年份排列，大致可以分成<b>三条来路</b>：<b>脸真的换了</b>（第 1 部《变脸》）、<b>名字是借来的</b>（第 4 部《谍影重重》、第 5 部《猫鼠游戏》、第 6 部《色，戒》、第 7 部《风声》、第 8 部《锅匠，裁缝，士兵，间谍》、第 10 部《五分钱男孩》）、<b>身体里住着另一个自己</b>（第 2 部《搏击俱乐部》、第 3 部《美国精神病人》、第 9 部《我们》）。从 1997 到 2024，「换个身份」从动作片的奇观，慢慢变成了一种关于阶级、种族与记忆的严肃命题。<br>
+  需要说明的一处取舍：这个主题最常被提到的名字——《致命魔术》《一级恐惧》《非常嫌疑犯》《看不见的客人》《逃出绝命镇》《穆赫兰道》《记忆碎片》《变蝇人》——都在往期用过了，所以这一期是避开它们之后的名单，整体会更靠近「商业类型片 + 颁奖季文艺片」两端。<br>
+  跨期重合如实写出，按 10-02 定的口径<b>只按片名去重</b>：本期 10 个片名全部首次出现（比对去重表通过）。主创方面重合不少：<b>李冰冰</b>（第 7 部）就是上一期第 46 期《巨齿鲨》的主创之一；<b>大卫·芬奇</b>（第 2 部）此前在第 13、34、35、36、41 期五度出现，是片单里最熟的导演；<b>史蒂文·斯皮尔伯格</b>（第 5 部）在第 4、26、36、38、39 期出现过五次；<b>马特·达蒙</b>（第 4 部）在第 2、3、35、40 期出现过四次；<b>莱昂纳多·迪卡普里奥</b>（第 5 部）在第 4、12、35、45 期出现过四次；<b>克里斯蒂安·贝尔</b>（第 3 部）在第 14、19、22、34 期出现过四次；<b>乔丹·皮尔</b>（第 9 部）执导的第 11 期《不》、第 30 期《逃出绝命镇》都在往期；<b>李安</b>（第 6 部）执导过第 31 期《卧虎藏龙》与第 39 期《少年派的奇幻漂流》；<b>梁朝伟</b>（第 6 部）是第 23 期《无间道》的主创；<b>汤唯</b>（第 6 部）是第 33 期《分手的决心》的主创；<b>周迅</b>（第 7 部）是第 38 期《涉过愤怒的海》的主创；<b>陈国富</b>（第 7 部）执导过第 31 期《双瞳》；<b>尼古拉斯·凯奇</b>（第 1 部）在第 7 期《长腿怪》与第 9 期《冲浪惊魂》里都是主演；<b>科林·费尔斯</b>（第 8 部）出现在第 34 期《国王的演讲》与第 44 期《库尔斯克》；<b>加里·奥德曼</b>（第 8 部）是第 40 期《艾利之书》的主创；<b>道格·里曼</b>（第 4 部）执导过第 20 期《明日边缘》；<b>汤姆·汉克斯</b>（第 5 部）是第 40 期《芬奇》的主创；<b>爱德华·诺顿</b>（第 2 部）是第 18 期《一级恐惧》的主创；<b>布拉德·皮特</b>（第 2 部）是第 22 期《僵尸世界大战》的主创；<b>弗朗卡·波滕特</b>（第 4 部）是第 36 期《罗拉快跑》的主创；<b>露皮塔·尼永奥</b>（第 9 部）是第 9 期《寂静之地：入侵日》的主创；<b>威廉·达福</b>（第 3 部）是第 35 期《灯塔》的主创。<b>约翰·特拉沃尔塔、玛丽·哈伦、托马斯·阿尔弗莱德森、温斯顿·杜克、拉梅尔·罗斯与两位新人演员</b>则是第一次出现在片单卡片上。<br>
+  口碑落差如实标注、不做修饰：<b>《猫鼠游戏》四项评分全部居前</b>（豆瓣 9.1 / 烂番茄 96% / Metacritic 75 / IMDb 8.1），是本期口碑最齐的一部；<b>《搏击俱乐部》豆瓣 9.0、IMDb 8.8，为本期豆瓣与 IMDb 最高</b>；<b>《五分钱男孩》Metacritic 91、烂番茄 92% 而豆瓣只有 6.3</b>，是本期专业评价与华语口碑落差最大的一部；<b>《我们》烂番茄 93% 而豆瓣 6.4</b>，落差同样悬殊；<b>《锅匠，裁缝，士兵，间谍》Metacritic 85 为本期专业评价最高</b>，IMDb 却只有 7.0。<br>
+  内地引进情况：<b>四部在内地公映过</b>（《谍影重重》2002-11-22 全国同步上映、《猫鼠游戏》2003-04-11、《色，戒》2007-11-01 删减版、《风声》2009-09-29），其余六部未在内地院线公映，流媒体或点播可看。<br>
+  10 部片名全部为首次出现，无一与往期 460 部重复（比对去重表通过）。<br>
+  图片素材抓取自 TMDB，仅作观影参考，版权归各片方所有。</div>
+</header>
+
+<table>
+<thead><tr><th>#</th><th>片名</th><th>类型</th><th>评分 / 状态</th></tr></thead>
+<tbody>
+<tr><td class="qn">01</td><td>变脸</td><td class="qg">科幻 / 动作 / 惊悚（美国 · 洛杉矶与联邦监狱之间的一次换脸）</td><td class="qr">8.5 / 93% / 82</td></tr><tr><td class="qn">02</td><td>搏击俱乐部</td><td class="qg">剧情 / 惊悚（美国 · 一间地下室与一栋在建公寓）</td><td class="qr">9.0 / 81% / 67</td></tr><tr><td class="qn">03</td><td>美国精神病人</td><td class="qg">恐怖 / 惊悚 / 黑色讽刺（美国 / 加拿大 · 1987 年曼哈顿上西区）</td><td class="qr">8.0 / 68% / 64</td></tr><tr><td class="qn">04</td><td>谍影重重</td><td class="qg">动作 / 悬疑 / 惊悚（美国 / 德国 / 捷克 · 从地中海到巴黎的一条逃命线）</td><td class="qr">8.6 / 84% / 68</td></tr><tr><td class="qn">05</td><td>猫鼠游戏</td><td class="qg">剧情 / 传记 / 犯罪（美国 / 加拿大 · 1960 年代全美各地的一场冒充人生）</td><td class="qr">9.1 / 96% / 75</td></tr><tr><td class="qn">06</td><td>色，戒</td><td class="qg">剧情 / 爱情 / 惊悚（中国台湾 / 中国大陆 / 美国 / 中国香港 · 1938 香港与 1942 上海）</td><td class="qr">8.4 / 72% / 61</td></tr><tr><td class="qn">07</td><td>风声</td><td class="qg">悬疑 / 惊悚 / 战争（中国 · 1942 年一座被软禁五人组的裘庄）</td><td class="qr">8.4 / 7.3</td></tr><tr><td class="qn">08</td><td>锅匠，裁缝，士兵，间谍</td><td class="qg">剧情 / 悬疑 / 惊悚（英国 / 法国 / 德国 · 1973-74 年伦敦「圆场」的一间间办公室）</td><td class="qr">7.9 / 84% / 85</td></tr><tr><td class="qn">09</td><td>我们</td><td class="qg">恐怖 / 惊悚 / 悬疑（美国 · 圣克鲁斯海滨的一栋度假屋）</td><td class="qr">6.4 / 93% / 81</td></tr><tr><td class="qn">10</td><td>五分钱男孩</td><td class="qg">剧情 / 历史（美国 · 1962 年佛罗里达州塔拉哈西的一所少年管教所）</td><td class="qr">6.3 / 92% / 91</td></tr>
+</tbody>
+</table>
+
+
+  <section class="card" id="m1">
+    <div class="no">01</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/faceoff_754_poster.jpg" alt="变脸 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">科幻 / 动作 / 惊悚（美国 · 洛杉矶与联邦监狱之间的一次换脸）</span><span class="year">1997 · 美国 · 138 分钟 · 内地未映（R 级）</span></div>
+        <h2>变脸 <span class="en">Face/Off</span></h2>
+        <div class="rates"><span class="rate"><b>8.5</b>豆瓣</span><span class="rate"><b>93%</b>烂番茄</span><span class="rate"><b>82</b>Metacritic</span><span class="rate"><b>7.3</b>IMDb</span></div>
+        <p class="oneline">「要抓他，先变成他。」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>FBI 探员肖恩·阿彻六年前死在恐怖分子卡斯特·特洛伊手上的，是他五岁的儿子。如今卡斯特的弟弟波勒斯知道一枚毒气弹藏在城里，却死不开口。唯一的办法是换脸：让昏迷中的卡斯特披上肖恩的脸，替他把话套出来。手术成功了，计划进行到一半，卡斯特却提前醒来——他杀掉了所有知情人，顶替肖恩的身份活下去，还坐实了肖恩的恐怖分子罪名。现在，一个通缉犯拥有探员的脸、家庭和事业，而真正的肖恩被锁在监狱里，等着把自己的人生夺回来。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>吴宇森闯好莱坞之后真正站稳脚跟的一部，成本约 8000 万美元，全球票房约 2.46 亿美元，还进了《时代周刊》年度十大佳片榜。</li><li>剧本由麦克·韦伯与迈克尔·科拉里写，核心设定只有一句话：两个人互换身份之后，好人要装坏人、坏人要装好人，而且<b>双方都要演对方的整个人生</b>。</li><li>约翰·特拉沃尔塔与尼古拉斯·凯奇实际是在「互相演对方」——你看到的每一场戏，都可能要再倒回来重读一遍，这是全片最大的观影乐趣。</li><li>第 70 届奥斯卡最佳音效剪辑提名（负于《泰坦尼克号》）；另拿土星奖最佳导演与最佳编剧、MTV 电影奖最佳动作场面与最佳银幕搭档。</li><li>吴宇森把港片那套推到极限：白鸽、双枪、慢镜，只不过这次是快艇、教堂与机库——<b>抒情与暴力各占一半</b>。</li><li>它直接催生了《无间道》：刘伟强当时想要一个更现实的版本，于是把「物理换脸」改成了「身份对调」。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/faceoff_754_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/faceoff_754_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/faceoff_754_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_11401.jpg" alt="" loading="lazy">
+                <div class="p-name">吴宇森 <span class="p-role">导演 / 制片</span></div>
+              </div>
+              <div class="p-note">香港导演、编剧、制片，暴力美学的代表人物。《英雄本色》《喋血双雄》《辣手神探》《变脸》《碟中谍2》。本片是他闯好莱坞之后真正站稳脚跟的一部。往期第 23 期《无间道》的页面里提到过他——那部片的灵感来源正是《变脸》。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_955.jpg" alt="" loading="lazy"><span>碟中谍2</span></div><div class="wk"><img src="assets/movies/w_9620.jpg" alt="" loading="lazy"><span>记忆裂痕</span></div><div class="wk"><img src="assets/movies/w_9208.jpg" alt="" loading="lazy"><span>断箭</span></div><div class="wk"><img src="assets/movies/w_12100.jpg" alt="" loading="lazy"><span>风语者</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_8891.jpg" alt="" loading="lazy">
+                <div class="p-name">约翰·特拉沃尔塔 <span class="p-role">主演（肖恩·阿彻）</span></div>
+              </div>
+              <div class="p-note">美国演员、歌手。《周末夜狂热》《油脂》《低俗小说》《变脸》《剑鱼行动》。本片他演肖恩·阿彻——一个为儿子报仇的 FBI 探员。<b>全片最大的表演难题是两个人实际要分饰四角</b>：每人除了自己，还要演「对方披着自己脸」的样子。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_680.jpg" alt="" loading="lazy"><span>低俗小说</span></div><div class="wk"><img src="assets/movies/w_13053.jpg" alt="" loading="lazy"><span>闪电狗</span></div><div class="wk"><img src="assets/movies/w_621.jpg" alt="" loading="lazy"><span>油脂</span></div><div class="wk"><img src="assets/movies/w_9705.jpg" alt="" loading="lazy"><span>剑鱼行动</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_2963.jpg" alt="" loading="lazy">
+                <div class="p-name">尼古拉斯·凯奇 <span class="p-role">主演（卡斯特·特洛伊）</span></div>
+              </div>
+              <div class="p-note">美国演员、制片，奥斯卡影帝（《离开拉斯维加斯》）。《离开拉斯维加斯》《变脸》《国家宝藏》《疯狂原始人》。本片他演卡斯特·特洛伊——一个把杀人当成仪式来经营的恐怖分子，也是全片唯一一个不需要换脸就换了整个人生的人。往期第 7 期《长腿怪》、第 9 期《冲浪惊魂》的主创卡片上都是他。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_49519.jpg" alt="" loading="lazy"><span>疯狂原始人</span></div><div class="wk"><img src="assets/movies/w_2059.jpg" alt="" loading="lazy"><span>国家宝藏</span></div><div class="wk"><img src="assets/movies/w_1250.jpg" alt="" loading="lazy"><span>恶灵骑士</span></div><div class="wk"><img src="assets/movies/w_13811.jpg" alt="" loading="lazy"><span>神秘代码</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最狠的一笔不在换脸成功，而在换脸之后——肖恩以卡斯特的身份在监狱里演戏，演得越像坏人，越没人信他是警察；而卡斯特披着肖恩的脸，第一件事是去吻他的妻子。轻微剧透：吴宇森让两个人互换的不只是名字，是「谁有资格被爱」：肖恩失去的是家人眼里的自己，卡斯特抢走的是勋章与客厅。结尾那场快艇追逐，是全片唯一一次让两个人都不戴面具地打——脸已经换回来了，观众却已经分不清谁是谁。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「身份互换能被推到多狠」的人；能接受设定经不起医学推敲、动作场面全面风格化、以及 138 分钟情绪饱满到近乎歌剧的观众。R 级，枪战与暴力场面密集，建议成年观看。内地未映，流媒体可看。看完想继续：《无间道》（往期第 23 期）、《剑鱼行动》、《致命魔术》（往期第 14 期）。</p>
+    </div>
+  </section>
+  <section class="card" id="m2">
+    <div class="no">02</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/fight_550_poster.jpg" alt="搏击俱乐部 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">剧情 / 惊悚（美国 · 一间地下室与一栋在建公寓）</span><span class="year">1999 · 美国 / 德国 · 139 分钟 · 内地未映（R 级）</span></div>
+        <h2>搏击俱乐部 <span class="en">Fight Club</span></h2>
+        <div class="rates"><span class="rate"><b>9.0</b>豆瓣</span><span class="rate"><b>81%</b>烂番茄</span><span class="rate"><b>67</b>Metacritic</span><span class="rate"><b>8.8</b>IMDb</span></div>
+        <p class="oneline">「搏击俱乐部的第一条规则：不许谈论搏击俱乐部。」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>失眠的白领杰克靠参加绝症互助会骗眼泪入睡，直到假哭女玛拉出现，把他的觉也弄没了。飞机上他认识卖肥皂的泰勒·德顿——住在他对面的疯子、敢把电影胶片剪进儿童片里的人。某天两人在停车场互殴了一场，忽然所有人都想再来一次。搏击俱乐部从地下室一间开始，一座城市一座城市地长，最后长成了要烧掉信用卡记录中心的东西。而杰克渐渐发现：全城通缉的那个疯子，身份证上的名字是他自己。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>大卫·芬奇导演，改编自恰克·帕拉尼克 1996 年的小说，吉姆·乌尔斯编剧——<b>这是芬奇把「风格即叙事」推到顶格的一部</b>。</li><li>成本约 6300 万美元，全球票房约 1 亿美元——<b>院线是亏的</b>，是后来的 DVD 租赁与电视重播把它养成世纪之交最大的邪典片之一。</li><li>第 73 届奥斯卡最佳音效剪辑提名；烂番茄 81% / Metacritic 67 / IMDb 8.8 / 豆瓣 9.0——<b>本期豆瓣与 IMDb 双料最高</b>。</li><li>皮特与诺顿在片中只真正同框几场戏，大部分「对手戏」是杰克一个人的独白；诺顿在访谈里说过，泰勒是谁这个问题，剧本从头到尾没打算偷偷藏住。</li><li>2022 年 1 月腾讯视频上线内地版，<b>删了 12 分钟还改掉了结局</b>，芬奇公开回应「如果不喜欢这个故事，为什么要买它呢」；后来平台把结尾还原了。</li><li>首映时的媒体评价两极，有影评人骂它是「深深的法西斯主义艺术作品」——二十多年后，这种骂战本身也成了它的一部分。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/fight_550_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/fight_550_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/fight_550_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_7467.jpg" alt="" loading="lazy">
+                <div class="p-name">大卫·芬奇 <span class="p-role">导演</span></div>
+              </div>
+              <div class="p-note">美国导演、制片，MV 与广告出身，以完美主义和冷峻风格著称。《七宗罪》《搏击俱乐部》《社交网络》《龙纹身的女孩》《消失的爱人》。本片是他最著名、被引用最多的一部。<b>他在往期第 13、34、35、36、41 期五度出现</b>（《消失的爱人》《社交网络》《十二宫》《龙纹身的女孩》《战栗空间》全是他的）。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_807.jpg" alt="" loading="lazy"><span>七宗罪</span></div><div class="wk"><img src="assets/movies/w_210577.jpg" alt="" loading="lazy"><span>消失的爱人</span></div><div class="wk"><img src="assets/movies/w_4922.jpg" alt="" loading="lazy"><span>本杰明·巴顿奇事</span></div><div class="wk"><img src="assets/movies/w_37799.jpg" alt="" loading="lazy"><span>社交网络</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_819.jpg" alt="" loading="lazy">
+                <div class="p-name">爱德华·诺顿 <span class="p-role">主演（杰克 / 叙述者）</span></div>
+              </div>
+              <div class="p-note">美国演员、制片。《一级恐惧》《美国X档案》《搏击俱乐部》《无敌浩克》《魔术师》。本片他演杰克——那个连名字都无关紧要的失眠白领，全片旁白密度第一。<b>往期第 18 期《一级恐惧》的主创卡片上就是他</b>，那部片里他演的也是一个「身份说不清」的人。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_1724.jpg" alt="" loading="lazy"><span>无敌浩克</span></div><div class="wk"><img src="assets/movies/w_73.jpg" alt="" loading="lazy"><span>美国X档案</span></div><div class="wk"><img src="assets/movies/w_1491.jpg" alt="" loading="lazy"><span>魔术师</span></div><div class="wk"><img src="assets/movies/w_9533.jpg" alt="" loading="lazy"><span>红龙</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_287.jpg" alt="" loading="lazy">
+                <div class="p-name">布拉德·皮特 <span class="p-role">主演（泰勒·德顿）</span></div>
+              </div>
+              <div class="p-note">美国演员、制片。《末路狂花》《低俗小说》《七宗罪》《搏击俱乐部》《僵尸世界大战》。本片他演泰勒·德顿——一个卖肥皂的梦话家，全片唯一不需要身份的人。往期第 22 期《僵尸世界大战》的主创卡片上也是他。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_16869.jpg" alt="" loading="lazy"><span>无耻混蛋</span></div><div class="wk"><img src="assets/movies/w_72190.jpg" alt="" loading="lazy"><span>僵尸世界大战</span></div><div class="wk"><img src="assets/movies/w_4922.jpg" alt="" loading="lazy"><span>本杰明·巴顿奇事</span></div><div class="wk"><img src="assets/movies/w_228150.jpg" alt="" loading="lazy"><span>狂怒</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：这部片的钩子从来不是「泰勒是不是幻觉」，是他为什么需要一个幻觉。轻微剧透：芬奇最狠的一处是把消费社会拍成一场失眠——杰克的家就是宜城样板间，每件东西都在告诉他该成为谁；而泰勒是他唯一一件「没有品牌」的所有物。结尾大楼一扇扇亮起的窗，是全片唯一一次让两个人同时出现在画面里，也是唯一一次让观众确认：这个幻觉已经比本人活得更好。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「人格分裂能被拍成多大的时代寓言」的人；能接受暴力场面直接、旁白密、价值观危险且刻意不给出安全答案的观众。R 级，建议成年观看。内地未映（流媒体版本有删改历史）。看完想继续：《美国精神病人》、《一级恐惧》（往期第 18 期）、《穆赫兰道》（往期第 13 期）。</p>
+    </div>
+  </section>
+  <section class="card" id="m3">
+    <div class="no">03</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/psycho_1359_poster.jpg" alt="美国精神病人 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">恐怖 / 惊悚 / 黑色讽刺（美国 / 加拿大 · 1987 年曼哈顿上西区）</span><span class="year">2000 · 美国 / 加拿大 · 102 分钟 · 内地未映（R 级，另有未分级版）</span></div>
+        <h2>美国精神病人 <span class="en">American Psycho</span></h2>
+        <div class="rates"><span class="rate"><b>8.0</b>豆瓣</span><span class="rate"><b>68%</b>烂番茄</span><span class="rate"><b>64</b>Metacritic</span><span class="rate"><b>7.6</b>IMDb</span></div>
+        <p class="oneline">「我只是想把一切做得体面。」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>帕特里克·贝特曼，华尔街投资银行副总裁，二十七岁，英俊、富有，每晚都在正确的餐厅订正确的位子。他对名片纸张的执着超过对任何同类的关心，对护肤流程的熟悉超过对母亲的问候。天黑之后他还有另一份生活：杀人。问题在于他身边的每个人都长得一样、说得一样、记不住对方的名字——所以当他终于向律师自首时，对方只当他在开玩笑。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>玛丽·哈伦导演并与吉尼维尔·透纳联合编剧，改编自布莱特·伊斯顿·埃利斯 1991 年那本「没法改编」的小说。</li><li>成本约 700 万美元，全球票房约 3400 万美元——<b>以小博大的邪典教科书</b>，贝尔则凭它拿下一串影评人协会奖，从此进入一线。</li><li>贝尔为角色练出的体脂与笑容是全片最著名的「特效」：那张脸在说「我很好」的时候，观众后背发凉。</li><li>本片在圣丹斯首映时评价两极，《纽约时报》称之为「刻薄而精瘦的恐怖喜剧经典」；罗杰·伊伯特给出三星，说贝尔「乐于跳进卑劣里，毫无自保本能——这是好演员的标志」。</li><li><b>结局是故意不给你答案的</b>：那些谋杀到底发生没有，小说和电影都拒绝确认，而这恰恰是全片对「没人在乎」这个主题最狠的一次执行。</li><li>烂番茄 68% / Metacritic 64 / IMDb 7.6 / 豆瓣 8.0：专业与观众评价都不算高，但<b>它是本期被引用、被模仿、被做成迷因最多的一部</b>。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/psycho_1359_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/psycho_1359_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/psycho_1359_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_16378.jpg" alt="" loading="lazy">
+                <div class="p-name">玛丽·哈伦 <span class="p-role">导演 / 编剧</span></div>
+              </div>
+              <div class="p-note">加拿大导演、编剧，影评人出身。《我杀了安迪·沃霍尔》《美国精神病人》《大名鼎鼎的贝蒂·佩吉》《查理说》。本片是她最著名的一部——把一个公认「无法改编」的小说拍成了邪典经典。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_471859.jpg" alt="" loading="lazy"><span>查理说</span></div><div class="wk"><img src="assets/movies/w_26890.jpg" alt="" loading="lazy"><span>我杀了安迪·沃霍尔</span></div><div class="wk"><img src="assets/movies/w_15402.jpg" alt="" loading="lazy"><span>大名鼎鼎的贝蒂·佩吉</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_3894.jpg" alt="" loading="lazy">
+                <div class="p-name">克里斯蒂安·贝尔 <span class="p-role">主演（帕特里克·贝特曼）</span></div>
+              </div>
+              <div class="p-note">英国演员，奥斯卡最佳男配角（《斗士》）。《机械师》《致命魔术》《蝙蝠侠》三部曲、《美国精神病人》《斗士》。本片他演帕特里克·贝特曼——一个用笑容完成全部表演的角色。<b>往期第 14、19、22、34 期都出现过</b>（《致命魔术》《机械师》《撕裂的末日》《大空头》），是片单里出现频率最高的演员之一。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_155.jpg" alt="" loading="lazy"><span>蝙蝠侠：黑暗骑士</span></div><div class="wk"><img src="assets/movies/w_49026.jpg" alt="" loading="lazy"><span>蝙蝠侠：黑暗骑士崛起</span></div><div class="wk"><img src="assets/movies/w_272.jpg" alt="" loading="lazy"><span>蝙蝠侠：侠影之谜</span></div><div class="wk"><img src="assets/movies/w_1124.jpg" alt="" loading="lazy"><span>致命魔术</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_5293.jpg" alt="" loading="lazy">
+                <div class="p-name">威廉·达福 <span class="p-role">主演（金博尔警探）</span></div>
+              </div>
+              <div class="p-note">美国演员，两次获奥斯卡提名（《野战排》《梵高·永恒之门》）。《基督最后的诱惑》《蜘蛛侠》《灯塔》《疾速追杀》《海王》。本片他演金博尔警探——唯一一个怀疑过贝特曼的人，而他追查的方式是留下一张名片。往期第 35 期《灯塔》的主创卡片上就是他，那部片里他演的是一个彻底疯掉的两个人。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_557.jpg" alt="" loading="lazy"><span>蜘蛛侠</span></div><div class="wk"><img src="assets/movies/w_245891.jpg" alt="" loading="lazy"><span>疾速追杀</span></div><div class="wk"><img src="assets/movies/w_12.jpg" alt="" loading="lazy"><span>海底总动员</span></div><div class="wk"><img src="assets/movies/w_297802.jpg" alt="" loading="lazy"><span>海王</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最恐怖的一场戏是名片——四个人站着比较谁的名片更体面，而观众已经看过贝尔前一小时干了什么。轻微剧透：哈伦最聪明的一处，是让「双重生活」不再是秘密：所有人都看得见贝特曼在装，只是没人有空拆穿。结尾他听着音乐坐下，那句「没有所谓的出路」被当成笑话讲出来——这是全片唯一一次让观众和他一起笑，也是唯一一次让人意识到，他可能真的是在求救。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「讽刺能被演得多精确」的人；能接受暴力场面冷酷直接、价值观极度不适、以及它本质上是一部关于一九八零年代美国的恐怖喜剧的观众。R 级（未分级版更重），建议成年观看。内地未映。看完想继续：《搏击俱乐部》、《消失的爱人》（往期第 13 期）、《狗镇》。</p>
+    </div>
+  </section>
+  <section class="card" id="m4">
+    <div class="no">04</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/bourne_2501_poster.jpg" alt="谍影重重 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">动作 / 悬疑 / 惊悚（美国 / 德国 / 捷克 · 从地中海到巴黎的一条逃命线）</span><span class="year">2002 · 美国 / 德国 / 捷克 · 119 分钟 · 2002-11-22 内地上映（PG-13）</span></div>
+        <h2>谍影重重 <span class="en">The Bourne Identity</span></h2>
+        <div class="rates"><span class="rate"><b>8.6</b>豆瓣</span><span class="rate"><b>84%</b>烂番茄</span><span class="rate"><b>68</b>Metacritic</span><span class="rate"><b>7.8</b>IMDb</span></div>
+        <p class="oneline">「为什么我知道那个人是左撇子？为什么我知道这些，却不知道我是谁？」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>一艘渔船在地中海捞起一个身上带枪、臀部嵌着激光定位账户号码的男人。他醒了，什么都不记得，却会说四国语言、会用一本书和一支笔放倒一个特工、能在三秒内记住一条街上所有的车牌。他叫杰森·伯恩——至少账户是这么写的。而他每查到一个线索，就多一个人来杀他；他每逃过一轮追杀，就多一分证据表明：追杀他的不是敌人，是他自己的过去。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>道格·里曼导演，托尼·吉尔罗伊参与编剧，改编自罗伯特·鲁德鲁姆的同名小说，<b>整个系列的处女作</b>；成本约 6000 万美元，全球票房约 2.14 亿美元。</li><li>本片重新定义了千禧年以后的动作片语法：<b>手持摄影、快速剪辑、实战格斗</b>——「特工」从此从礼服晚宴回到尘土里。</li><li>马特·达蒙此前是文艺片与冲奥片里的面孔，这部片让他直接多了一条「能打」的戏路；弗朗卡·波滕特演的玛丽，是全系列唯一一个让伯恩慢下来的人。</li><li>克里夫·欧文演的「教授」只有一场戏——那场处决戏是系列里最常被剪出来反复观看的片段。</li><li><b>内地 2002 年 11 月 22 日全国同步上映</b>（进口大片停映 50 天后重新登陆的批次之一），长春电影制片厂译制，是很多内地观众在大银幕上看到的第一部「失忆特工」。</li><li>豆瓣 8.6 / 烂番茄 84% / Metacritic 68 / IMDb 7.8：本期四项评分最均衡的一部；从续集《谍影重重2》起，导演换成了保罗·格林格拉斯。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/bourne_2501_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/bourne_2501_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/bourne_2501_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_11694.jpg" alt="" loading="lazy">
+                <div class="p-name">道格·里曼 <span class="p-role">导演 / 制片</span></div>
+              </div>
+              <div class="p-note">美国导演、制片。《史密斯夫妇》《心灵传输者》《谍影重重》《明日边缘》《美国行动》。本片让他第一次把「失忆特工」拍成系列。<b>往期第 20 期《明日边缘》也是他导的</b>——那部片同样是一个「每天重来一次」的男人。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_137113.jpg" alt="" loading="lazy"><span>明日边缘</span></div><div class="wk"><img src="assets/movies/w_787.jpg" alt="" loading="lazy"><span>史密斯夫妇</span></div><div class="wk"><img src="assets/movies/w_8247.jpg" alt="" loading="lazy"><span>心灵传输者</span></div><div class="wk"><img src="assets/movies/w_337170.jpg" alt="" loading="lazy"><span>美国行动</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_1892.jpg" alt="" loading="lazy">
+                <div class="p-name">马特·达蒙 <span class="p-role">主演（杰森·伯恩）</span></div>
+              </div>
+              <div class="p-note">美国演员、编剧、制片，奥斯卡最佳原创剧本（《心灵捕手》）。《心灵捕手》《谍影重重》系列、《火星救援》《传染病》《奥本海默》。本片他演杰森·伯恩——一个每想起一件事就少一个身份的人。<b>往期第 2、3、35、40 期都出现过</b>（《全信没收》《奥德赛》《火星救援》《传染病》）。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_286217.jpg" alt="" loading="lazy"><span>火星救援</span></div><div class="wk"><img src="assets/movies/w_489.jpg" alt="" loading="lazy"><span>心灵捕手</span></div><div class="wk"><img src="assets/movies/w_68724.jpg" alt="" loading="lazy"><span>极乐空间</span></div><div class="wk"><img src="assets/movies/w_359724.jpg" alt="" loading="lazy"><span>极速车王</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_679.jpg" alt="" loading="lazy">
+                <div class="p-name">弗朗卡·波滕特 <span class="p-role">主演（玛丽）</span></div>
+              </div>
+              <div class="p-note">德国演员。《罗拉快跑》《谍影重重》系列、《大毒枭》《地铁惊魂》。本片她演玛丽——全系列唯一让伯恩慢下来的人，那场小车里的戏是系列的情感地基。往期第 36 期《罗拉快跑》的主创卡片上就是她，那部片她演的是一个为一件事重来三次的女人。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_2502.jpg" alt="" loading="lazy"><span>谍影重重2</span></div><div class="wk"><img src="assets/movies/w_104.jpg" alt="" loading="lazy"><span>罗拉快跑</span></div><div class="wk"><img src="assets/movies/w_4133.jpg" alt="" loading="lazy"><span>大毒枭</span></div><div class="wk"><img src="assets/movies/w_8555.jpg" alt="" loading="lazy"><span>地铁惊魂</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片的转折不在「他想起了什么」，在他决定不再想——从巴黎那间安全屋出来之后，伯恩追的不再是身份，是「不当武器」这个选项。轻微剧透：里曼最有效的一处是把失忆拍成道德问题而不是悬念问题：每次回忆回来一点，观众就多一分理解他为什么想不起来。结尾他在地中海边找到玛丽时的那个笑，是全片唯一一次让这个人拥有名字之外的身份——一个普通人。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「失忆能被拍成多大的道德困境」的人；能接受动作场面粗糙写实、阴谋线故意不解释、以及它本质是一部「系列开篇」所以留了很多尾巴的观众。PG-13。内地公映过，流媒体可看。看完想继续：《明日边缘》（往期第 20 期，同一位导演）、《谍影重重2》、《谍影重重3》。</p>
+    </div>
+  </section>
+  <section class="card" id="m5">
+    <div class="no">05</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/catch_640_poster.jpg" alt="猫鼠游戏 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">剧情 / 传记 / 犯罪（美国 / 加拿大 · 1960 年代全美各地的一场冒充人生）</span><span class="year">2002 · 美国 / 加拿大 · 141 分钟 · 2003-04-11 内地上映（PG-13）</span></div>
+        <h2>猫鼠游戏 <span class="en">Catch Me If You Can</span></h2>
+        <div class="rates"><span class="rate"><b>9.1</b>豆瓣</span><span class="rate"><b>96%</b>烂番茄</span><span class="rate"><b>75</b>Metacritic</span><span class="rate"><b>8.1</b>IMDb</span></div>
+        <p class="oneline">「两只老鼠掉进一桶奶油里。第一只放弃了，淹死了；第二只拼命划啊划，把奶油搅成了黄油，爬了出来。」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>十六岁的弗兰克·阿巴格纳尔在父母离婚、家产败光的那天晚上离家出走。他发现全世界最好骗的东西不是钱，是「身份」：一套制服、一张证件、一个自信的微笑，就能让他当上泛美航空的机长、医院的儿科主治、律师事务所的毕业生。FBI 探员卡尔·汉拉蒂追了他五年，两个人越追越像——而弗兰克每换一个身份，就离家更远一点。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>斯皮尔伯格导演，杰夫·内桑森编剧，改编自弗兰克·阿巴格纳尔本人的自传——<b>这是斯皮尔伯格最「轻」的一部电影，也是他最不含糊的一部</b>。</li><li>成本约 5200 万美元，全球票房约 3.52 亿美元；第 75 届奥斯卡最佳男配角（克里斯托弗·沃肯）与最佳原创配乐（约翰·威廉姆斯）两项提名，沃肯另拿英国电影学院奖最佳男配角。</li><li>弗兰克在片里冒充过<b>副机长、儿科医生、律师、教师</b>——每一种身份都配齐一套完整的谈资与手势，表演乐趣全在「下一秒会不会露馅」。</li><li>汤姆·汉克斯演的汉拉蒂是全片的定海神针：一个每年只在圣诞夜加班、打电话回家没人接的孤独探员——<b>追捕到最后，他成了弗兰克唯一稳定的关系</b>。</li><li>内地 2003 年 4 月 11 日上映，是很多内地观众第一次在大银幕上看「高智商诈骗」题材；约翰·威廉姆斯的配乐被乐评人视为他后期最灵动的作品之一。</li><li>豆瓣 9.1 / 烂番茄 96% / Metacritic 75 / IMDb 8.1：<b>本期四项评分全部居前</b>，也是本期口碑最齐的一部。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/catch_640_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/catch_640_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/catch_640_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_488.jpg" alt="" loading="lazy">
+                <div class="p-name">史蒂文·斯皮尔伯格 <span class="p-role">导演</span></div>
+              </div>
+              <div class="p-note">美国导演、制片，影史票房最高的导演之一。《大白鲨》《E.T.》《辛德勒的名单》《拯救大兵瑞恩》《猫鼠游戏》《头号玩家》。本片被他本人称为最不像自己的一部——没有奇观，只有两个人打着电话跨越美国。<b>往期第 4、26、36、38、39 期都出现过</b>（《揭秘日》《大白鲨》《侏罗纪公园》《人工智能》《头号玩家》）。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_329.jpg" alt="" loading="lazy"><span>侏罗纪公园</span></div><div class="wk"><img src="assets/movies/w_424.jpg" alt="" loading="lazy"><span>辛德勒的名单</span></div><div class="wk"><img src="assets/movies/w_857.jpg" alt="" loading="lazy"><span>拯救大兵瑞恩</span></div><div class="wk"><img src="assets/movies/w_333339.jpg" alt="" loading="lazy"><span>头号玩家</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_6193.jpg" alt="" loading="lazy">
+                <div class="p-name">莱昂纳多·迪卡普里奥 <span class="p-role">主演（弗兰克·阿巴格纳尔）</span></div>
+              </div>
+              <div class="p-note">美国演员、制片，奥斯卡影帝（《荒野猎人》）。《泰坦尼克号》《盗梦空间》《华尔街之狼》《猫鼠游戏》《荒野猎人》。本片他演小弗兰克——一个把「长大」理解成「换制服」的少年。<b>往期第 4、12、35、45 期都出现过</b>（《一战再战》《禁闭岛》《盗梦空间》《荒野猎人》）。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_27205.jpg" alt="" loading="lazy"><span>盗梦空间</span></div><div class="wk"><img src="assets/movies/w_597.jpg" alt="" loading="lazy"><span>泰坦尼克号</span></div><div class="wk"><img src="assets/movies/w_106646.jpg" alt="" loading="lazy"><span>华尔街之狼</span></div><div class="wk"><img src="assets/movies/w_11324.jpg" alt="" loading="lazy"><span>禁闭岛</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_31.jpg" alt="" loading="lazy">
+                <div class="p-name">汤姆·汉克斯 <span class="p-role">主演（卡尔·汉拉蒂）</span></div>
+              </div>
+              <div class="p-note">美国演员、制片，两届奥斯卡影帝（《费城故事》《阿甘正传》）。《阿甘正传》《拯救大兵瑞恩》《猫鼠游戏》《芬奇》。本片他演卡尔·汉拉蒂——全片唯一一个每年圣诞夜都在加班的人。往期第 40 期《芬奇》的主创卡片上就是他，那部片里他演的是一个和机器人作伴的孤独发明家。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_13.jpg" alt="" loading="lazy"><span>阿甘正传</span></div><div class="wk"><img src="assets/movies/w_862.jpg" alt="" loading="lazy"><span>玩具总动员</span></div><div class="wk"><img src="assets/movies/w_497.jpg" alt="" loading="lazy"><span>绿里奇迹</span></div><div class="wk"><img src="assets/movies/w_857.jpg" alt="" loading="lazy"><span>拯救大兵瑞恩</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最疼的一场戏不是被捕，是弗兰克从跑掉的飞机上被押下来时回头望的那一眼——他终于又有机会当个正常人，代价是承认前面所有人生都是借的。轻微剧透：斯皮尔伯格把「奶油与两只老鼠」那个比喻留给结尾的圣诞夜：汉拉蒂放他走的那几分钟，是全片唯一一次让两个人都不再扮演任何角色。故事原型弗兰克·阿巴格纳尔后来真的为 FBI 做了几十年反诈骗顾问——电影结尾那句字幕，是这部片最温柔的一笔。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「骗术能被拍得多么优雅」的人；能接受主角光环偏大、部分情节为了好看而加速、以及它本质上是一部合家欢 PG-13 的观众。建议初中以上观看。内地公映过，流媒体可看。看完想继续：《一级恐惧》（往期第 18 期）、《逍遥法外》原著、《惊天魔盗团》。</p>
+    </div>
+  </section>
+  <section class="card" id="m6">
+    <div class="no">06</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/lust_4588_poster.jpg" alt="色，戒 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">剧情 / 爱情 / 惊悚（中国台湾 / 中国大陆 / 美国 / 中国香港 · 1938 香港与 1942 上海）</span><span class="year">2007 · 中国台湾 / 中国大陆 / 美国 / 中国香港 · 158 分钟（内地删减版 145 分钟）· 2007-11-01 内地上映删减版（限制级）</span></div>
+        <h2>色，戒 <span class="en">Lust, Caution</span></h2>
+        <div class="rates"><span class="rate"><b>8.4</b>豆瓣</span><span class="rate"><b>72%</b>烂番茄</span><span class="rate"><b>61</b>Metacritic</span><span class="rate"><b>7.5</b>IMDb</span></div>
+        <p class="oneline">「快走。」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>岭南大学话剧团的几个学生决定为抗战做一件实事：刺杀汪伪政权的特务头子易先生。办法是美人计——漂亮的女学生王佳芝化名「麦太太」，一点点接近易太太，再让易先生自己走进来。第一次行动在易先生突然调去上海时流产；三年后他们在上海重来一遍。而这一次，戏越演越真：她每晚都在演一个不存在的女人，只有在他面前不必演——于是那句「快走」，把所有人的命都换了。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>李安导演，王蕙玲与詹姆士·沙穆斯编剧，改编自张爱玲 1979 年的短篇；<b>威尼斯电影节金狮奖</b>——李安继《断背山》之后第二次拿到金狮。</li><li>成本约 1500 万美元，全球票房约 6700 万美元；剧组为重现老上海，花 2000 万重建了南京西路一段 800 米的街面、搭了 13 幢楼。</li><li>梁朝伟凭易先生拿到第三座金马影帝，完成史无前例的三连；汤唯则从这部片开始，成为华语影坛近二十年最受讨论的新面孔之一。</li><li>三段床戏是这部片被谈论最多的部分，李安自己的说法是「<b>拍的不是情欲，是权力</b>」——第一场是搜身，第二场是拉锯，第三场才是交付。</li><li>美国 NC-17、中国台湾限制级、中国香港三级；内地公映的是 145 分钟删减版（比完整版短约 13 分钟），<b>是本片唯一在内地公映过的版本</b>。</li><li>豆瓣 8.4 / 烂番茄 72% / Metacritic 61 / IMDb 7.5：华语口碑明显高于欧美专业评价，是本期落差最大的文艺片。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/lust_4588_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/lust_4588_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/lust_4588_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_1614.jpg" alt="" loading="lazy">
+                <div class="p-name">李安 <span class="p-role">导演 / 制片</span></div>
+              </div>
+              <div class="p-note">中国台湾导演、制片，两届奥斯卡最佳导演（《断背山》《少年派的奇幻漂流》），两届威尼斯金狮（《断背山》《色，戒》）。《推手》《喜宴》《卧虎藏龙》《断背山》《少年派的奇幻漂流》。本片是他唯一一次拍大尺度谍战，也是他公认最危险的一次创作。<b>往期第 31、39 期都出现过</b>（《卧虎藏龙》《少年派的奇幻漂流》）。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_87827.jpg" alt="" loading="lazy"><span>少年派的奇幻漂流</span></div><div class="wk"><img src="assets/movies/w_142.jpg" alt="" loading="lazy"><span>断背山</span></div><div class="wk"><img src="assets/movies/w_1927.jpg" alt="" loading="lazy"><span>绿巨人浩克</span></div><div class="wk"><img src="assets/movies/w_453405.jpg" alt="" loading="lazy"><span>双子杀手</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_1337.jpg" alt="" loading="lazy">
+                <div class="p-name">梁朝伟 <span class="p-role">主演（易先生）</span></div>
+              </div>
+              <div class="p-note">中国香港演员，五届金像奖影帝、三届金马影帝、戛纳影帝（《花样年华》）。《花样年华》《无间道》《色，戒》《一代宗师》。本片他演易先生——一个把恐惧穿成西装的人，凭此角拿到第三座金马影帝。往期第 23 期《无间道》的主创卡片上就是他，那部片里他演的是另一个「身份说不清」的警察。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_566525.jpg" alt="" loading="lazy"><span>尚气与十环传奇</span></div><div class="wk"><img src="assets/movies/w_843.jpg" alt="" loading="lazy"><span>花样年华</span></div><div class="wk"><img src="assets/movies/w_79.jpg" alt="" loading="lazy"><span>英雄</span></div><div class="wk"><img src="assets/movies/w_844.jpg" alt="" loading="lazy"><span>2046</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_38280.jpg" alt="" loading="lazy">
+                <div class="p-name">汤唯 <span class="p-role">主演（王佳芝）</span></div>
+              </div>
+              <div class="p-note">中国演员。《色，戒》《晚秋》《分手的决心》《地球最后的夜晚》。本片是她的长片处女作，一战成名也一度沉寂数年，后来凭《分手的决心》回到国际视野。往期第 33 期《分手的决心》的主创卡片上就是她——那部片里她演的也是一个「身份是谎」的女人。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_705996.jpg" alt="" loading="lazy"><span>分手的决心</span></div><div class="wk"><img src="assets/movies/w_201088.jpg" alt="" loading="lazy"><span>骇客交锋</span></div><div class="wk"><img src="assets/movies/w_486898.jpg" alt="" loading="lazy"><span>地球最后的夜晚</span></div><div class="wk"><img src="assets/movies/w_635996.jpg" alt="" loading="lazy"><span>梦境</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最狠的一笔是那枚钻戒——易先生把最罕见的六克拉粉钻递给她的时候，她看见的是「这个人也有真心」，而观众看见的是整场刺杀计划就此悬停。轻微剧透：李安全片都在问「演到第几遍会变成真的」，结尾她在放走他之后走出珠宝店，街上特务站定的位置和话剧舞台的走位一模一样——这一笔把整部片收进了第一场戏的那句台词里。王佳芝不是在爱情与任务之间选了爱情，她是在「继续演麦太太」和「做回王佳芝」之间，选了后者三秒钟。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「一场戏能被拍得多层」的人；能接受大尺度场面、节奏极慢、以及它本质上是一部关于「假身份怎么长出真心」的残酷寓言的观众。限制级，仅建议成年观看。内地公映删减版，完整版需另找渠道。看完想继续：《花样年华》（梁朝伟）、《断背山》（李安，往期第 39 期）、张爱玲原著。</p>
+    </div>
+  </section>
+  <section class="card" id="m7">
+    <div class="no">07</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/msg_32582_poster.jpg" alt="风声 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">悬疑 / 惊悚 / 战争（中国 · 1942 年一座被软禁五人组的裘庄）</span><span class="year">2009 · 中国 · 118 分钟 · 2009-09-29 内地上映</span></div>
+        <h2>风声 <span class="en">The Message</span></h2>
+        <div class="rates"><span class="rate"><b>8.4</b>豆瓣</span><span class="rate"><b>7.3</b>IMDb</span></div>
+        <p class="oneline">「我亲爱的人，我对你们如此无情，只因民族已到存亡之际，我辈只能奋不顾身，挽救于万一。」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>1942 年，汪伪政权接连遇刺。一次酷刑审问之后，特务处长王田香得到一条情报：代号「老鬼」的中共地下党就在剿匪司令部那栋小楼里，而且马上就要把情报送出去。日军特务机关长武田把五个嫌疑人关进裘庄：译电科顾晓梦、军机处李宁玉、司令侍从官吴志国、机要秘书白小年、剿匪大队长金生火。酷刑、试探、互相撕咬——老鬼只需要再传出一条消息，而其他四个人里，每一个都可能是他。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>陈国富与高群书联合导演，张家鲁参与编剧，改编自麦家的同名小说——<b>第一部真正意义上的国产商业谍战大片</b>。</li><li>豆瓣 8.4（超 1000 万人评价）/ IMDb 7.3 / 猫眼 8.9：华语口碑全线高位，本期豆瓣并列第二。</li><li>李冰冰凭李宁玉拿到第 46 届金马奖最佳女主角；苏有朋凭白小年拿第 30 届大众电影百花奖最佳男配角；影片另获金马奖改编剧本、视觉效果、美术、造型四项提名。</li><li>周迅演的顾晓梦与李冰冰演的李宁玉是两种完全不同的「被困住的女人」：一个用疯癫护住秘密，一个用职业习惯护住尊严——<b>两人那场对手戏是全片最著名的片段</b>。</li><li>全片几乎只发生在一栋楼里：没有外景追车、没有枪战对垒，靠的是台词、刑罚与时间压力——<b>这是华语电影里把「暴风雪山庄」用得最彻底的一次</b>。</li><li>本片 2021 年被韩国买下改编权翻拍为《幽灵》（李海英执导，薛景求、李荷妮主演），原作的密闭审讯结构被整体平移。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/msg_32582_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/msg_32582_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/msg_32582_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_53218.jpg" alt="" loading="lazy">
+                <div class="p-name">陈国富 <span class="p-role">导演 / 监制</span></div>
+              </div>
+              <div class="p-note">中国台湾导演、监制，华语影坛著名的「片子背后的那个人」。《双瞳》《风声》《狄仁杰》系列、《画皮》系列。本片是他与高群书联合执导、也是他最著名的一部。<b>往期第 31 期《双瞳》的主创卡片上就是他</b>——那部片同样是一栋楼里几个人逐个死掉的悬疑结构。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_48492.jpg" alt="" loading="lazy"><span>狄仁杰之通天帝国</span></div><div class="wk"><img src="assets/movies/w_217923.jpg" alt="" loading="lazy"><span>狄仁杰之神都龙王</span></div><div class="wk"><img src="assets/movies/w_121823.jpg" alt="" loading="lazy"><span>太极1：从零开始</span></div><div class="wk"><img src="assets/movies/w_149085.jpg" alt="" loading="lazy"><span>太极2：英雄崛起</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_71057.jpg" alt="" loading="lazy">
+                <div class="p-name">周迅 <span class="p-role">主演（顾晓梦）</span></div>
+              </div>
+              <div class="p-note">中国演员、歌手。《苏州河》《如果·爱》《李米的猜想》《画皮》《风声》《涉过愤怒的海》。本片她演顾晓梦——全片最难演的一个角色：看似任性，实则每一步都在护人。<b>往期第 38 期《涉过愤怒的海》的主创卡片上就是她。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_83542.jpg" alt="" loading="lazy"><span>云图</span></div><div class="wk"><img src="assets/movies/w_11599.jpg" alt="" loading="lazy"><span>苏州河</span></div><div class="wk"><img src="assets/movies/w_81870.jpg" alt="" loading="lazy"><span>龙门飞甲</span></div><div class="wk"><img src="assets/movies/w_37034.jpg" alt="" loading="lazy"><span>苏乞儿</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_109432.jpg" alt="" loading="lazy">
+                <div class="p-name">李冰冰 <span class="p-role">主演（李宁玉）</span></div>
+              </div>
+              <div class="p-note">中国演员、制片。《功夫之王》《生化危机5：惩罚》《变形金刚4》《风声》《巨齿鲨》。本片她演李宁玉——一个用职业习惯守住尊严的女人，凭此角拿到第 46 届金马奖最佳女主角。<b>她就是上一期第 46 期《巨齿鲨》主创卡片上的张苏茵</b>——那部片里她演的海洋生物学家同样冷静、同样专业。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_345940.jpg" alt="" loading="lazy"><span>巨齿鲨</span></div><div class="wk"><img src="assets/movies/w_91314.jpg" alt="" loading="lazy"><span>变形金刚4：绝迹重生</span></div><div class="wk"><img src="assets/movies/w_71679.jpg" alt="" loading="lazy"><span>生化危机5：惩罚</span></div><div class="wk"><img src="assets/movies/w_1729.jpg" alt="" loading="lazy"><span>功夫之王</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片的真正转折是「老鬼是谁」这个问题本身——它逼着五个人互相出卖，而观众跟着裁掉的每一个人，都在缩小「谁还可能是老鬼」的范围。轻微剧透：陈国富与高群书最狠的一处是把信仰拍成体力活：那件缝着摩斯电码的衣服，比任何一场刑讯都更接近这个人是谁。结尾裘庄里的灯一盏盏灭掉，留下的那段独白不是遗言，是收件人姓名。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「密闭空间里只有台词和眼神的悬疑能被推到多满」的人；能接受酷刑场面直接、群像戏份分配不均、以及它本质上是一部主旋律商业片却把悬念做到了最后一分钟的观众。建议高中以上观看。内地公映过，流媒体可看。看完想继续：《看不见的客人》（往期第 13 期）、《利刃出鞘》（往期第 13 期）、《幽灵》（韩版翻拍）。</p>
+    </div>
+  </section>
+  <section class="card" id="m8">
+    <div class="no">08</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/tinker_49517_poster.jpg" alt="锅匠，裁缝，士兵，间谍 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">剧情 / 悬疑 / 惊悚（英国 / 法国 / 德国 · 1973-74 年伦敦「圆场」的一间间办公室）</span><span class="year">2011 · 英国 / 法国 / 德国 · 127 分钟 · 内地未映（R 级）</span></div>
+        <h2>锅匠，裁缝，士兵，间谍 <span class="en">Tinker Tailor Soldier Spy</span></h2>
+        <div class="rates"><span class="rate"><b>7.9</b>豆瓣</span><span class="rate"><b>84%</b>烂番茄</span><span class="rate"><b>85</b>Metacritic</span><span class="rate"><b>7.0</b>IMDb</span></div>
+        <p class="oneline">「你是怎么找到一个就藏在眼前的人的呢？」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>冷战年间，英国情报机关「圆场」的最高层里有一个苏联鼹鼠，代号出自老总给五个怀疑对象起的花名：锅匠、裁缝、士兵、穷人、乞丐。布达佩斯的一次行动失败之后，老总被扫地出门、含恨而死，接替者把脾气发在了退休的乔治·史迈利身上——直到白厅私下请他回来，不动声色地找出那个人。没有枪、没有追车，史迈利翻的是档案、记忆，和一整层楼的沉默。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>托马斯·阿尔弗莱德森导演——<b>拍出瑞典版《生人勿进》的那位</b>，本片是他的第一部英语长片；编剧由布里奇特·奥康纳与彼特·斯特劳恩担任，改编自约翰·勒·卡雷 1974 年的同名小说。</li><li>成本约 3000 万美元，全球票房约 8150 万美元；第 84 届奥斯卡三项提名：<b>最佳男主角（加里·奥德曼）、最佳改编剧本、最佳原创配乐</b>；英国电影学院奖拿下最佳英国影片与最佳改编剧本。</li><li>加里·奥德曼演的史迈利是全片的心脏：一个被妻子背叛、被同僚排挤、戴着厚眼镜的胖男人，<b>靠沉默把一屋子聪明人全问倒了</b>；这也是奥德曼第一次拿到奥斯卡影帝提名。</li><li>科林·费尔斯演的比尔·海顿、汤姆·哈迪演的里奇·塔尔、约翰·赫特演的 Control、本尼迪克特·康伯巴奇演的彼得·吉勒姆——<b>本期卡司密度最高的一部</b>，几乎每个配角都拿得出一整条人物线。</li><li>全片的信息几乎全部藏在档案、照片、电话和一次眼科检查里；霍伊特·范·霍特玛的摄影把 1973 年的伦敦拍成一片棕灰色的雾。</li><li>豆瓣 7.9 / 烂番茄 84% / Metacritic 85 / IMDb 7.0：<b>Metacritic 85 是本期专业评价最高的一部</b>，而 IMDb 只有 7.0——慢节奏间谍片在观众端的天然折损。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/tinker_49517_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/tinker_49517_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/tinker_49517_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_74396.jpg" alt="" loading="lazy">
+                <div class="p-name">托马斯·阿尔弗莱德森 <span class="p-role">导演</span></div>
+              </div>
+              <div class="p-note">瑞典导演、编剧，以恐怖片《生人勿进》成名，本片是他的第一部英语长片，也是他目前最负盛名的一部。他还执导过《雪人》。本片之后他把重心转回了瑞典语制作。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_13310.jpg" alt="" loading="lazy"><span>生人勿进</span></div><div class="wk"><img src="assets/movies/w_372343.jpg" alt="" loading="lazy"><span>雪人</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_64.jpg" alt="" loading="lazy">
+                <div class="p-name">加里·奥德曼 <span class="p-role">主演（乔治·史迈利）</span></div>
+              </div>
+              <div class="p-note">英国演员，奥斯卡影帝（《至暗时刻》），另凭《锅匠，裁缝，士兵，间谍》《曼克》两度提名。《这个杀手不太冷》《惊情四百年》《哈利·波特》系列、《蝙蝠侠》系列、《至暗时刻》。本片他演乔治·史迈利——一个用沉默审问全场的退休特工，也是他生涯最著名的一次「收着演」。往期第 40 期《艾利之书》的主创卡片上就是他。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_49026.jpg" alt="" loading="lazy"><span>蝙蝠侠：黑暗骑士崛起</span></div><div class="wk"><img src="assets/movies/w_155.jpg" alt="" loading="lazy"><span>蝙蝠侠：黑暗骑士</span></div><div class="wk"><img src="assets/movies/w_6114.jpg" alt="" loading="lazy"><span>惊情四百年</span></div><div class="wk"><img src="assets/movies/w_399404.jpg" alt="" loading="lazy"><span>至暗时刻</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_5472.jpg" alt="" loading="lazy">
+                <div class="p-name">科林·费尔斯 <span class="p-role">主演（比尔·海顿）</span></div>
+              </div>
+              <div class="p-note">英国演员，奥斯卡影帝（《国王的演讲》）。《BJ单身日记》《国王的演讲》《王牌特工》系列、《库尔斯克》。本片他演比尔·海顿——圆场里最有魅力的人，也是全片最后才被认出的那个人。<b>往期第 34 期《国王的演讲》、第 44 期《库尔斯克》的主创卡片上都是他</b>——巧的是，那两部片他演的都是真实历史里有名字的人。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_45269.jpg" alt="" loading="lazy"><span>国王的演讲</span></div><div class="wk"><img src="assets/movies/w_207703.jpg" alt="" loading="lazy"><span>王牌特工：特工学院</span></div><div class="wk"><img src="assets/movies/w_343668.jpg" alt="" loading="lazy"><span>王牌特工2：黄金圈</span></div><div class="wk"><img src="assets/movies/w_634.jpg" alt="" loading="lazy"><span>BJ单身日记</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片的答案是通过一份借阅记录、一次通话和一副眼镜找到的——而找到的那一刻没有音乐、没有特写，只有史迈利回到家，把枪放在桌上。轻微剧透：阿尔弗莱德森最残忍的一处，是让「最可能叛变的人」恰好也是最有魅力的人：海顿的每一次现身都在解释为什么体制更喜欢他而不是史迈利。结尾史迈利坐上圆场主任的位置，观众却笑不出来——抓到了鼹鼠，输掉的是整代人对那个体制的信任。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「没有动作片的悬疑片能把张力做多满」的人；能接受大量英式冷幽默与术语、人物多达十几个、以及它要求你像史迈利一样自己拼图（不建议倍速观看）的观众。R 级。内地未映。看完想继续：《生人勿进》（导演前作）、《慕尼黑》、《谍影重重3》。</p>
+    </div>
+  </section>
+  <section class="card" id="m9">
+    <div class="no">09</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/us_458723_poster.jpg" alt="我们 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">恐怖 / 惊悚 / 悬疑（美国 · 圣克鲁斯海滨的一栋度假屋）</span><span class="year">2019 · 美国 · 116 分钟 · 内地未映（R 级）</span></div>
+        <h2>我们 <span class="en">Us</span></h2>
+        <div class="rates"><span class="rate"><b>6.4</b>豆瓣</span><span class="rate"><b>93%</b>烂番茄</span><span class="rate"><b>81</b>Metacritic</span><span class="rate"><b>6.8</b>IMDb</span></div>
+        <p class="oneline">「我们也是美国人。」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>1986 年，加州圣克鲁斯的海滨游乐场，小女孩阿德莱德在镜子屋里走散，遇见了另一个和自己一模一样的女孩。多年后，她带着丈夫和两个孩子回到故地度假，当晚，车道上站了四个穿红衣服的人——他们和威尔逊家四口一一对应，而且只会用剪刀说话。他们是被拴在地下的人，现在上来了。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>乔丹·皮尔第二部长片（前作《逃出绝命镇》拿过奥斯卡最佳原创剧本）。成本约 2000 万美元，全球票房约 2.56 亿美元；<b>首周末 7100 万美元，刷新 R 级原创恐怖片纪录</b>（当时仅次于《小丑回魂》与新版《月光光心慌慌》）。</li><li>露皮塔·尼永奥一人分饰两角：地上的阿德莱德与地下的「红」——<b>两种口型、两种体态、两种活法</b>，是她职业生涯最累的一次演出。</li><li>皮尔把 1986 年「携手穿越美国」公益活动写进核心设定：那些被忘掉的穷人，就是地下的复制品——<b>恐怖片的外壳里装的还是阶级寓言</b>。</li><li>迈克尔·阿贝尔的配乐是全片第二主角：从安静的小提琴到尖啸，被影迷列进近十年最有效的恐怖片配乐。</li><li>烂番茄 93% / Metacritic 81 / IMDb 6.8 / 豆瓣 6.4：<b>本期专业评价与华语观众评价落差最大的一部</b>——海外影评人几乎一致称赞，华语观众的差评则大量集中在「看不懂想表达什么」。</li><li>彩蛋与伏笔密度极高：兔子、镜屋、耶利米书 11 章 11 节、那句被反复引用的「我们也是美国人」——第一遍看完建议直接看解析，第二遍完全是另一部电影。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/us_458723_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/us_458723_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/us_458723_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_291263.jpg" alt="" loading="lazy">
+                <div class="p-name">乔丹·皮尔 <span class="p-role">导演 / 编剧 / 制片</span></div>
+              </div>
+              <div class="p-note">美国导演、编剧、制片、演员，凭《逃出绝命镇》拿奥斯卡最佳原创剧本——影史第一位。早年与科甘·迈克尔·凯主演喜剧《基和皮尔》。《逃出绝命镇》《我们》《不》。本片是他的第二部长片，也是他争议最大的一部。<b>往期第 11 期《不》、第 30 期《逃出绝命镇》的主创卡片上都是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_301528.jpg" alt="" loading="lazy"><span>玩具总动员4</span></div><div class="wk"><img src="assets/movies/w_342521.jpg" alt="" loading="lazy"><span>基努猫</span></div><div class="wk"><img src="assets/movies/w_419430.jpg" alt="" loading="lazy"><span>逃出绝命镇</span></div><div class="wk"><img src="assets/movies/w_332210.jpg" alt="" loading="lazy"><span>逗鸟外传：萌宝满天飞</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_1267329.jpg" alt="" loading="lazy">
+                <div class="p-name">露皮塔·尼永奥 <span class="p-role">主演（阿德莱德 / 红）</span></div>
+              </div>
+              <div class="p-note">肯尼亚 / 墨西哥裔演员，奥斯卡最佳女配角（《为奴十二年》）。《为奴十二年》《黑豹》《寂静之地：入侵日》《我们》。本片她一人分饰两角——地上的阿德莱德与地下的红，两种声线、两种脊椎。往期第 9 期《寂静之地：入侵日》的主创卡片上就是她。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_284054.jpg" alt="" loading="lazy"><span>黑豹</span></div><div class="wk"><img src="assets/movies/w_1184918.jpg" alt="" loading="lazy"><span>荒野机器人</span></div><div class="wk"><img src="assets/movies/w_76203.jpg" alt="" loading="lazy"><span>为奴十二年</span></div><div class="wk"><img src="assets/movies/w_762441.jpg" alt="" loading="lazy"><span>寂静之地：入侵日</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_1447932.jpg" alt="" loading="lazy">
+                <div class="p-name">温斯顿·杜克 <span class="p-role">主演（加布 / 亚伯拉罕）</span></div>
+              </div>
+              <div class="p-note">特立尼达和多巴哥 / 卢旺达裔美国演员。《黑豹》《我们》《黑豹2》《复仇者联盟3》。本片他演加布·威尔逊——一个努力让全家笑起来的父亲，也是全片唯一一个从始至终没被骗过的人（除了最后一次）。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_284054.jpg" alt="" loading="lazy"><span>黑豹</span></div><div class="wk"><img src="assets/movies/w_505642.jpg" alt="" loading="lazy"><span>黑豹2</span></div><div class="wk"><img src="assets/movies/w_581600.jpg" alt="" loading="lazy"><span>斯宾塞的机密任务</span></div><div class="wk"><img src="assets/movies/w_299536.jpg" alt="" loading="lazy"><span>复仇者联盟3：无限战争</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最大的反转是「活在地上的那个才是假的」——镜子屋里被替换过的阿德莱德，用一生在逃那个本该属于自己的位置。轻微剧透：皮尔最狠的一笔是让「红」最终赢：她坐上沙发看着孩子们的那一刻，恐怖的不是她赢了，是观众发现自己有点理解她。结尾人链横跨海岸那一幕，是把整部片的寓言直接摊开——只是这一次，手没有牵到地底下那些人。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「恐怖片能把社会寓言埋多深」的人；能接受突发惊吓密度不低、结局刻意不给爽感、以及它要求观众接受一套相当玄的设定的观众。R 级，血腥与惊吓场面密集，建议成年观看。内地未映。看完想继续：《逃出绝命镇》（往期第 30 期）、《不》（往期第 11 期）、《寄生虫》（往期第 33 期）。</p>
+    </div>
+  </section>
+  <section class="card" id="m10">
+    <div class="no">10</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/nickel_1028196_poster.jpg" alt="五分钱男孩 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">剧情 / 历史（美国 · 1962 年佛罗里达州塔拉哈西的一所少年管教所）</span><span class="year">2024 · 美国 · 140 分钟 · 内地未映（PG-13）</span></div>
+        <h2>五分钱男孩 <span class="en">The Nickel Boys</span></h2>
+        <div class="rates"><span class="rate"><b>6.3</b>豆瓣</span><span class="rate"><b>92%</b>烂番茄</span><span class="rate"><b>91</b>Metacritic</span><span class="rate"><b>6.9</b>IMDb</span></div>
+        <p class="oneline">「你不是不记得了。你只是不肯记。」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>1962 年的佛罗里达，黑人少年埃尔伍德·柯蒂斯是全家最有出息的孩子：成绩好、不惹事，卧室墙上贴着民权运动领袖的照片。一次他搭了一辆不该搭的便车，被判进「五分钱学院」——一所对外宣称「教男孩们重新做人」的少年管教所。那里的夜晚有殴打、有贩卖、有无名坟场。他和另一个男孩特纳成了彼此的依靠；而埃尔伍德始终不肯相信，这个地方会吃掉他。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>拉梅尔·罗斯导演并与乔斯琳·巴尼斯联合编剧，改编自科尔森·怀特黑德 2019 年的普利策奖小说——<b>这是他的第一部叙事长片</b>，之前那部纪录片《黑尔郡的日与夜》拿过奥斯卡最佳纪录长片提名。</li><li>第 97 届奥斯卡最佳影片与最佳改编剧本双提名；纽约影评人协会奖 2024 年度最佳影片第一名；金球奖剧情类最佳影片提名；<b>另在美国导演工会奖拿下最佳院线电影首作导演</b>。</li><li>摄影是这部片最大的签名：乔莫·弗雷的大量<b>第一人称视角</b>让观众只能「成为」这两个男孩——你看不见自己的脸，只能看见他们看见的一切。</li><li>影片的第二个主角是「档案」：真事改编（佛罗里达州的亚瑟·G·多齐尔少年学校，2010 年代被挖出数十座无名坟），片尾直接放出了真实调查的影像。</li><li>烂番茄 92% / Metacritic 91 / IMDb 6.9 / 豆瓣 6.3：<b>专业评价全线高位（Metacritic 91 为本期第二高），而豆瓣只有 6.3，是本期落差最大的一部</b>——差评集中在叙事形式「闷」与「实验性」。</li><li>布拉德·皮特任制片（Plan B 公司），成本约 2320 万美元，全球票房约 300 万美元——<b>典型的颁奖季小片发行路径</b>，颁奖季后上流媒体。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/nickel_1028196_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/nickel_1028196_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/nickel_1028196_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_1934875.jpg" alt="" loading="lazy">
+                <div class="p-name">拉梅尔·罗斯 <span class="p-role">导演 / 编剧</span></div>
+              </div>
+              <div class="p-note">美国导演、摄影师，以纪录片《黑尔郡的日与夜》（奥斯卡最佳纪录长片提名）成名，本片是他的第一部叙事长片，另拍过短片《Easter Snap》。本片让他拿到纽约影评人协会奖最佳导演与美国导演工会奖最佳首作导演，并入围奥斯卡最佳影片与最佳改编剧本。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_490785.jpg" alt="" loading="lazy"><span>黑尔郡的日与夜</span></div><div class="wk"><img src="assets/movies/w_578694.jpg" alt="" loading="lazy"><span>Easter Snap</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_2104685.jpg" alt="" loading="lazy">
+                <div class="p-name">Ethan Herisse <span class="p-role">主演（埃尔伍德）</span></div>
+              </div>
+              <div class="p-note">美国演员，此前作品多为限定剧与小成本独立片。《奥普拉·温弗瑞献映：当他们戴上有色眼镜》《五分钱男孩》。本片他演埃尔伍德·柯蒂斯——一个把「做好孩子」当成信仰的人，也是全片唯一一个从头到尾没想过害人的人。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_608658.jpg" alt="" loading="lazy"><span>奥普拉·温弗瑞献映：当他们戴上有色眼镜</span></div><div class="wk"><img src="assets/movies/w_1039773.jpg" alt="" loading="lazy"><span>美国黑人魔法协会</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_1674009.jpg" alt="" loading="lazy">
+                <div class="p-name">Brandon Wilson <span class="p-role">主演（特纳）</span></div>
+              </div>
+              <div class="p-note">美国演员。《归来之路》《灯光之外》《五分钱男孩》。本片他演特纳——一个早就学会「怎么活下来」的男孩，也是最后替埃尔伍德活下去的人。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_1275779.jpg" alt="" loading="lazy"><span>揭秘日</span></div><div class="wk"><img src="assets/movies/w_529485.jpg" alt="" loading="lazy"><span>归来之路</span></div><div class="wk"><img src="assets/movies/w_241771.jpg" alt="" loading="lazy"><span>灯光之外</span></div><div class="wk"><img src="assets/movies/w_612203.jpg" alt="" loading="lazy"><span>The Kudzu Christmas</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最重的一笔在结尾字幕之前——特纳逃出去了，用的是埃尔伍德的名字。轻微剧透：罗斯最狠的一处是把「身份」做成遗产：一个男孩死了，另一个男孩替他活，而活下来的那个必须每天证明自己配得上这个名字。片尾真实调查影像与虚构故事并置的那一刻，观众才明白前面所有的「闷」，都是对那段历史最基本的尊重。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「历史题材能被拍得多不套路」的人；能接受第一人称视角带来的晕眩感、节奏极慢、以及它本质上是一部关于「一个男孩的名字怎么活下来」的残酷电影的观众。PG-13，含有虐待与种族暴力描写，建议成年观看。内地未映，流媒体可看。看完想继续：《黑尔郡的日与夜》（导演前作）、《为奴十二年》（往期第 34 期）、《月光男孩》（往期第 33 期）。</p>
+    </div>
+  </section>
+
+<footer>
+  片单由小月整理 · <span class="byline">by 浩</span><br>
+  图片素材来自 TMDB，仅作观影参考，版权归各片方所有。<br>
+  评分采集时间 2026-10-17；「轻微剧透」的短评会点到关键转折，但不泄露完整结局。
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>10 部片单 · 恐怖 / 科幻 / 惊悚 / 悬疑 / 剧情（2026-10-19 · 第 49 期）</title>
+<style>
+:root{
+  --bg:#0b0d12; --card:#14171f; --card2:#191d27; --line:#252b3a;
+  --tx:#e7e9f0; --mut:#98a1b5; --acc:#f27a9d; --acc2:#7cc4ff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);
+  font:15px/1.78 "PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,sans-serif;}
+.wrap{max-width:1040px;margin:0 auto;padding:48px 20px 80px}
+header h1{margin:0 0 8px;font-size:30px;letter-spacing:.5px}
+header .sub{color:var(--mut);font-size:13.5px;margin-bottom:6px;line-height:1.7}
+header .meta{color:#6f7891;font-size:12.5px;margin-top:12px;line-height:1.8}
+.pill{display:inline-block;padding:2px 10px;border:1px solid var(--line);border-radius:99px;
+  color:var(--mut);font-size:12px;margin:0 6px 6px 0}
+table{width:100%;border-collapse:collapse;margin:26px 0 8px;font-size:13.5px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line)}
+th{color:var(--mut);font-weight:500;font-size:12.5px}
+.qn{color:var(--acc);width:38px}
+.qg{color:var(--mut)}
+.qr{color:var(--acc2);white-space:nowrap}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;
+  padding:26px 26px 22px;margin:34px 0;position:relative;overflow:hidden}
+.card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;
+  background:linear-gradient(180deg,var(--acc),transparent)}
+.no{position:absolute;right:18px;top:10px;font-size:44px;font-weight:700;color:#1e2432;letter-spacing:-1px}
+.head{display:flex;gap:20px}
+.poster{flex:0 0 170px}
+.poster-img{width:170px;border-radius:10px;display:block;background:var(--card2)}
+.head-r{flex:1;min-width:0}
+.tagrow{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.tag{background:rgba(242,122,157,.14);color:var(--acc);border:1px solid rgba(242,122,157,.3);
+  padding:2px 10px;border-radius:99px;font-size:12px}
+.year{color:var(--mut);font-size:12.5px}
+h2{margin:0 0 10px;font-size:22px;line-height:1.35}
+h2 .en{font-size:13px;color:var(--mut);font-weight:400;display:block;margin-top:3px}
+.rates{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.rate{background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:3px 9px;font-size:12px;color:var(--mut)}
+.rate b{color:var(--acc2);margin-right:5px;font-size:13px}
+.oneline{margin:6px 0 0;color:#cdd3e2;font-size:15px}
+.block{margin-top:20px}
+.block h3{margin:0 0 8px;font-size:14px;color:var(--acc);letter-spacing:.5px;font-weight:600}
+.block p{margin:0;color:#c8cee0}
+ul.hi{margin:0;padding-left:18px;color:#c8cee0}
+ul.hi li{margin:5px 0}
+.stills{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}
+.stills figure{margin:0;border-radius:10px;overflow:hidden;background:var(--card2)}
+.stills img{width:100%;display:block;aspect-ratio:16/9;object-fit:cover}
+blockquote{margin:0;padding:12px 16px;background:var(--card2);border-left:3px solid var(--acc);
+  border-radius:0 8px 8px 0;color:#d3d9ea;font-size:14.5px}
+.why p{color:#b9c0d3}
+.crew{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.person{background:var(--card2);border:1px solid var(--line);border-radius:10px;padding:12px}
+.p-top{display:flex;align-items:center;gap:10px}
+.p-ava{width:48px;height:48px;border-radius:50%;object-fit:cover;flex:0 0 48px;display:block;background:#212734}
+.p-name{font-size:14px;font-weight:600;line-height:1.3}
+.p-role{color:var(--mut);font-size:11px;font-weight:400;margin-left:4px}
+.p-note{color:#7e879e;font-size:11.5px;line-height:1.6;margin:8px 0 0}
+.p-kn{color:var(--mut);font-size:10.5px;margin:8px 0 4px;letter-spacing:.3px}
+.p-works{display:grid;grid-template-columns:repeat(4,1fr);gap:5px}
+.wk{text-align:center}
+.wk img{width:100%;display:block;border-radius:4px;background:#212734;aspect-ratio:2/3;object-fit:cover}
+.wk span{display:block;font-size:9.5px;color:#b9c0d3;line-height:1.25;margin-top:3px}
+footer{margin-top:44px;color:#6f7891;font-size:12.5px;border-top:1px solid var(--line);padding-top:18px;line-height:1.8}
+.byline{display:inline-block;padding:2px 10px;margin:0 4px;border-radius:99px;
+  background:rgba(242,122,157,.14);color:var(--acc);border:1px solid rgba(242,122,157,.38);
+  font-size:12px;letter-spacing:.4px}
+@media(max-width:860px){
+  .head{flex-direction:column} .poster-img{width:150px}
+  .stills{grid-template-columns:1fr} .p-works{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>10 部片单 · 恐怖 / 科幻 / 惊悚 / 悬疑 / 剧情</h1>
+  <div class="sub">2026 年 10 月 19 日 · 第 49 期 · 已避开往期推荐过的全部 480 部</div>
+  <div>
+    <span class="pill">主题：血要还的 · 十部关于复仇的电影（1992–2015）</span>
+    <span class="pill">全部 1990 年后：最早 1992，最晚 2015，按上映年份排列</span>
+    <span class="pill">类型覆盖：惊悚 7 / 剧情 7 / 动作 3 / 犯罪 3 / 西部 1 / 悬疑 1 / 恐怖 1 / 喜剧 1</span>
+    <span class="pill">海报 + 3 张镜头 + 主创头像 + 历史作品海报</span>
+    <span class="pill">轻微剧透短评</span>
+  </div>
+  <div class="meta">评分来源：豆瓣 / 烂番茄 / Metacritic / IMDb，采集于 2026-10-19，会随时间变动，仅供参考。《殉难者》暂缺 Metacritic 条目，只列可查项。<br>
+  这一期的筛选条件只有一条：<b>影片的主线是一桩复仇</b>——主人公或家人受过具体的伤害，而影片的主体是他把账讨回来的过程。十部落在 1992–2015，按上映年份排列，大致可以分成<b>四种还法</b>：<b>体面地还</b>（第 1 部《不可饶恕》是一个时代的谢幕式复仇）、<b>用命还</b>（第 2、5、9 部的克雷西、米尔斯与小玉，都拿自己当了筹码）、<b>用规矩还</b>（第 4 部《生死狙击》与第 7 部《守法公民》把矛头指向体制本身）、<b>用时间还</b>（第 3、6、8、10 部的金子、安娜、秀贤与蒂莉，都花了十年以上布局）。从 1992 到 2015，复仇片的主角从「骑马进城的老枪手」，慢慢变成了坐在牢房里按遥控器的受害者家属。<br>
+  需要说明的一处取舍：这个切口下最常被点名的几部——《杀死比尔》《无耻混蛋》《疾速追杀》系列——本期没有收（前者两部留待昆汀专题，后者一类的动作复仇另有机会），而已经推过的同类也不重复：<b>《老男孩》是第 36 期</b>（朴赞郁复仇三部曲的第二部，本期第 3 部是三部曲收官）、《V字仇杀队》是第 22 期（雨果·维文主演，本期第 10 部他又上一次卡片）、《大卫·戈尔的一生》是第 43 期（另一种「用命换程序正义」的解法）。所以这一期是避开它们之后的名单，更靠近「个体对体制」「个体对个体」两端的正面对撞。<br>
+  跨期重合如实写出，按 10-02 定的口径<b>只按片名去重</b>：本期 10 个片名全部首次出现（比对去重表 470 部 + 第 48 期 10 部 = 480 部通过）。主创方面，往期主创卡片上出现过的有 16 位：<b>崔岷植</b>（第 3、8 部）上过第 10 期《破墓》、第 19 期《新世界》、第 36 期《老男孩》三期卡片；<b>丹泽尔·华盛顿</b>（第 2 部）是第 19 期《局内人》、第 40 期《艾利之书》、第 44 期《红潮风暴》、第 48 期《训练日》的主创；<b>朴赞郁</b>（第 3 部导演）执导过第 1 期《无可奈何》、第 14 期《小姐》、第 33 期《分手的决心》、第 36 期《老男孩》；<b>安东尼·福奎阿</b>（第 4 部导演）正是第 48 期《训练日》的导演；<b>金知云</b>（第 8 部导演）执导过第 19 期《蔷花，红莲》；<b>李炳宪</b>（第 8 部）是第 1 期《无可奈何》的主创；<b>雨果·维文</b>（第 10 部）是第 22 期《V字仇杀队》的主创，主演的《黑客帝国》是第 14 期推荐过的影片；<b>凯特·温斯莱特</b>（第 10 部）是第 43 期《大卫·戈尔的一生》的主创；<b>姜武</b>（第 9 部）是第 30 期《暴裂无声》的主创；<b>吉恩·哈克曼</b>（第 1 部）是第 26 期《窃听大间谍》、第 44 期《红潮风暴》的主创；<b>摩根·弗里曼</b>（第 1 部）是第 40 期《极度恐慌》、第 43 期《肖申克的救赎》的主创；<b>托尼·斯科特</b>（第 2 部导演）是第 44 期《红潮风暴》的导演；<b>克林特·伊斯特伍德</b>（第 1 部）执导过第 43 期《换子疑云》；<b>杰米·福克斯</b>（第 7 部）是第 26 期《借刀杀人》的主创；<b>马克·沃尔伯格</b>（第 4 部）是第 44 期《完美风暴》的主创；<b>连姆·尼森</b>（第 5 部）是第 44 期《K-19：寡妇制造者》、第 45 期《人狼大战》的主创。本期内部有一处重合：<b>崔岷植</b>横跨第 3 部《亲切的金子》与第 8 部《看见恶魔》；此外<b>朴赞郁与崔岷植</b>这对《老男孩》（第 36 期）组合在《亲切的金子》里重逢，页头与卡片里都如实标注了。其余 15 位主创第一次出现在片单卡片上。<br>
+  口碑落差如实标注、不做修饰：<b>《天注定》烂番茄 95% / Metacritic 77，为本期海外专业评价最高</b>；《看见恶魔》烂番茄 83% / Metacritic 67，韩国本土限制上映仍拿下好评；<b>《守法公民》是本期落差最大的一部</b>（豆瓣 8.0 / IMDb 7.4，烂番茄仅 26% / Metacritic 34）；《怒火救援》同样典型（豆瓣 8.1 对烂番茄 39%）；《殉难者》三项评分均在中游，且缺失 Metacritic。<br>
+  内地引进情况：<b>十部中有两部在内地院线公映过</b>——《生死狙击》2007 年 4 月下旬起分批公映（上海、成都先行，北京 5 月 11 日、广州 5 月 25 日跟进，派拉蒙 / 华夏发行）；《飓风营救》2008 年 4 月 11 日全国公映（中影集团引进、上海电影译制厂译制）。其余八部均未在内地院线公映，流媒体或蓝光可看。<br>
+  10 部片名全部为首次出现，无一与往期 480 部重复（比对去重表通过）。<br>
+  图片素材抓取自 TMDB，仅作观影参考，版权归各片方所有。</div>
+</header>
+
+<table>
+<thead><tr><th>#</th><th>片名</th><th>类型</th><th>评分 / 状态</th></tr></thead>
+<tbody>
+<tr><td class="qn">01</td><td>不可饶恕</td><td class="qg">剧情 / 西部（美国 · 怀俄明小镇，两个老人与一个警长的最后账）</td><td class="qr">8.5 / 96% / 85</td></tr><tr><td class="qn">02</td><td>怒火救援</td><td class="qg">动作 / 惊悚 / 剧情（墨西哥城 · 一个退役特工与一个九岁女孩）</td><td class="qr">8.1 / 39% / 47</td></tr><tr><td class="qn">03</td><td>亲切的金子</td><td class="qg">惊悚 / 剧情 / 悬疑（韩国 · 一个模范囚犯的十三年布局）</td><td class="qr">7.6 / 76% / 75</td></tr><tr><td class="qn">04</td><td>生死狙击</td><td class="qg">动作 / 惊悚 / 剧情（美国 · 一个被自己效忠的体制出卖的神枪手）</td><td class="qr">7.8 / 47% / 53</td></tr><tr><td class="qn">05</td><td>飓风营救</td><td class="qg">动作 / 惊悚（法国 / 美国 · 一个父亲有九十六小时）</td><td class="qr">8.3 / 60% / 51</td></tr><tr><td class="qn">06</td><td>殉难者</td><td class="qg">恐怖 / 惊悚（法国 · 关于「殉道者」的一场实验）</td><td class="qr">6.8 / 63% / 7.0</td></tr><tr><td class="qn">07</td><td>守法公民</td><td class="qg">惊悚 / 犯罪 / 剧情（美国 · 一个受害者家属的十年布局）</td><td class="qr">8.0 / 26% / 34</td></tr><tr><td class="qn">08</td><td>看见恶魔</td><td class="qg">惊悚 / 犯罪（韩国 · 一场没有终点的猫鼠游戏）</td><td class="qr">7.9 / 83% / 67</td></tr><tr><td class="qn">09</td><td>天注定</td><td class="qg">剧情 / 犯罪（中国 · 四个被逼到用暴力说话的人）</td><td class="qr">8.3 / 95% / 77</td></tr><tr><td class="qn">10</td><td>裁缝</td><td class="qg">剧情 / 黑色喜剧（澳大利亚 · 一个女裁缝与整座小镇的审判）</td><td class="qr">7.9 / 57% / 47</td></tr>
+</tbody>
+</table>
+
+
+  <section class="card" id="m1">
+    <div class="no">01</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/unfor_33_poster.jpg" alt="不可饶恕 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">剧情 / 西部（美国 · 怀俄明小镇，两个老人与一个警长的最后账）</span><span class="year">1992 · 美国 · 130 分钟 · 内地未映（R 级）</span></div>
+        <h2>不可饶恕 <span class="en">Unforgiven</span></h2>
+        <div class="rates"><span class="rate"><b>8.5</b>豆瓣</span><span class="rate"><b>96%</b>烂番茄</span><span class="rate"><b>85</b>Metacritic</span><span class="rate"><b>8.2</b>IMDb</span></div>
+        <p class="oneline">「“应得不应得，跟这没关系。”」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>怀俄明的一座小镇。一个妓女被牛仔毁了容，赏金凑不齐，只有一个寡妇愿意站出来筹这笔钱。退役枪手威廉·芒尼——传说早就死了——为了两个孩子能吃饱，接下这单活；老友内德·洛根看不下去，陪他走完最后一程。而镇上的警长小比尔·达格特立下了最严的规矩：谁带枪进城，就打死谁，他手底下已经死过两个人。一边是攒钱赎罪的母亲，一边是拿命守规矩的警长，中间是三个决定再干一票的老人——三条线最后都收拢到镇口那间酒馆。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>克林特·伊斯特伍德导演、主演，第 65 届奥斯卡一举拿下最佳影片、最佳导演、最佳男配角、最佳剪辑四项大奖（九项提名）。</li><li>成本约 1440 万美元，全球约 1.59 亿美元——口碑票房双收，直接点燃了九十年代的西部片复兴。</li><li>吉恩·哈克曼凭小比尔·达格特拿到第二座奥斯卡小金人（最佳男配角，上一座是《法国贩毒网》）。</li><li>剧本由大卫·韦伯·皮普尔斯写于 1976 年，伊斯特伍德放了十几年才开拍——<b>他等自己老到能亲自演出「过气枪手」的那一天</b>。</li><li>结尾酒馆前小比尔那句「应得不应得，跟这没关系」被影迷引用了三十年——它替整个西部片类型写下了墓志铭。</li><li>全片对「枪手传奇」的态度是拆台：没有潇洒对决，只有老人、病马、泥地和冷雨——<b>英雄在这里是退休的，不是登场的</b>。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/unfor_33_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/unfor_33_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/unfor_33_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_190.jpg" alt="" loading="lazy">
+                <div class="p-name">克林特·伊斯特伍德 <span class="p-role">导演 / 主演（威廉·芒尼）</span></div>
+              </div>
+              <div class="p-note">美国演员、导演、制片，影史传奇，从「意大利西部片」到「暮年作者电影」横跨六十年。《荒野大镖客》《肮脏的哈里》《黄金三镖客》《百万美元宝贝》《老爷车》。本片让他拿到第二座奥斯卡最佳导演。<b>往期第 43 期《换子疑云》的导演正是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_13223.jpg" alt="" loading="lazy"><span>老爷车</span></div><div class="wk"><img src="assets/movies/w_70.jpg" alt="" loading="lazy"><span>百万美元宝贝</span></div><div class="wk"><img src="assets/movies/w_429.jpg" alt="" loading="lazy"><span>黄金三镖客</span></div><div class="wk"><img src="assets/movies/w_504172.jpg" alt="" loading="lazy"><span>骡子</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_193.jpg" alt="" loading="lazy">
+                <div class="p-name">吉恩·哈克曼 <span class="p-role">主演（小比尔·达格特）</span></div>
+              </div>
+              <div class="p-note">美国演员，奥斯卡影帝（《法国贩毒网》）。《邦妮和克莱德》《窃听大间谍》《国家公敌》《天才一族》。本片他演小比尔——全片最危险的人不是枪手，是那个立下禁枪令的警长。<b>往期第 26 期《窃听大间谍》与第 44 期《红潮风暴》的主创卡片上都是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_9428.jpg" alt="" loading="lazy"><span>天才一族</span></div><div class="wk"><img src="assets/movies/w_1051.jpg" alt="" loading="lazy"><span>法国贩毒网</span></div><div class="wk"><img src="assets/movies/w_9798.jpg" alt="" loading="lazy"><span>国家公敌</span></div><div class="wk"><img src="assets/movies/w_592.jpg" alt="" loading="lazy"><span>窃听大阴谋</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_192.jpg" alt="" loading="lazy">
+                <div class="p-name">摩根·弗里曼 <span class="p-role">主演（内德·洛根）</span></div>
+              </div>
+              <div class="p-note">美国演员、制片，奥斯卡最佳男配角（《百万美元宝贝》）。《肖申克的救赎》《七宗罪》《为黛茜小姐开车》《遗落战境》。本片他演内德——全片唯一一个还想劝芒尼「别去」的人。<b>往期第 40 期《极度恐慌》与第 43 期《肖申克的救赎》的主创卡片上都是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_807.jpg" alt="" loading="lazy"><span>七宗罪</span></div><div class="wk"><img src="assets/movies/w_278.jpg" alt="" loading="lazy"><span>肖申克的救赎</span></div><div class="wk"><img src="assets/movies/w_240832.jpg" alt="" loading="lazy"><span>超体</span></div><div class="wk"><img src="assets/movies/w_75612.jpg" alt="" loading="lazy"><span>遗落战境</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最狠的一场戏不是结尾的屠杀，是内德之死——他只想看朋友最后一眼，却被抓住剥了皮，消息传回芒尼耳朵里的时候，观众就知道酒馆里会死多少人。轻微剧透：伊斯特伍德最冷的一笔，是让芒尼从头到尾没「觉醒」过：他杀人前会吐、会手抖、要先灌两口酒——他不是变回英雄，是他本来就没退路。结尾他杀光酒馆里的人，让全镇人把内德埋好，然后走进雨里——这一幕之后，西部片的主角再也威风不起来了。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「西部片能被拍得多不像西部片」的人；能接受节奏慢、对白少、暴力突然而干脆的观众。R 级，建议成年观看。内地未映，流媒体与蓝光可看。看完想继续：《百万美元宝贝》（同导演，他的另一座奥斯卡）、《八恶人》（往期第 45 期推荐过的雪原版复仇）。</p>
+    </div>
+  </section>
+  <section class="card" id="m2">
+    <div class="no">02</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/fire_9509_poster.jpg" alt="怒火救援 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">动作 / 惊悚 / 剧情（墨西哥城 · 一个退役特工与一个九岁女孩）</span><span class="year">2004 · 美国 · 146 分钟 · 内地未映（R 级）</span></div>
+        <h2>怒火救援 <span class="en">Man on Fire</span></h2>
+        <div class="rates"><span class="rate"><b>8.1</b>豆瓣</span><span class="rate"><b>39%</b>烂番茄</span><span class="rate"><b>47</b>Metacritic</span><span class="rate"><b>7.7</b>IMDb</span></div>
+        <p class="oneline">「“我保护不了所有人，但我能还你一个公道。”」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>墨西哥城。前中情局特工约翰·克雷西早就活得像个空壳，酒瓶和枪是他仅剩的两样东西。工业家拉莫斯家把九岁的女儿皮塔交给他保护——女孩用一盒蜡笔和一句「我爱你」把这个酒鬼重新拼成了人。然后皮塔被绑走了。绑匪要的只是赎金，而克雷西要的是把整条链上的每一个人都翻出来：警察、内鬼、律师、大哥。他给皮塔做过的事，现在要一样一样还回去。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>托尼·斯科特导演，改编自 A·J·奎内尔 1980 年的同名小说（1987 年斯科特·格伦版《怒火救援》是它的第一次银幕化）。</li><li>成本约 7000 万美元，全球约 1.3 亿美元——<b>一部被影评人踩到底、却被观众顶上天的电影</b>：烂番茄 39%，豆瓣 8.1。</li><li>本片是斯科特与丹泽尔·华盛顿四次合作里最著名的一次（前有《红潮风暴》，后有《时空线索》《危情时速》）。</li><li>达科塔·范宁拍本片时年仅九岁——她和华盛顿的每一场戏都像父女而不是演员对戏，这是全片成立的地基。</li><li>影像上是斯科特美学的集大成：过饱和的色调、躁动的快剪、颗粒感与手持晃动——<b>他把「绝望」直接调进了画面里</b>。</li><li>结尾那段交叉剪辑（克雷西倒在后座、皮塔的旁白、圣歌响起）被无数后来的动作片模仿，很少有人追得上。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/fire_9509_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/fire_9509_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/fire_9509_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_893.jpg" alt="" loading="lazy">
+                <div class="p-name">托尼·斯科特 <span class="p-role">导演</span></div>
+              </div>
+              <div class="p-note">英国导演、制片，以「MV 式」的高饱和快剪美学定义了 2000 年代动作片。《壮志凌云》《国家公敌》《红潮风暴》《时空线索》《危情时速》。本片是他与丹泽尔四次合作里最著名的一次。<b>往期第 44 期《红潮风暴》的导演正是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_744.jpg" alt="" loading="lazy"><span>壮志凌云</span></div><div class="wk"><img src="assets/movies/w_7551.jpg" alt="" loading="lazy"><span>时空线索</span></div><div class="wk"><img src="assets/movies/w_9798.jpg" alt="" loading="lazy"><span>国家公敌</span></div><div class="wk"><img src="assets/movies/w_44048.jpg" alt="" loading="lazy"><span>危情时速</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_5292.jpg" alt="" loading="lazy">
+                <div class="p-name">丹泽尔·华盛顿 <span class="p-role">主演（约翰·克雷西）</span></div>
+              </div>
+              <div class="p-note">美国演员、导演、制片，两届奥斯卡得主（《光荣之路》《训练日》）。《费城故事》《马尔科姆·X》《艾利之书》《伸冤人》。本片他演克雷西——一个把「保护」当成呼吸的前特工。<b>往期第 19 期《局内人》、第 40 期《艾利之书》、第 44 期《红潮风暴》、第 48 期《训练日》的主创卡片上都是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_156022.jpg" alt="" loading="lazy"><span>伸冤人</span></div><div class="wk"><img src="assets/movies/w_20504.jpg" alt="" loading="lazy"><span>艾利之书</span></div><div class="wk"><img src="assets/movies/w_2034.jpg" alt="" loading="lazy"><span>训练日</span></div><div class="wk"><img src="assets/movies/w_87502.jpg" alt="" loading="lazy"><span>迫降航班</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_501.jpg" alt="" loading="lazy">
+                <div class="p-name">达科塔·范宁 <span class="p-role">主演（皮塔·拉莫斯）</span></div>
+              </div>
+              <div class="p-note">美国演员，童星出身，成年后成功转型。《我是山姆》《世界之子》《暮光之城》系列、《伸冤人》系列。本片她演皮塔——一个用蜡笔画下全部家当的小女孩，也是让克雷西重新变成「人」的人。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_14836.jpg" alt="" loading="lazy"><span>鬼妈妈</span></div><div class="wk"><img src="assets/movies/w_74.jpg" alt="" loading="lazy"><span>世界之战</span></div><div class="wk"><img src="assets/movies/w_18239.jpg" alt="" loading="lazy"><span>暮光之城2：新月</span></div><div class="wk"><img src="assets/movies/w_926393.jpg" alt="" loading="lazy"><span>伸冤人3</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最疼的一场戏是克雷西在教堂里听皮塔朗读作文——一个连自己都放弃的人，第一次被一个孩子当成全世界。轻微剧透：斯科特的狠劲在于，他让克雷西的复仇全程没有快感：每一枪都像是还债，每一次爆炸都更接近死亡。结尾绑匪头目对他说「你杀了这么多人，上帝会原谅你吗」——没有回答，因为答案在皮塔的旁白里。这不是一部爽片，是一部关于「迟到的父爱」的讣告。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「动作片能把情感做多重」的人；能接受绑票题材压抑、暴力直接、结局并不痛快的观众。R 级，建议成年观看。内地未映，流媒体可看。看完想继续：《怒火救援》的另一版（1987）、《时空线索》（同导演同主演）、《伸冤人》（往期推荐过的另一种退役特工复仇）。</p>
+    </div>
+  </section>
+  <section class="card" id="m3">
+    <div class="no">03</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/lady_4550_poster.jpg" alt="亲切的金子 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">惊悚 / 剧情 / 悬疑（韩国 · 一个模范囚犯的十三年布局）</span><span class="year">2005 · 韩国 · 115 分钟 · 内地未映（韩国 18+）</span></div>
+        <h2>亲切的金子 <span class="en">Sympathy for Lady Vengeance</span></h2>
+        <div class="rates"><span class="rate"><b>7.6</b>豆瓣</span><span class="rate"><b>76%</b>烂番茄</span><span class="rate"><b>75</b>Metacritic</span><span class="rate"><b>7.5</b>IMDb</span></div>
+        <p class="oneline">「“活得好好的，就是最好的复仇。”」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>十三年前，二十岁的李金子替「老师」背下了一桩男童绑架谋杀案，被判入狱。出狱那天，她已经成了一个完美的模范囚犯：信教、行善、做蛋糕，见谁都说谢谢。可她的目标只有一个——当年真正的凶手，白老师。金子用一整年的时间收拢线索：当年的受害者家属、一个愿意入伙的年轻人、一个从澳大利亚回来的女孩。等所有人聚齐，她把白老师绑进了一座废弃的小学——那场集体处刑，是她用十三年刑期打磨出来的作品。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>朴赞郁「复仇三部曲」的收官之作（前两部《我要复仇》《老男孩》），本片让他拿到第 63 届威尼斯电影节金狮提名。</li><li>韩国本土票房约 2259 万美元——一部 R 级作者电影在当年的韩国院线是现象级数字。</li><li>李英爱凭本片完成从「《大长今》国民女星」到「暗黑女主角」的彻底转身，是韩国演员转型最成功的案例之一。</li><li>全片的色调像童话，内容却是处刑：结尾那场「集体复仇」拍成了粉与黄的梦境——<b>朴赞郁把暴力拍成了典礼</b>。</li><li>金子出狱后做的每一件「好事」都是伪装：她越像个模范公民，观众越清楚她要还的债有多大。</li><li>崔岷植演的白老师是全片最恐怖的存在——一个把杀人当成日常杂务的人，见面先问「吃了吗」。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/lady_4550_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/lady_4550_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/lady_4550_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_10099.jpg" alt="" loading="lazy">
+                <div class="p-name">朴赞郁 <span class="p-role">导演 / 编剧</span></div>
+              </div>
+              <div class="p-note">韩国导演、编剧，「复仇三部曲」（《我要复仇》《老男孩》《亲切的金子》）的收官之作正是本片。《斯托克》《小姐》《分手的决心》。<b>往期第 1 期《无可奈何》、第 14 期《小姐》、第 33 期《分手的决心》、第 36 期《老男孩》的主创卡片上都是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_670.jpg" alt="" loading="lazy"><span>老男孩</span></div><div class="wk"><img src="assets/movies/w_290098.jpg" alt="" loading="lazy"><span>小姐</span></div><div class="wk"><img src="assets/movies/w_86825.jpg" alt="" loading="lazy"><span>斯托克</span></div><div class="wk"><img src="assets/movies/w_4689.jpg" alt="" loading="lazy"><span>我要复仇</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_25001.jpg" alt="" loading="lazy">
+                <div class="p-name">李英爱 <span class="p-role">主演（李金子）</span></div>
+              </div>
+              <div class="p-note">韩国演员，凭《大长今》成为亚洲家喻户晓的明星。《共同警备区》《春逝》《请寻找我》。本片她演李金子——全片唯一一个愿意用十三年刑期来打磨一次复仇的人。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_2440.jpg" alt="" loading="lazy"><span>共同警备区</span></div><div class="wk"><img src="assets/movies/w_507773.jpg" alt="" loading="lazy"><span>请寻找我</span></div><div class="wk"><img src="assets/movies/w_95453.jpg" alt="" loading="lazy"><span>春逝</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_64880.jpg" alt="" loading="lazy">
+                <div class="p-name">崔岷植 <span class="p-role">主演（白先生）</span></div>
+              </div>
+              <div class="p-note">韩国演员，韩国电影的中坚力量，以「笑着做最狠的事」的表演著称。《老男孩》《新世界》《破墓》《超体》。本片他演白先生——全片最恐怖的反派不是他多坏，是他多「日常」。<b>往期第 10 期《破墓》、第 19 期《新世界》、第 36 期《老男孩》的主创卡片上都是他；本期第 8 部《看见恶魔》的主演也是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_670.jpg" alt="" loading="lazy"><span>老男孩</span></div><div class="wk"><img src="assets/movies/w_240832.jpg" alt="" loading="lazy"><span>超体</span></div><div class="wk"><img src="assets/movies/w_49797.jpg" alt="" loading="lazy"><span>看见恶魔</span></div><div class="wk"><img src="assets/movies/w_838209.jpg" alt="" loading="lazy"><span>破墓</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最震撼的一场戏是受害孩子们的家长们一个个上前开枪，镜头在面孔之间移动，没有人犹豫，也没有人快意——只有一种耗尽一生的疲惫。轻微剧透：朴赞郁最狠的设计是让金子从头到尾不「清白」：她确实是杀人共犯，她的十三牢狱之灾一半是罪、一半是布局。所以当她在结尾说出「我把我的少年时代埋在了这里」，观众才意识到：这场复仇里没有赢家，只有一群被同一桩罪毁掉的人，终于把那天过完了。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「复仇片能把风格推到多极致」的人；能接受极端暴力、宗教意象浓重、以及它本质上是一部关于「赎罪是否可能」的电影的观众。18+，仅建议成年观看。内地未映。看完想继续：《老男孩》（往期第 36 期推荐过的三部曲第二部）、《小姐》（往期第 14 期推荐过的同导演作品）、《我要复仇》（三部曲第一部）。</p>
+    </div>
+  </section>
+  <section class="card" id="m4">
+    <div class="no">04</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/shoot_7485_poster.jpg" alt="生死狙击 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">动作 / 惊悚 / 剧情（美国 · 一个被自己效忠的体制出卖的神枪手）</span><span class="year">2007 · 美国 · 124 分钟 · 内地公映（分批）</span></div>
+        <h2>生死狙击 <span class="en">Shooter</span></h2>
+        <div class="rates"><span class="rate"><b>7.8</b>豆瓣</span><span class="rate"><b>47%</b>烂番茄</span><span class="rate"><b>53</b>Metacritic</span><span class="rate"><b>7.2</b>IMDb</span></div>
+        <p class="oneline">「“他们造了一个完美的替罪羊，忘了羊会咬人。”」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>鲍勃·李·斯瓦格是美军最准的狙击手，退役后躲在深山里，只想带着狗清静过日子。一队政府特工找上门，请他出山协助保护总统——他去了，然后被出卖：狙击点被人顶替，他成了暗杀总统的通缉犯，搭档死在怀里，全世界都在通缉他。 FBI 菜鸟探员尼克·孟菲斯是唯一一个还在看证据的人。斯瓦格的办法很老派：不用系统，用他自己——一个人，一条步枪，把整条利益链上的人一个个清掉。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>改编自普利策奖得主斯蒂芬·亨特 1993 年的小说《冲击点》，安东尼·福奎阿执导——<b>第 48 期《训练日》的导演正是他</b>。</li><li>成本约 6100 万美元，全球约 9570 万美元；烂番茄 47% 而豆瓣 7.8，又是一部影评人与观众打架的电影。</li><li>马克·沃尔伯格为出演接受了实弹射击与战术训练，片中的据枪、呼吸与测风动作经得起军迷逐帧看。</li><li>迈克尔·佩纳演的尼克·孟菲斯是全片的良心：一个在小镇上长大的 FBI 新人，<b>唯一一个不肯把证据「看顺眼」的人</b>。</li><li>本片是本期十部里唯一在内地公映过的：2007 年 4 月下旬起在上海、成都等城市先行上映（沪上首周末票房约 280 万元），北京 5 月 11 日、广州 5 月 25 日跟进——派拉蒙为它试了「不同城市不同期」的引进片新玩法。</li><li>片尾那场山地对决是近十年商业动作片里少有的「用脑子打」：狙击手之间的较量，比的不是枪法，是谁先算出对方的位置。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/shoot_7485_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/shoot_7485_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/shoot_7485_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_20907.jpg" alt="" loading="lazy">
+                <div class="p-name">安东尼·福奎阿 <span class="p-role">导演</span></div>
+              </div>
+              <div class="p-note">美国导演、制片，从 MV 与广告起步。《训练日》《奥林匹斯的陷落》《豪勇七蛟龙》《伸冤人》系列。本片让他与马克·沃尔伯格开始了长期合作。<b>第 48 期《训练日》的导演正是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_156022.jpg" alt="" loading="lazy"><span>伸冤人</span></div><div class="wk"><img src="assets/movies/w_117263.jpg" alt="" loading="lazy"><span>奥林匹斯的陷落</span></div><div class="wk"><img src="assets/movies/w_2034.jpg" alt="" loading="lazy"><span>训练日</span></div><div class="wk"><img src="assets/movies/w_333484.jpg" alt="" loading="lazy"><span>豪勇七蛟龙</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_13240.jpg" alt="" loading="lazy">
+                <div class="p-name">马克·沃尔伯格 <span class="p-role">主演（鲍勃·李·斯瓦格）</span></div>
+              </div>
+              <div class="p-note">美国演员、制片。《无间道风云》《斗士》《泰迪熊》《变形金刚》系列。本片他演斯瓦格——一个把「精准」当成唯一信仰的狙击手，被自己效忠的体制当成替罪羊。<b>往期第 44 期《完美风暴》的主创卡片上就是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_72105.jpg" alt="" loading="lazy"><span>泰迪熊</span></div><div class="wk"><img src="assets/movies/w_91314.jpg" alt="" loading="lazy"><span>变形金刚4：绝迹重生</span></div><div class="wk"><img src="assets/movies/w_214756.jpg" alt="" loading="lazy"><span>泰迪熊2</span></div><div class="wk"><img src="assets/movies/w_335988.jpg" alt="" loading="lazy"><span>变形金刚5：最后的骑士</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_454.jpg" alt="" loading="lazy">
+                <div class="p-name">迈克尔·佩纳 <span class="p-role">主演（尼克·孟菲斯）</span></div>
+              </div>
+              <div class="p-note">美国演员。《撞车》《火星救援》《蚁人》《狂怒》。本片他演尼克·孟菲斯——全片唯一一个还相信「程序正义」的 FBI 探员。<b>他主演的《火星救援》是往期第 35 期推荐过的影片。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_286217.jpg" alt="" loading="lazy"><span>火星救援</span></div><div class="wk"><img src="assets/movies/w_228150.jpg" alt="" loading="lazy"><span>狂怒</span></div><div class="wk"><img src="assets/movies/w_539537.jpg" alt="" loading="lazy"><span>梦幻岛</span></div><div class="wk"><img src="assets/movies/w_102899.jpg" alt="" loading="lazy"><span>蚁人</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最凉的一场戏是斯瓦格逃回山里验伤——他给自己开枪、自己缝线，全程没有一句台词。轻微剧透：福奎阿把「体制」拍成了一个具体的东西：不是抽象的恶，是一串签了字的人。斯瓦格最后没有「洗清冤屈」，他只是把该偿命的都偿了，然后消失在国境线外——这个结局比任何法庭翻盘都更接近真实的复仇。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「一个专业人士被逼成独狼」的人；能接受阴谋论题材、暴力直接、以及它本质上是一部「用技术对抗权力」的电影的观众。R 级，建议成年观看。内地公映过（分批），流媒体与蓝光可看。看完想继续：《训练日》（第 48 期推荐过的同导演作品）、《生死狙击》原著小说系列、《谍影重重》（往期推荐过的同类孤勇者）。</p>
+    </div>
+  </section>
+  <section class="card" id="m5">
+    <div class="no">05</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/taken_8681_poster.jpg" alt="飓风营救 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">动作 / 惊悚（法国 / 美国 · 一个父亲有九十六小时）</span><span class="year">2008 · 法国 / 美国 · 93 分钟 · 内地公映</span></div>
+        <h2>飓风营救 <span class="en">Taken</span></h2>
+        <div class="rates"><span class="rate"><b>8.3</b>豆瓣</span><span class="rate"><b>60%</b>烂番茄</span><span class="rate"><b>51</b>Metacritic</span><span class="rate"><b>7.7</b>IMDb</span></div>
+        <p class="oneline">「“我会找到你，我会杀了你。”」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>布莱恩·米尔斯是退役的中情局特工，退休后只剩一件事想做：当好父亲。十七岁的女儿金要去巴黎，他紧张得像个普通老爸——而他的预感是对的：金刚落地就被贩毒集团绑走。前妻的电话、法国警方的按流程办事，全都指望不上。布莱恩飞过去，剩下的时间只有九十六小时。他没有团队、没有支援，只有一个老特工的通讯录和一台录音机——以及一个父亲被逼到极限之后，什么都干得出来的狠劲。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>吕克·贝松编剧、制片，皮埃尔·莫瑞尔执导——一部成本仅 2500 万美元的法国动作片。</li><li>全球票房约 2.27 亿美元，其中北美 1.45 亿——<b>一部欧洲配方熬出来的好莱坞级爆款</b>。</li><li>一个罕见的发行案例：本片 2008 年 2 月法国首映，同年 4 月 11 日就引进内地（中影发行、上影厂译制），北美反而等到 2009 年 1 月底超级碗周末才大规模公映——<b>中国内地观众比北美观众先看了大半年</b>。</li><li>连姆·尼森拍本片时已经 55 岁——这部片把他从「文艺片演员」直接改造成了动作明星，也意外开启了他职业生涯最卖座的十年。</li><li>93 分钟没有一分钟浪费：从女儿被绑到机场对峙，<b>每一场戏都在给下一个「怎么办」拆雷</b>。</li><li>那句「我会找到你，我会杀了你」的电话独白，是 2008 年之后被引用最多的电影台词之一。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/taken_8681_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/taken_8681_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/taken_8681_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_35453.jpg" alt="" loading="lazy">
+                <div class="p-name">皮埃尔·莫瑞尔 <span class="p-role">导演</span></div>
+              </div>
+              <div class="p-note">法国导演、摄影师，吕克·贝松的爱将。《暴力街区13》《巴黎谍影》《薄荷》。本片是他的成名作——93 分钟，没有一秒浪费。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_26389.jpg" alt="" loading="lazy"><span>巴黎谍影</span></div><div class="wk"><img src="assets/movies/w_458594.jpg" alt="" loading="lazy"><span>薄荷</span></div><div class="wk"><img src="assets/movies/w_10045.jpg" alt="" loading="lazy"><span>暴力街区13</span></div><div class="wk"><img src="assets/movies/w_897087.jpg" alt="" loading="lazy"><span>自由职业者</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_3896.jpg" alt="" loading="lazy">
+                <div class="p-name">连姆·尼森 <span class="p-role">主演（布莱恩·米尔斯）</span></div>
+              </div>
+              <div class="p-note">爱尔兰演员，奥斯卡提名（《辛德勒的名单》）。《辛德勒的名单》《星球大战前传1》《蝙蝠侠：侠影之谜》《人狼大战》。本片他演布莱恩——那句「我会找到你，我会杀了你」成了他后半生的注脚。<b>往期第 44 期《K-19：寡妇制造者》与第 45 期《人狼大战》的主创卡片上都是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_424.jpg" alt="" loading="lazy"><span>辛德勒的名单</span></div><div class="wk"><img src="assets/movies/w_1893.jpg" alt="" loading="lazy"><span>星球大战1：幽灵的威胁</span></div><div class="wk"><img src="assets/movies/w_272.jpg" alt="" loading="lazy"><span>蝙蝠侠：侠影之谜</span></div><div class="wk"><img src="assets/movies/w_82675.jpg" alt="" loading="lazy"><span>飓风营救2</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_11825.jpg" alt="" loading="lazy">
+                <div class="p-name">玛姬·格蕾斯 <span class="p-role">主演（金）</span></div>
+              </div>
+              <div class="p-note">美国演员。《迷失》《暮光之城4：破晓（下）》《太空一号》。本片她演金——全片她只做了一件事：让一个父亲变成野兽。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_82675.jpg" alt="" loading="lazy"><span>飓风营救2</span></div><div class="wk"><img src="assets/movies/w_260346.jpg" alt="" loading="lazy"><span>飓风营救3</span></div><div class="wk"><img src="assets/movies/w_81796.jpg" alt="" loading="lazy"><span>太空一号</span></div><div class="wk"><img src="assets/movies/w_50620.jpg" alt="" loading="lazy"><span>暮光之城4：破晓（下）</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最让人窒息的不是打斗，是时间——影片里的倒计时和观众心里的倒计时是同一个。轻微剧透：莫瑞尔最聪明的一点，是让布莱恩的每一步都「有据可查」：他靠的是特工的技能库，不是主角光环。结尾在机场交易点那场混战之后，父女俩坐在车里听警笛——他救了人，却也知道有些东西补不回来了。这部片之后，「有特殊技能的父亲救女儿」成了一个类型，而它仍然是最好的一部。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「九十六小时能被拍得多紧」的人；能接受人口贩卖题材压抑、暴力直接、以及它本质上是一部「父亲雪耻」电影的观众。内地公映过，流媒体可看。看完想继续：《飓风营救2》《飓风营救3》（同主演，一蟹不如一蟹）、《危情时速》（本片主演的另一部高压之作）。</p>
+    </div>
+  </section>
+  <section class="card" id="m6">
+    <div class="no">06</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/martyr_9539_poster.jpg" alt="殉难者 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">恐怖 / 惊悚（法国 · 关于「殉道者」的一场实验）</span><span class="year">2008 · 法国 / 加拿大 · 99 分钟 · 内地未映（极端重口味）</span></div>
+        <h2>殉难者 <span class="en">Martyrs</span></h2>
+        <div class="rates"><span class="rate"><b>6.8</b>豆瓣</span><span class="rate"><b>63%</b>烂番茄</span><span class="rate"><b>7.0</b>IMDb</span></div>
+        <p class="oneline">「“她们想看的不是死亡——是死亡之后。”」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>露西从一个地下囚禁室里逃了出来，浑身是伤，说不清自己经历了什么。她被安娜所在的「家庭」收留——一个同样在童年受过创伤的女孩，两个人像两只互相舔伤口的动物。可追踪而来的人不会放过她们，安娜只能反攻进去：她原以为那是个虐待狂组织，走进地窖之后才发现，这里有一套完整的理论、一套仪式般的程序。他们要把年轻女人变成「殉道者」——通过极限的痛苦，去窥视死亡另一侧的景象。而安娜，即将成为最后一个环节。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>帕斯卡·劳吉尔执导、编剧（前作《鬼天使》），<b>《殉难者》是他第二部长片，也是让他争议缠身的那一部</b>。</li><li>影片在多个电影节放映时出现观众退场、中途离席乃至晕倒——它把「痛苦」本身拍成了主角。</li><li>烂番茄 63% / IMDb 7.0 / 豆瓣 6.8：一部影评人愿意为它辩护、而大多数观众不愿再看第二遍的电影。</li><li>它对「痛苦=启示」的设定不是猎奇，是一个完整的意识形态：地窖里的组织像学术团体多于邪教——<b>这是全片最让人发冷的地方</b>。</li><li>莫贾娜·阿拉维与米兰妮·让帕诺米几乎全程在承受生理与心理的双重极限，两人的表演是这部片真正的骨架。</li><li>2015 年好莱坞翻拍版《殉难者》口碑崩塌，反向证明了原版的「不可复制」。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/martyr_9539_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/martyr_9539_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/martyr_9539_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_59611.jpg" alt="" loading="lazy">
+                <div class="p-name">帕斯卡·劳吉尔 <span class="p-role">导演 / 编剧</span></div>
+              </div>
+              <div class="p-note">法国导演、编剧，以极端恐怖片著称。《鬼天使》《高个夜魔》《噩梦娃娃屋》。本片是他的第二部长片，也是 2008 年争议最大的恐怖片之一。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_476299.jpg" alt="" loading="lazy"><span>噩梦娃娃屋</span></div><div class="wk"><img src="assets/movies/w_86597.jpg" alt="" loading="lazy"><span>高个夜魔</span></div><div class="wk"><img src="assets/movies/w_21198.jpg" alt="" loading="lazy"><span>鬼天使</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_59612.jpg" alt="" loading="lazy">
+                <div class="p-name">莫贾娜·阿拉维 <span class="p-role">主演（安娜）</span></div>
+              </div>
+              <div class="p-note">摩洛哥 / 法国演员。《特种部队》《Marock》《激情卡斯巴》。本片她演安娜——全片唯一一个在目睹地狱之后还选择走进去的人。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_74513.jpg" alt="" loading="lazy"><span>特种部队</span></div><div class="wk"><img src="assets/movies/w_61686.jpg" alt="" loading="lazy"><span>Marock</span></div><div class="wk"><img src="assets/movies/w_214099.jpg" alt="" loading="lazy"><span>激情卡斯巴</span></div><div class="wk"><img src="assets/movies/w_259830.jpg" alt="" loading="lazy"><span>微量超体</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_20197.jpg" alt="" loading="lazy">
+                <div class="p-name">米兰妮·让帕诺米 <span class="p-role">主演（露西）</span></div>
+              </div>
+              <div class="p-note">法国演员、模特。《植物园》《从今以后》《双面劳伦斯》。本片她演露西——片中最残酷的设计是：她逃出了第一个地狱，只是为了走进第二个。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_1899.jpg" alt="" loading="lazy"><span>植物园</span></div><div class="wk"><img src="assets/movies/w_44603.jpg" alt="" loading="lazy"><span>从今以后</span></div><div class="wk"><img src="assets/movies/w_31900.jpg" alt="" loading="lazy"><span>塞尔日·甘斯布：英雄人生</span></div><div class="wk"><img src="assets/movies/w_110160.jpg" alt="" loading="lazy"><span>双面劳伦斯</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最安静的一幕在结尾——安娜终于「得见」了彼岸，而镜头只是停在她平静的脸上，旁白把所有理论一次性说尽。轻微剧透：劳吉尔最狠的一笔，是把恐怖片的最后一个镜头给了一个「成功」：她没有死，她完成了转化，而观众和片中那些围观的学者一样，成了共谋。这不是一部用来「看」的电影，是一次关于「观看暴力」的测试。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>只想给能看完《仲夏夜惊魂》《肌肤之色》这类片的观众；对血腥、儿童虐待暗示、极端精神压迫零容忍的人请直接跳过。内地未映。看完想继续：《噩梦娃娃屋》（同导演，温和得多的版本）、《鬼天使》（同导演前作）、《肌肤之旅》（同类的法国极端恐怖）。</p>
+    </div>
+  </section>
+  <section class="card" id="m7">
+    <div class="no">07</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/law_22803_poster.jpg" alt="守法公民 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">惊悚 / 犯罪 / 剧情（美国 · 一个受害者家属的十年布局）</span><span class="year">2009 · 美国 · 109 分钟（导演剪辑版 118）· 内地未映（R 级）</span></div>
+        <h2>守法公民 <span class="en">Law Abiding Citizen</span></h2>
+        <div class="rates"><span class="rate"><b>8.0</b>豆瓣</span><span class="rate"><b>26%</b>烂番茄</span><span class="rate"><b>34</b>Metacritic</span><span class="rate"><b>7.4</b>IMDb</span></div>
+        <p class="oneline">「“我不是要逃——我是要你们认账。”」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>克莱德·谢尔顿的妻女在自己家里被两个闯入者杀害，他本人在隔壁被打得半死。十年后，案件重新浮出水面：当年为了让其中一个人开口，检察官尼克·赖斯与凶手做了一笔交易——重罪轻判，几年后就能出来。克莱德等这一天等了十年，也准备了十年：他从死囚牢里向外布局，把经手这起案件的每一个人——律师、法官、地方检察官——按他们自己犯的罪一个个处刑。整座费城的司法系统，第一次发现被告席上坐着的才是掌权的人。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>F·加里·格雷执导——本片之后他才交出了《冲出康普顿》《速度与激情8》这样的商业巨制。</li><li><b>本期口碑落差最大的一部</b>：豆瓣 8.0 / IMDb 7.4，而烂番茄仅 26% / Metacritic 34——影评人恨它「鼓吹私刑」，观众爱它「说到做到」。</li><li>杰拉德·巴特勒演的克莱德几乎没有「动作戏」：他的武器是脑子、时间与对体制的了解——<b>一个从头到尾坐在牢房里指挥一切的复仇者</b>。</li><li>杰米·福克斯演的尼克·赖斯是全片唯一还在按规则出牌的人，而规则恰恰是克莱德要审判的对象。</li><li>影片的时钟叙事极其精密：每一次处刑都对应一次司法程序的疏漏——<b>它把「程序正义」的漏洞拍成了凶案现场</b>。</li><li>结局的双重反转（克莱德到底想要什么、以及那件「礼物」）是近十年犯罪惊悚片里被讨论最多的结尾之一。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/law_22803_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/law_22803_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/law_22803_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_37932.jpg" alt="" loading="lazy">
+                <div class="p-name">F·加里·格雷 <span class="p-role">导演</span></div>
+              </div>
+              <div class="p-note">美国导演、制片，从 MV 与喜剧起步，后来成了好莱坞最稳的商业片导演之一。《星期五》《偷天换日》《冲出康普顿》《速度与激情8》《黑衣人：全球通缉》。本片是他少见的「作者向」作品。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_337339.jpg" alt="" loading="lazy"><span>速度与激情8</span></div><div class="wk"><img src="assets/movies/w_9654.jpg" alt="" loading="lazy"><span>偷天换日</span></div><div class="wk"><img src="assets/movies/w_479455.jpg" alt="" loading="lazy"><span>黑衣人：全球通缉</span></div><div class="wk"><img src="assets/movies/w_277216.jpg" alt="" loading="lazy"><span>冲出康普顿</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_134.jpg" alt="" loading="lazy">
+                <div class="p-name">杰米·福克斯 <span class="p-role">主演（达里乌斯）</span></div>
+              </div>
+              <div class="p-note">美国演员、歌手，奥斯卡影帝（《灵魂歌王》）。《灵魂歌王》《被解救的姜戈》《超凡蜘蛛侠2》《心灵奇旅》。本片他演达里乌斯——一个在「遵守规则」与「以暴制暴」之间选错了答案的检察官。<b>往期第 26 期《借刀杀人》的主创卡片上就是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_68718.jpg" alt="" loading="lazy"><span>被解救的姜戈</span></div><div class="wk"><img src="assets/movies/w_508442.jpg" alt="" loading="lazy"><span>心灵奇旅</span></div><div class="wk"><img src="assets/movies/w_102382.jpg" alt="" loading="lazy"><span>超凡蜘蛛侠2</span></div><div class="wk"><img src="assets/movies/w_634649.jpg" alt="" loading="lazy"><span>蜘蛛侠：英雄无归</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_17276.jpg" alt="" loading="lazy">
+                <div class="p-name">杰拉德·巴特勒 <span class="p-role">主演（克莱德·谢尔顿）</span></div>
+              </div>
+              <div class="p-note">苏格兰演员、制片。《300勇士》《驯龙高手》（配音）、《奥林匹斯的陷落》《末日逃生》。本片他演克莱德——一个用十年时间把「体制」本身当成复仇对象的受害者家属。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_1271.jpg" alt="" loading="lazy"><span>斯巴达300勇士</span></div><div class="wk"><img src="assets/movies/w_10191.jpg" alt="" loading="lazy"><span>驯龙高手</span></div><div class="wk"><img src="assets/movies/w_117263.jpg" alt="" loading="lazy"><span>奥林匹斯的陷落</span></div><div class="wk"><img src="assets/movies/w_524047.jpg" alt="" loading="lazy"><span>末日逃生</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最狠的一场戏是达比之死——这个当年只判了几年的人，被以「合法的仪式」慢慢拆解，而镜头冷静得像在拍刑具说明书。轻微剧透：影片真正的提问不是「该不该复仇」，而是「当制度亲手教会一个人复仇的成本有多低时，它还有什么资格要求他守法」。克莱德最后求死，是因为他早就把自己算进了那笔账里——这是本片与所有「爽文复仇」的区别。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「犯罪惊悚片能把节奏压得多紧」的人；能接受极端暴力、私刑主题、以及它价值观上刻意让人不适的观众。R 级，建议成年观看。内地未映，流媒体可看。看完想继续：《守法公民》导演剪辑版（多九分钟，结局更冷）、《大卫·戈尔的一生》（往期第 43 期推荐过的「用自己献祭」版）、《换子疑云》（往期第 43 期推荐过的另一种控诉）。</p>
+    </div>
+  </section>
+  <section class="card" id="m8">
+    <div class="no">08</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/devil_49797_poster.jpg" alt="看见恶魔 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">惊悚 / 犯罪（韩国 · 一场没有终点的猫鼠游戏）</span><span class="year">2010 · 韩国 · 144 分钟（国际版 142）· 内地未映（限制上映）</span></div>
+        <h2>看见恶魔 <span class="en">I Saw the Devil</span></h2>
+        <div class="rates"><span class="rate"><b>7.9</b>豆瓣</span><span class="rate"><b>83%</b>烂番茄</span><span class="rate"><b>67</b>Metacritic</span><span class="rate"><b>7.8</b>IMDb</span></div>
+        <p class="oneline">「“他每次抓到那个畜生，都选择再放他走一次。”」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>国家情报院特工金秀贤的未婚妻张珠妍被残杀在车里，尸体被分块。凶手张景哲是个专门袭击女性的连环杀手，被抓时身上还带着受害者的戒指。秀贤没有把他交给警察——他把人劫走，然后开始了一场只有两个人知道的游戏：抓到、打一顿、放走；再抓到、再打、再放。每一次，他都让这个畜生多活几天，也多知道一点自己招惹了谁。这不是狩猎，这是一场把「恐惧」原样奉还的慢刑。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>金知云执导、编剧——<b>往期第 19 期《蔷花，红莲》的导演正是他</b>，本片是他最商业也最残酷的一次转向。</li><li>韩国首部拿到「限制上映」评级的商业片：影院售票时核验年龄，未成年人一律不得入场。</li><li>成本仅 600 万美元，全球约 1297 万美元；烂番茄 83% / Metacritic 67——<b>本期专业评价最好的复仇片</b>。</li><li>李炳宪演的秀贤比杀手更像杀手：他跟踪、埋伏、拷问，一样不落——<b>影片让观众全程站在一个「正在变成怪物的人」这边</b>。</li><li>崔岷植演的张景哲是全片最让人不适的存在：他会向受害者家属道谢，会在杀人前问路，会把恶当日常。</li><li>影片的暴力是「疼」而不是「爽」：骨头、牙齿、血，全都实打实——<b>它不给复仇任何快感</b>。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/devil_49797_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/devil_49797_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/devil_49797_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_69081.jpg" alt="" loading="lazy">
+                <div class="p-name">金知云 <span class="p-role">导演 / 编剧</span></div>
+              </div>
+              <div class="p-note">韩国导演、编剧，韩国类型片的高手。《蔷花，红莲》《甜蜜的人生》《好家伙、坏家伙、怪家伙》《背水一战》。<b>往期第 19 期《蔷花，红莲》的导演正是他。</b> 本片是韩国首部「限制上映」级别的商业片。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_76640.jpg" alt="" loading="lazy"><span>背水一战</span></div><div class="wk"><img src="assets/movies/w_4552.jpg" alt="" loading="lazy"><span>蔷花，红莲</span></div><div class="wk"><img src="assets/movies/w_11344.jpg" alt="" loading="lazy"><span>甜蜜的人生</span></div><div class="wk"><img src="assets/movies/w_15067.jpg" alt="" loading="lazy"><span>好家伙、坏家伙、怪家伙</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_25002.jpg" alt="" loading="lazy">
+                <div class="p-name">李炳宪 <span class="p-role">主演（金秀贤）</span></div>
+              </div>
+              <div class="p-note">韩国演员，韩国影帝常客。《共同警备区》《甜蜜的人生》《特种部队：眼镜蛇的崛起》《豪勇七蛟龙》。本片他演金秀贤——一个把复仇当成全职工作的特工，比杀手更像杀手。<b>往期第 1 期《无可奈何》的主创卡片上就是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_14869.jpg" alt="" loading="lazy"><span>特种部队Ⅰ：眼镜蛇的崛起</span></div><div class="wk"><img src="assets/movies/w_333484.jpg" alt="" loading="lazy"><span>豪勇七蛟龙</span></div><div class="wk"><img src="assets/movies/w_639988.jpg" alt="" loading="lazy"><span>无可奈何</span></div><div class="wk"><img src="assets/movies/w_11344.jpg" alt="" loading="lazy"><span>甜蜜的人生</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_64880.jpg" alt="" loading="lazy">
+                <div class="p-name">崔岷植 <span class="p-role">主演（张景哲）</span></div>
+              </div>
+              <div class="p-note">韩国演员，韩国电影的中坚力量。《老男孩》《新世界》《破墓》《超体》。本片他演张景哲——一个把「无动机杀人」当成乐趣的连环杀手。<b>往期第 10 期《破墓》、第 19 期《新世界》、第 36 期《老男孩》的主创卡片上都是他；本期第 3 部《亲切的金子》的主演也是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_670.jpg" alt="" loading="lazy"><span>老男孩</span></div><div class="wk"><img src="assets/movies/w_240832.jpg" alt="" loading="lazy"><span>超体</span></div><div class="wk"><img src="assets/movies/w_4550.jpg" alt="" loading="lazy"><span>亲切的金子</span></div><div class="wk"><img src="assets/movies/w_838209.jpg" alt="" loading="lazy"><span>破墓</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最绝望的一场戏是秀贤找到张景哲的家人——他已经在举起刀了，才发现门里住着的是凶手的父母和年幼的儿子。轻微剧透：金知云最狠的一笔，是让这场复仇没有「完成」的时刻：秀贤每放走对方一次，自己就离「人」远一步。结尾两家人在一间屋里听见彼此的哭声，没有赢家，只有两个被同一桩罪毁掉的家庭——而秀贤终于明白，他报复的方式，正是他憎恨的方式。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「复仇片能被拍得多不舒服」的人；能接受极端暴力、性犯罪题材、以及它本质上是一部关于「代价」而非「正义」的电影的观众。限制上映级，仅建议成年观看。内地未映。看完想继续：《看见恶魔》国际版（短两分钟，节奏不同）、《老男孩》（往期第 36 期推荐过的另一种复仇）、《甜蜜的人生》（同导演，冷到底的黑帮悲剧）。</p>
+    </div>
+  </section>
+  <section class="card" id="m9">
+    <div class="no">09</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/sin_187022_poster.jpg" alt="天注定 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">剧情 / 犯罪（中国 · 四个被逼到用暴力说话的人）</span><span class="year">2013 · 中国 / 日本 / 法国 · 133 分钟 · 内地未公映</span></div>
+        <h2>天注定 <span class="en">A Touch of Sin</span></h2>
+        <div class="rates"><span class="rate"><b>8.3</b>豆瓣</span><span class="rate"><b>95%</b>烂番茄</span><span class="rate"><b>77</b>Metacritic</span><span class="rate"><b>7.1</b>IMDb</span></div>
+        <p class="oneline">「“尊严不是别人给的，是抢回来的。”」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>四个互不相识的普通人，四起被逼出来的暴力。山西的大海想为村子讨个说法，告了十几年的状没人理，最后把猎枪扛上了公路；重庆的周三儿过年回家，想的只是让老母亲过个好年，可他只会一样本事——枪；湖北的小玉在按摩院被权贵逼到死角，一刀下去，她先护住的是自己的尊严；广东的小辉在流水线上看不到头，从宿舍楼的窗台走了下去。贾樟柯把四段人生剪在一部片子里——它们共同的名字叫「走投无路」。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>贾樟柯执导、编剧，四个故事分别取材于胡文海案、邓玉娇案、周克华案与富士康员工连续坠楼事件。</li><li>第 66 届戛纳电影节拿下最佳编剧奖，同时入围主竞赛（金狮提名）——<b>华语片在戛纳编剧奖上的零的突破</b>。</li><li>烂番茄 95% / Metacritic 77：<b>本期海外口碑最好的一部</b>，也是贾樟柯在国际上评价最高的作品之一。</li><li>姜武演的大海、王宝强演的周三儿、赵涛演的小玉——三个演员都交出了他们职业生涯里最不像自己的表演。</li><li>影片的暴力全部发生在「日常空间」里：公路、按摩院、候车室——<b>贾樟柯把「底层互害与自毁」拍成了时代切片</b>。</li><li>本片从未在内地院线公映，只在影展与资料馆渠道流传——这本身也成了它命运的一部分。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/sin_187022_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/sin_187022_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/sin_187022_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_24011.jpg" alt="" loading="lazy">
+                <div class="p-name">贾樟柯 <span class="p-role">导演 / 编剧</span></div>
+              </div>
+              <div class="p-note">中国导演、编剧，中国第六代导演的代表人物。《小武》《站台》《三峡好人》《山河故人》《江湖儿女》。本片让他拿到戛纳最佳编剧奖。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_441393.jpg" alt="" loading="lazy"><span>江湖儿女</span></div><div class="wk"><img src="assets/movies/w_314388.jpg" alt="" loading="lazy"><span>山河故人</span></div><div class="wk"><img src="assets/movies/w_2346.jpg" alt="" loading="lazy"><span>三峡好人</span></div><div class="wk"><img src="assets/movies/w_52103.jpg" alt="" loading="lazy"><span>小武</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_15170.jpg" alt="" loading="lazy">
+                <div class="p-name">姜武 <span class="p-role">主演（大海）</span></div>
+              </div>
+              <div class="p-note">中国演员（姜文的弟弟）。《活着》《暴裂无声》《捉妖记》《拆弹专家》《八佰》。本片他演大海——全片第一个被「讲理无门」逼成枪手的人。<b>往期第 30 期《暴裂无声》的主创卡片上就是他。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_334298.jpg" alt="" loading="lazy"><span>捉妖记</span></div><div class="wk"><img src="assets/movies/w_441531.jpg" alt="" loading="lazy"><span>拆弹专家</span></div><div class="wk"><img src="assets/movies/w_508935.jpg" alt="" loading="lazy"><span>八佰</span></div><div class="wk"><img src="assets/movies/w_31439.jpg" alt="" loading="lazy"><span>活着</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_71051.jpg" alt="" loading="lazy">
+                <div class="p-name">王宝强 <span class="p-role">主演（周三儿）</span></div>
+              </div>
+              <div class="p-note">中国演员，从武行替身一路打成国民演员。《盲井》《天下无贼》《人在囧途》系列、《唐人街探案》系列、《八角笼中》。本片他演周三儿——一个把「来都来了」活成生存哲学的外出打工者。他本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_290864.jpg" alt="" loading="lazy"><span>一个人的武林</span></div><div class="wk"><img src="assets/movies/w_373200.jpg" alt="" loading="lazy"><span>唐人街探案</span></div><div class="wk"><img src="assets/movies/w_505513.jpg" alt="" loading="lazy"><span>唐人街探案2</span></div><div class="wk"><img src="assets/movies/w_151743.jpg" alt="" loading="lazy"><span>人再囧途之泰囧</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_24044.jpg" alt="" loading="lazy">
+                <div class="p-name">赵涛 <span class="p-role">主演（小玉）</span></div>
+              </div>
+              <div class="p-note">中国演员，贾樟柯的长期合作者与妻子。《站台》《三峡好人》《山河故人》《江湖儿女》。本片她演小玉——全片唯一一个复仇之后得到片刻喘息的人。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_441393.jpg" alt="" loading="lazy"><span>江湖儿女</span></div><div class="wk"><img src="assets/movies/w_314388.jpg" alt="" loading="lazy"><span>山河故人</span></div><div class="wk"><img src="assets/movies/w_80427.jpg" alt="" loading="lazy"><span>站台</span></div><div class="wk"><img src="assets/movies/w_2346.jpg" alt="" loading="lazy"><span>三峡好人</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最安静的一场戏是小玉打完人之后离开，在收费站前停下，镜子里她看了一眼自己——那一眼里有恐惧，也有解脱。轻微剧透：贾樟柯最狠的一点，是他不给任何一段故事「正义的结局」：大海死了、周三儿死了、小玉活下来却再无来处、小辉没有声音。四个故事拼起来的不是「恶有恶报」，是一个巨型社会里，普通人手里只剩暴力这一种语言。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「社会现实题材能被拍得多有力」的人；能接受极度压抑、暴力突然、以及它本质上是一部关于「沉默的大多数」的电影的观众。内地未公映，影展与流媒体偶有资源。看完想继续：《三峡好人》（同导演，往期未推）、《暴裂无声》（往期第 30 期推荐过的同类）、《天注定》四个故事对应的新闻报道。</p>
+    </div>
+  </section>
+  <section class="card" id="m10">
+    <div class="no">10</div>
+    <div class="head">
+      <div class="poster"><img class="poster-img" src="assets/movies/dress_298382_poster.jpg" alt="裁缝 海报" loading="lazy"></div>
+      <div class="head-r">
+        <div class="tagrow"><span class="tag">剧情 / 黑色喜剧（澳大利亚 · 一个女裁缝与整座小镇的审判）</span><span class="year">2015 · 澳大利亚 · 119 分钟 · 内地未映</span></div>
+        <h2>裁缝 <span class="en">The Dressmaker</span></h2>
+        <div class="rates"><span class="rate"><b>7.9</b>豆瓣</span><span class="rate"><b>57%</b>烂番茄</span><span class="rate"><b>47</b>Metacritic</span><span class="rate"><b>7.0</b>IMDb</span></div>
+        <p class="oneline">「“她把全镇女人的身体都量过——现在，该收账了。”」</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>剧情梗概</h3>
+      <p>蒂莉·邓纳奇在十岁那年被这座小镇指为杀人犯——同学撞上她后倒地身亡，全镇人都说她推的。她被送去了巴黎，学成一身裁缝手艺；二十年后回到澳洲这座尘土飞扬的小镇，身上只有一台缝纫机和一个名字：当地人叫她「杀人犯」。她没吵也没闹，只是开始给全镇的女人做衣服——从土里土气的镇长夫人到势利眼们，每个人都穿上她做的裙子去参加邻镇的时装赛。然后，在她们集体背叛她的那个晚上，蒂莉把这座小镇每一个人的秘密，当众抖开。</p>
+    </div>
+
+    <div class="block">
+      <h3>亮点</h3>
+      <ul class="hi"><li>乔斯琳·穆尔豪斯执导、编剧，改编自罗莎莉·哈姆 2000 年的同名小说——<b>她最「类型化」也最锋利的一部</b>。</li><li>凯特·温斯莱特演蒂莉：一个用布料当武器的复仇者，<b>全片她一次都没提高过音量</b>。</li><li>朱迪·戴维斯演的「疯妈妈」莫莉是全片的心：一个被小镇毁掉的女人，也是唯一一个从始至终站在女儿这边的人。</li><li>雨果·维文演的法特拉警长是蒂莉唯一的盟友——一个自己也被小镇边缘化的人，<b>两个人之间的默契是全片最暖的部分</b>。</li><li>影片的复仇方式是「社会性」的：不流血，靠的是信息、时机与羞耻心——<b>一部真正把「裁缝铺」拍成法庭的电影</b>。</li><li>烂番茄 57% / Metacritic 47：影评人对它的「小镇寓言」评价两极，而观众明显更吃这一套（豆瓣 7.9）。</li></ul>
+    </div>
+
+    <div class="stills"><figure><img src="assets/movies/dress_298382_still1.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/dress_298382_still2.jpg" alt="" loading="lazy"></figure><figure><img src="assets/movies/dress_298382_still3.jpg" alt="" loading="lazy"></figure></div>
+
+    <div class="block">
+      <h3>导演与主创 · 他们的历史作品</h3>
+      <div class="crew">
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_3047.jpg" alt="" loading="lazy">
+                <div class="p-name">乔斯琳·穆尔豪斯 <span class="p-role">导演 / 编剧</span></div>
+              </div>
+              <div class="p-note">澳大利亚导演、编剧，以文学改编见长。《情如物证》《恋爱编织梦》《陌上伊人》。本片是她最「类型化」的一部——把时装、复仇与小镇群像拧成一部黑色喜剧。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_11861.jpg" alt="" loading="lazy"><span>恋爱编织梦</span></div><div class="wk"><img src="assets/movies/w_14904.jpg" alt="" loading="lazy"><span>情如物证</span></div><div class="wk"><img src="assets/movies/w_66588.jpg" alt="" loading="lazy"><span>陌上伊人</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_204.jpg" alt="" loading="lazy">
+                <div class="p-name">凯特·温斯莱特 <span class="p-role">主演（蒂莉）</span></div>
+              </div>
+              <div class="p-note">英国演员，奥斯卡影后（《朗读者》）。《泰坦尼克号》《暖暖内含光》《阿凡达：水之道》《恋爱假期》。本片她演蒂莉——一个把缝纫机当武器、把整座小镇当量体对象的女裁缝。<b>往期第 43 期《大卫·戈尔的一生》的主创卡片上就是她。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_597.jpg" alt="" loading="lazy"><span>泰坦尼克号</span></div><div class="wk"><img src="assets/movies/w_38.jpg" alt="" loading="lazy"><span>暖暖内含光</span></div><div class="wk"><img src="assets/movies/w_76600.jpg" alt="" loading="lazy"><span>阿凡达：水之道</span></div><div class="wk"><img src="assets/movies/w_1581.jpg" alt="" loading="lazy"><span>恋爱假期</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_351.jpg" alt="" loading="lazy">
+                <div class="p-name">朱迪·戴维斯 <span class="p-role">主演（莫莉）</span></div>
+              </div>
+              <div class="p-note">澳大利亚演员，两度奥斯卡提名（《印度之行》《丈夫与太太》）。《巴顿·芬克》《裸体午餐》《绝代艳后》《解构爱情狂》。本片她演莫莉——蒂莉的母亲，全片最「不配合」的复仇工具人。她本期第一次出现在片单卡片上。</div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_1887.jpg" alt="" loading="lazy"><span>绝代艳后</span></div><div class="wk"><img src="assets/movies/w_290.jpg" alt="" loading="lazy"><span>巴顿·芬克</span></div><div class="wk"><img src="assets/movies/w_2742.jpg" alt="" loading="lazy"><span>裸体午餐</span></div><div class="wk"><img src="assets/movies/w_2639.jpg" alt="" loading="lazy"><span>解构爱情狂</span></div></div>
+            </div>
+            <div class="person">
+              <div class="p-top"><img class="p-ava" src="assets/movies/p_1331.jpg" alt="" loading="lazy">
+                <div class="p-name">雨果·维文 <span class="p-role">主演（法拉特警长）</span></div>
+              </div>
+              <div class="p-note">澳大利亚演员。《黑客帝国》系列、《V字仇杀队》《美国队长》《指环王》系列。本片他演法拉特警长——全片唯一一个愿意陪蒂莉把戏演完的人。<b>往期第 22 期《V字仇杀队》的主创卡片上就是他；他主演的《黑客帝国》是往期第 14 期推荐过的影片。</b></div>
+              <div class="p-kn">代表 / 已知作品</div><div class="p-works"><div class="wk"><img src="assets/movies/w_752.jpg" alt="" loading="lazy"><span>V字仇杀队</span></div><div class="wk"><img src="assets/movies/w_603.jpg" alt="" loading="lazy"><span>黑客帝国</span></div><div class="wk"><img src="assets/movies/w_1771.jpg" alt="" loading="lazy"><span>美国队长</span></div><div class="wk"><img src="assets/movies/w_604.jpg" alt="" loading="lazy"><span>黑客帝国2：重装上阵</span></div></div>
+            </div></div>
+    </div>
+
+    <div class="block">
+      <h3>短评（轻微剧透）</h3>
+      <blockquote>轻微剧透：全片最痛快的一场戏是时装赛之后的那场公开处刑——蒂莉把每个人的秘密一件件抖出来，镜头在那些穿着她做的裙子的女人脸上移动，裙子越美，人越难看。轻微剧透：穆尔豪斯最妙的一笔，是让蒂莉最后放过了莫莉：她可以烧掉整座小镇的记忆，但放过了唯一无辜的人。结尾她踏上火车，这座小镇从此只剩一堆互相提防的熟人——复仇完成的方式，是让她从此不必再回来。</blockquote>
+    </div>
+
+    <div class="block why">
+      <h3>为什么值得一看</h3>
+      <p>想看「复仇片能有多少种解法」的人；能接受节奏明快、人物全员刻薄、以及它本质上是一部「时尚 + 复仇 + 母女情」的混搭电影的观众。内地未映，流媒体可看。看完想继续：《裁缝》原著小说、乔斯琳·穆尔豪斯的《恋爱编织梦》、凯特·温斯莱特的《大卫·戈尔的一生》（往期第 43 期推荐过，她在里面是另一种狠法）。</p>
+    </div>
+  </section>
+
+<footer>
+  片单由小月整理 · <span class="byline">by 浩</span><br>
+  图片素材来自 TMDB，仅作观影参考，版权归各片方所有。<br>
+  评分采集时间 2026-10-19；「轻微剧透」的短评会点到关键转折，但不泄露完整结局。
+</footer>
+</div>
+</body>
+</html>
